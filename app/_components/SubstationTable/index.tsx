@@ -209,6 +209,8 @@ export default function SubstationTable() {
       await updateName.mutateAsync({
         id: newRow.id as string,
         name: newRow.name as string,
+        isVerified: newRow.isVerified as boolean,
+        scannedDocumentUrl: newRow.scannedDocumentUrl as string,
         abbreviation: newRow.abbreviation as string,
         area: newRow.area as Area,
         stationType: newRow.stationType as StationType,
@@ -264,11 +266,24 @@ export default function SubstationTable() {
 
   const columns: GridColDef<Substation>[] = [
     {
+      field: 'isVerified',
+      headerName: 'Verified',
+      type: 'boolean',
+      editable: true,
+      width: 120,
+    },
+    {
       field: 'name',
       headerName: 'ชื่อ',
       type: 'string',
       width: 200,
       sortable: true,
+      editable: true,
+    },
+    {
+      field: 'scannedDocumentUrl',
+      headerName: 'เอกสาร',
+      type: 'string',
       editable: true,
     },
     {
