@@ -1,6 +1,6 @@
 'use client'
 
-import SubstationTable from '@/app/_components/SubstationTable'
+import SubstationTable from '~/_components/SubstationTable'
 
 export default function SubstationsPage() {
   return (
