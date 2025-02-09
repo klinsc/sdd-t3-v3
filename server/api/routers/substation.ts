@@ -210,6 +210,8 @@ export const substationRouter = createTRPCRouter({
       z.object({
         id: z.string(),
         name: z.string(),
+        isVerified: z.boolean(),
+        scannedDocumentUrl: z.string(),
         abbreviation: z.string().min(3).max(3),
         area: z.nativeEnum(Area),
         stationType: z.nativeEnum(StationType),
