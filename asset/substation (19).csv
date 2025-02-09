@@ -1,0 +1,718 @@
+﻿1,MBA,มาบข่า,Map Kha,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 18 พ.ค. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+2,BHA,เขื่อนภูมิพล,Phumiphon Dam,ถาวร ,22kV,-,Without NGR,จ. ตาก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 17 พ.ย. 2507 ,-,KT3A ขนาด 12.5 MVA
+3,SVA,เขื่อนศรีนครินทร์ ,Si Nakharin Dam,ชั่วคราว (Mobile Substation) ,22kV,-,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 1 พ.ค. 2521 ,-,KT1A ขนาด 25 MVA
+4,TMA,ท่าม่วง 1,Tha Muang 1,ถาวร ,22kV,-,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 5 มี.ค. 2522 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 40 MVA,TP1 ขนาด 40 MVA,TP2 ขนาด 40 MVA
+5,UBA,อุบลราชธานี 1,Ubon Ratchathani 1,ถาวร ,22kV,-,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 30 พ.ค. 2523 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+6,UDB,อุดรธานี 2,Udon Thani 2,ถาวร ,22kV,-,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 3 มิ.ย. 2523 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+7,PIA,พิจิตร,Phichit,ถาวร ,22kV,-,Without NGR,จ. พิจิตร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 1 ก.ค. 2523 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA,KT3A ขนาด 25 MVA
+8,BIA,บางปะอิน 1,Bang Pa-In 1,ถาวร ,22kV,-,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 18 ก.พ. 2524 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+9,LNA,ลำพูน 1,Lamphun 1,ถาวร ,22kV,-,Without NGR,จ. ลำพูน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 18 มี.ค. 2524 ,-,KT1A ขนาด 50 MVA
+10,KPA,กำแพงเพชร 1,Kamphaeng Phet 1,ถาวร ,22kV,-,Without NGR,จ. กำแพงเพชร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 25 พ.ค. 2524 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+11,PYA,พะเยา 1,Phayao 1,ถาวร ,22kV,-,Without NGR,จ. พะเยา ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 17 ต.ค. 2551 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+12,BAA,บางลาง,Bang Lang,ชั่วคราว (รับไฟจากเขื่อนผ่าน recloser) ,33kV,-,Without NGR,จ. ยะลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 27 ก.ย. 2524 ,-,KT1A ขนาด 6.5 MVA,KT2A ขนาด 6.5 MVA
+13,NRA,นครราชสีมา 1,Nakhon Ratchasima 1,ถาวร ,22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 24 พ.ย. 2524 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+14,CPA,ชุมพร 1,Chumphon 1,ถาวร ,22kV,-,Without NGR,จ. ชุมพร ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 21 ม.ค. 2525 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+15,HYA,หาดใหญ่ 1,Hat Yai 1,ถาวร ,33kV,-,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 24 ก.พ. 2525 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+16,VLA,เขื่อนวชิราลงกรณ,Vajiralongkorn Dam,ชั่วคราว (Temporary Transformer) ,22kV,-,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 1 เม.ย. 2525 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+17,CRA,เชียงราย 1,Chiang Rai 1,ถาวร ,22kV,-,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 13 ก.ย. 2525 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+18,PCA,ปากช่อง 1,Pak Chong 1,ถาวร ,22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 15 ธ.ค. 2525 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+19,PFA,พังโคน,Phang Khon,ถาวร ,22kV,-,Without NGR,จ. สกลนคร ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 22 ม.ค. 2526 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA,KT3A ขนาด 50 MVA
+21,MRA,มโนรมย์ 1,Manorom 1,ถาวร ,22kV,-,Without NGR,จ. ชัยนาท ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 10 ก.พ. 2526 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+22,LEA,เลย,Loei,ถาวร ,22kV,-,Without NGR,จ. เลย ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 14 พ.ค. 2526 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 31.5 MVA
+24,BPA,บ้านโป่ง 1,Ban Pong 1,ถาวร ,22kV,-,Without NGR,จ. ราชบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 18 ก.ย. 2526 ,-,KT3A ขนาด 50 MVA,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+25,YLA,ยะลา 1,Yala 1,ถาวร ,33kV,-,Without NGR,จ. ยะลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 14 ต.ค. 2526 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA,KT3A ขนาด 31.5 MVA
+26,CAA,ชะอำ 1,Cha Am 1,ถาวร ,22kV,-,Without NGR,จ. เพชรบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 20 ส.ค. 2563 , 1. กจฟ.(คฟ.)35094ขออนุมัติจ่ายไฟสถานีไฟฟ้าชะอำ 1 (ระบบ 22 kV Indoor Type) จ.เพชรบุรี ตามโครงการ คชฟ.3.pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+27,KDA,แก่งกระจาน,Kaeng Krachan,ชั่วคราว (รับไฟผ่าน Recloser) ,22kV,-,Without NGR,จ. เพชรบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 27 เม.ย. 2527 ,-,KT2A ขนาด 12.5 MVA
+28,RAB,ระยอง 2,Rayong 2,ถาวร ,115-22kV, Double Main and Transfer,With NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 20 มิ.ย. 2527 , 1. ขออนุมัติจ่ายไฟหม้อแปลงไฟฟ้าทดแทน ที่สถานีไฟฟ้าระยอง 2 จ.ระยอง.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+30,BRA,บุรีรัมย์ 1,Buri Ram 1,ถาวร ,22kV,-,Without NGR,จ. บุรีรัมย์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 4 ต.ค. 2527 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+32,POA,พล,Phon,ถาวร ,22kV,-,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 12 พ.ย. 2561 ,-,KT1A ขนาด 31.5 MVA,KT2A ขนาด 25 MVA
+33,PQA,ปทุมธานี 1,Pathum Thani 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 11 ก.พ. 2528 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+34,STA,สุโขทัย,Sukhothai,ถาวร ,22kV,-,Without NGR,จ. สุโขทัย ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 3 พ.ค. 2528 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+35,LBA,ลพบุรี 1,Lop Buri 1,ถาวร ,22kV,-,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 25 ก.พ. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าลพบุรี 1 (ระบบ 22 kV Indoor Type) จ.ลพบุรี ตามโครงการ คชฟ.3.pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+36,TSA,ทุ่งสง,Thung Song,ถาวร ,33kV,-,Without NGR,จ. นครศรีธรรมราช ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 29 ส.ค. 2528 ,-,KT3A ขนาด 50 MVA
+38,SBA,สิงห์บุรี,Sing Buri,ถาวร ,22kV,-,Without NGR,จ. สิงห์บุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 25 ธ.ค. 2561 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสิงห์บุรี (ระบบ 22 kV Indoor Type) จ.สิงห์บุรี ตามโครงการ คชฟ.3.pdf 
+39,KLA,กาฬสินธุ์,Kalasin 1,ถาวร ,22kV,-,Without NGR,จ. กาฬสินธุ์ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 8 พ.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้ากาฬสินธุ์ 1 (ระบบ 22 kV Indoor Type) จ.กาฬสินธุ์ ตามโครงการ คชฟ.3.pdf ,KT1A ขนาด 25 MVA,KT2A ขนาด 31.5 MVA
+40,CYA,ชัยภูมิ 1,Chaiyaphum 1,ถาวร ,22kV,-,Without NGR,จ. ชัยภูมิ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 10 ก.พ. 2529 ,-,KT1A ขนาด 50 MVA,KT3A ขนาด 50 MVA
+42,NQA,น้ำพอง,Nam Phong,ถาวร ,22kV,-,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 1 พ.ย. 2561 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+43,NTA,นครศรีธรรมราช 1,Nakhon Si Thammarat 1,ถาวร ,33kV,-,Without NGR,จ. นครศรีธรรมราช ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 15 พ.ค. 2529 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+44,KCA,กาญจนบุรี 1,Kanchana Buri 1,ถาวร ,22kV,-,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 1 ต.ค. 2529 ,-,KT2A ขนาด 50 MVA,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+45,UDA,อุดรธานี 1,Udon Thani 1,ถาวร ,22kV,-,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 27 ต.ค. 2561 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+46,PPA,พุนพิน 1,Phunphin 1,ถาวร ,33kV,-,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 19 ต.ค. 2529 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 25 MVA
+47,PUA,พัทลุง,Phatthalung,ถาวร ,33kV,-,Without NGR,จ. พัทลุง ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 2 เม.ย. 2530 ,-,KT1A ขนาด 50 MVA,KT3A ขนาด 50 MVA
+48,MKA,มหาสารคาม 1,Mahasarakham 1,ถาวร ,22kV,-,Without NGR,จ. มหาสารคาม ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 8 พ.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้ามหาสารคาม 1 (ระบบ 22 kV Indoor Type) จ.มหาสารคาม ตามโครงการ คชฟ.3.pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+49,CLA,รัชชประภา,Rajjaprabha Dam,ชั่วคราว (รับไฟผ่าน Recloser) ,33kV,-,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 19 มิ.ย. 2530 ,-,KT2A ขนาด 25 MVA
+50,SFA,สีคิ้ว,Sikhiu,ถาวร ,22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 24 มิ.ย. 2530 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+51,BUA,บึงกาฬ 1,Bueng Kan 1,ถาวร ,22kV,-,Without NGR,จ. บึงกาฬ ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 18 ส.ค. 2530 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+52,TAA,ตาก,Tak,ถาวร ,22kV,-,Without NGR,จ. ตาก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 19 ส.ค. 2530 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+54,LKA,ลานกระบือ,Lan Krabu,ถาวร ,22kV,-,Without NGR,จ. กำแพงเพชร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 15 ธ.ค. 2530 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+55,NAA,น่าน 1,Nan 1,ถาวร ,22kV,-,Without NGR,จ. น่าน ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 17 ธ.ค. 2563 , 1. กจฟ.(คฟ.)35328ขออนุมัติจ่ายไฟสถานีไฟฟ้าน่าน 1(ระบบ 22 kV Indoor Type) จ.น่าน ตามโครงการ คชฟ.3.pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+56,SUA,สุรินทร์ 1,Surin 1,ถาวร ,22kV,-,Without NGR,จ. สุรินทร์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 30 ม.ค. 2531 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+58,ATA,อ่างทอง 1,Ang Thong 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. อ่างทอง ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 18 เม.ย. 2531 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+59,NNA,นครพนม 1,Nakhon Phanom 1,ถาวร ,115kV และ 22/33kV, H-Configuration,Without NGR,จ. นครพนม ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 26 เม.ย. 2531 , 1. อนุมัติรับไฟระบบ 115 kV Inc. No.1 จาก สฟ.นครพนม ของ กฟผ. เพื่อจ่ายไฟให้ สฟฟ.นครพนม 1 (ลานไก).pdf ,TP1 ขนาด 25 MVA,TP2 ขนาด 50 MVA
+60,LPA,ลำปาง 1,Lampang 1,ถาวร ,22kV,-,Without NGR,จ. ลำปาง ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 5 ส.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าลำปาง 1 (ระบบ 22 kV Indoor Type).pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+61,MDA,มุกดาหาร 1,Mukdahan 1,ถาวร ,22kV,-,Without NGR,จ. มุกดาหาร ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 10 ส.ค. 2531 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+62,LRA,ลำภูรา 1,Lampura 1,ถาวร ,33kV,-,Without NGR,จ. ตรัง ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 1 ก.ย. 2531 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 25 MVA,KT3A ขนาด 25 MVA
+63,KNA,ขนอม,Khanom,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครศรีธรรมราช ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 27 ต.ค. 2531 , 1. ขออนุมัติจ่ายไฟหม้อแปลง(TP1) เพิ่มเติม คพส.9.4 และสวิตช์เกียร์ระบบ 33 kV คพจ.1 ที่ สฟฟ.ขนอม.pdf ,TP1 ขนาด 50 MVA
+64,SEA,สตูล,Satun,ถาวร ,33kV,-,Without NGR,จ. สตูล ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 3 พ.ย. 2531 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+65,LBB,ลพบุรี 2,Lop Buri 2,ถาวร ,22kV,-,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 11 พ.ย. 2531 ,-,KT1A ขนาด 25 MVA
+66,PLB,พิษณุโลก 2,Phitsanulok 2,ถาวร ,22kV,-,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 3 ก.พ. 2532 ,-,KT2A ขนาด 25 MVA,KT3A ขนาด 12.5 MVA
+67,CDA,ชัยบาดาล 1,Chai Badan 1,ถาวร ,22kV,-,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 9 มี.ค. 2532 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+68,CHA,ชุมแพ,Chum Phae,ถาวร ,22kV,-,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 21 พ.ย. 2565 , 1. กจฟ. ขออนุมัติจ่ายไฟ สฟฟ.ชุมแพ 22 kV จ.ขอนแก่น.PDF ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+69,THA,ธาตุพนม,That Phanom,ถาวร ,22kV,-,Without NGR,จ. นครพนม ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 5 มิ.ย. 2532 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+70,CEA,จอมทอง,Chom Thong,ถาวร ,22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 29 มิ.ย. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าจอมทอง (ระบบ 22 kV Indoor Type).pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+71,RNA,ระนอง 1,Ranong 1,ถาวร ,33kV,-,Without NGR,จ. ระนอง ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 29 มิ.ย. 2532 ,-,KT1A ขนาด 31.5 MVA,KT2A ขนาด 31.5 MVA
+72,SLA,สงขลา 1,Songkhla 1,ถาวร ,33kV,-,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 29 เม.ย. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสงขลา 1 (ระบบ 33 kV Indoor Type) จ.สงขลา ตามโครงการ คชฟ.3.pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA,KT3A ขนาด 50 MVA
+73,TKB,ตาคลี 2,Takhli 2,ถาวร ,22kV,-,Without NGR,จ. นครสวรรค์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 19 ม.ค. 2533 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+74,KKB,ขอนแก่น 2,Khon Kaen 2,ถาวร ,22kV,-,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 17 ม.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าขอนแก่น 2 (ระบบ 22 kV Indoor Type) คพจ.1.pdf ,KT1A ขนาด 25 MVA,KT2A ขนาด 50 MVA
+75,NVA,นวนคร 1,Nava Nakhon 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 24 พ.ค. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+76,PGA,พังงา,Phang Nga,ถาวร ,33kV,-,Without NGR,จ. พังงา ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 10 ม.ค. 2534 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 12.5 MVA
+77,DBA,เดิมบางนางบวช,Doem Bang Nangbuat,ถาวร ,22kV,-,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 11 มี.ค. 2534 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+78,LOA,หล่มสัก,Lom Sak,ถาวร ,22kV,-,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 13 มี.ค. 2534 ,-,KT2A ขนาด 25 MVA,KT3A ขนาด 50 MVA
+79,BWA,บางวัว 1,Bang Wua 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 15 เม.ย. 2534 ,-, 1. อนุมัติจ่ายไฟหม้อแปลง(TP.2) 50 MVA (เปลี่ยนเพิ่มขนาด) ที่สฟฟ.บางวัว 1 จ.ฉะเชิงเทรา.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+80,SAB,สามพราน 2,Sam Phran 2,ถาวร ,22kV,-,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 9 มิ.ย. 2534 ,-,KT3A ขนาด 50 MVA,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+81,NYA,นครนายก 1,Nakhon Nayok 1,ถาวร ,22kV,-,Without NGR,จ. นครนายก ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 26 มิ.ย. 2534 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+82,BDG,บ้านดุง 1,Ban Dung 1,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 26 ก.ย. 2534 ,-,TP1 ขนาด 12 MVA,TP2 ขนาด 12 MVA
+83,SWA,สวรรคโลก,Sawan Khalok,ถาวร ,22kV,-,Without NGR,จ. สุโขทัย ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 30 ก.ย. 2534 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+84,AKE,อมตะนคร 5,Amata Nakorn 5,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 6 ต.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าอมตะนคร 5 จ.ชลบุรี (Renovate) ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+85,SZA,สลกบาตร,Salokbat,ถาวร ,22kV,-,Without NGR,จ. กำแพงเพชร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 27 ธ.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าสลกบาตร (ระบบ 22 kV Indoor Type) จ.กำแพงเพชร คพจ.1.pdf ,KT1A ขนาด 50 MVA,KT3A ขนาด 50 MVA
+86,BEA,บางเลน 1,Bang Lane 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 1 ธ.ค. 2534 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+87,BCA,บ้านไผ่,Ban Phai,ถาวร ,22kV,-,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 24 ม.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าบ้านไผ่ (ระบบ 22 kV Indoor Type) จ.ขอนแก่น ตามโครงการ คพจ.1.PDF ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+88,RCN,โรจนะ 1,Rotchana 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 30 เม.ย. 2535 ,-,TP1 ขนาด 40 MVA,TP2 ขนาด 40 MVA
+89,BKS,บางกระสั้น 1,Bang Krasan 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 22 มิ.ย. 2535 ,-,TP1 ขนาด 40 MVA,TP2 ขนาด 40 MVA
+90,BSM,บางสมัคร 1,Bang Samak 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 12 ก.ค. 2535 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+91,NVB,นวนคร 2,Nava Nakhon 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 9 ส.ค. 2535 ,-,TP1 ขนาด 40 MVA,TP2 ขนาด 40 MVA
+92,NPL,หนองปลิง,Nong Pling,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 14 ส.ค. 2535 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+93,SMC,สมุทรสาคร 3,Samut Sakhon 3,ถาวร ,115kV และ 22/33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 3 ก.ย. 2535 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+94,BOA,บ้านดอน 1,Ban Don 1,ถาวร ,33kV,-,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 7 ก.ย. 2535 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+95,CMA,เชียงใหม่ 1,Chiang Mai 1,ถาวร ,22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 29 ก.ย. 2535 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+96,PJA,พระพุทธบาท 1,Phra Phutthabat 1,ถาวร ,22kV,-,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 5 พ.ย. 2535 , 1. อนุมัติรับไฟระบบ 22 kV จากหม้อแปลงไฟฟ้ากำลัง KT2A ที่สถานีไฟฟ้าแรงสูงพระพุทธบาท จ.สระบุรี.pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+97,THS,ท่าทราย 1,Tha Sai 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 9 พ.ย. 2535 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+98,MSA,แม่สอด 1,Mae Sot 1,ถาวร ,22kV,-,Without NGR,จ. ตาก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 2 ส.ค. 2566 , 1. อนุมัติจ่ายไฟ สฟฟ.แม่สอด 1 (ระบบ 22 kV Indoor Type).pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+100,BNG,บึง 1,Bueng 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 27 มิ.ย. 2536 ,-,TP1 ขนาด 40 MVA,TP2 ขนาด 50 MVA
+101,BWN,บ่อวิน 2,Bo Win 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 9 พ.ย. 2536 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+102,BNL,บ้านเลน 1,Ban Lane 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 26 ธ.ค. 2536 ,-,TP1 ขนาด 40 MVA,TP2 ขนาด 40 MVA
+103,KGA,คง,Khong,ถาวร ,22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 10 ก.พ. 2537 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+104,TPA,ตะกั่วป่า,Takua Pa,ถาวร ,33kV,-,Without NGR,จ. พังงา ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 11 ก.พ. 2537 ,-,KT1A ขนาด 25 MVA
+105,HTA,หัวทะเล,Hua Thale,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 11 ก.ย. 2537 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าหัวทะเล ระบบ 22 kV (ชั่วคราว) จ. นครราชสีมา.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+106,HSR,หัวสำโรง,Hua Samrong,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 2 ต.ค. 2537 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+107,PQB,ปทุมธานี 2,Pathum Thani 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 4 ต.ค. 2537 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+108,LCA,แหลมฉบัง 1,Laem Chabang 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 6 ต.ค. 2537 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+109,PYT,พัทยาใต้ 1,Pattaya Tai 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 28 ต.ค. 2537 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์ 115 kV สถานีไฟฟ้าพัทยาใต้1 จ.ชลบุรี.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+110,RSA,รังสิตใต้ 1,Rang Sit Tai 1,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 6 พ.ย. 2537 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+111,BSA,บางไทร,Bang Sai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 27 พ.ย. 2537 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+112,WAA,วังน้อย 1,Wang Noi 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 4 ธ.ค. 2537 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+114,AYB,อยุธยา 2,Ayutthaya 2,ถาวร ,22kV,-,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 22 ธ.ค. 2538 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+116,KWA,คลองขวาง 1,Khlong Khwang 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 17 มี.ค. 2539 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+118,NSI,นนทรี,Non Si,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 23 ก.ค. 2539 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+119,KYE,โคกแย้,Khok Yae,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 25 ก.ค. 2539 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+120,PHA,พนมสารคาม,Phanom Sarakham,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 26 ก.ค. 2539 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+121,PSA,พนัสนิคม,Phanat Nikhom,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 16 ก.ย. 2539 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+122,PXA,พัฒนานิคม 1,Phatthana Nikhom 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 19 ต.ค. 2539 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+123,OYI,อ้อมใหญ่ 1,Om Yai 1,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 1 พ.ย. 2539 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+124,BNA,บางมูลนาก,Bang Mun Nak,ถาวร ,22kV,-,Without NGR,จ. พิจิตร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 27 พ.ย. 2539 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+125,OKA,องครักษ์,Ong Kharak,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครนายก ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 27 เม.ย. 2540 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 40 MVA
+126,SKA,เขื่อนสิริกิติ์,Sirikit Dam,ถาวร ,22kV,-,Without NGR,จ. อุตรดิตถ์ ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 30 เม.ย. 2540 ,-,KT3A ขนาด 12.5 MVA
+127,SNA,เสนา,Sena,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 30 มิ.ย. 2540 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+128,TMK,ท่ามะกา 1,Tha Maka 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 4 ก.ค. 2540 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+129,SRA,สระบุรี 1,Saraburi 1,ถาวร ,22kV,-,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 31 ส.ค. 2540 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+130,BYA,บ้านเพ,Ban Phe,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 1 ก.ย. 2540 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+131,KBI,กบินทร์บุรี 1,Kabin Buri 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 7 ก.ย. 2540 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+132,SMA,สมุทรสาคร 1,Samut Sakhon 1,ถาวร ,22kV,-,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 23 พ.ย. 2540 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+134,TDA,ตาลเดี่ยว,Tan Dieo,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 16 ก.พ. 2541 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+135,BGR,บางปะกง 3,Bang Pakong 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 5 เม.ย. 2541 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+136,LLK,ลำลูกกา 1,Lam Luk Ka 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 16 มิ.ย. 2541 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+137,SMD,สมุทรสาคร 4,Samut Sakhon 4,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 5 ก.ค. 2541 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+138,PAB,ปราจีนบุรี 2,Prachin Buri 2,ถาวร ,115kV และ 22/33kV, Breaker and a half,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 19 ก.ค. 2541 , 1. อนุมัติจ่ายไฟ 1YB-01 ที่ สฟฟ.ปราจีนบุรี 2 (ลานไก) เพื่อจ่ายให้ ผู้ใช้ไฟ.pdf 
+139,TMS,ธรรมศาสตร์,Thammasat,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 4 ก.ย. 2541 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+140,PTN,โพนทอง,Phon Thong,ถาวร ,22kV,-,Without NGR,จ. ร้อยเอ็ด ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 27 ต.ค. 2541 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA,KT3A ขนาด 50 MVA
+141,NBL,หนองบัวลำภู,Nong Bua Lum Phu,ถาวร ,22kV,-,Without NGR,จ. หนองบัวลำภู ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 2 พ.ย. 2541 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+142,PLV,ปลวกแดง 2,Pluak Daeng 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 4 พ.ย. 2541 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+144,PLU,ปลวกแดง 1,Pluak Daeng 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 27 ธ.ค. 2541 ,-,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+145,CCI,โชคชัย 1,Chok Chai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 12 ม.ค. 2542 , 1. ขออนุมัติจ่ายไฟหม้อแปลงไฟฟ้ากำลังระบบ 115-22 kV (TP.1) เพิ่มเติม ที่สถานีไฟฟ้าโชคชัย 1 จ.นครราชสีมา.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+146,ROA,ระโนด,Ranot,ถาวร ,33kV,-,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 19 ม.ค. 2542 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+147,BPB,บ้านโป่ง 2,Ban Pong 2,ถาวร ,115kV และ 22/33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ราชบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 6 ก.พ. 2542 ,-,TP1 ขนาด 40 MVA,TP2 ขนาด 40 MVA
+148,LCB,แหลมฉบัง 2,Laem Chabang 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 3 มี.ค. 2542 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+149,NLL,หนองละลอก,Nong Lalok,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 30 มี.ค. 2542 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+150,PYP,พยัคฆภูมิพิสัย,Phayakkhaphum Phisai,ถาวร ,22kV,-,Without NGR,จ. มหาสารคาม ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 28 เม.ย. 2542 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+151,SNK,สนามชัยเขต,Sanam Chaikhet,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 11 พ.ค. 2542 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+152,NHA,หนองหาน,Nong Han,ถาวร ,22kV,-,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 2 มิ.ย. 2542 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 50 MVA
+153,KKR,แก้งคร้อ,Kaeng Khro,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชัยภูมิ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 15 มิ.ย. 2542 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+154,TTA,ตราด 1,Trat 1,ถาวร ,22kV,-,Without NGR,จ. ตราด ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 7 ก.ค. 2542 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+155,PVA,ประโคนชัย,Prakhon Chai,ถาวร ,22kV,-,Without NGR,จ. บุรีรัมย์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 29 ก.ค. 2542 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+156,SCA,ศรีราชา 1,Si Racha 1,ถาวร ,22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 29 ส.ค. 2542 ,-,KT2A ขนาด 50 MVA,KT3A ขนาด 50 MVA
+157,STT,ศรีธาตุ,Si That,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 4 ต.ค. 2542 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+158,CKA,เชียงคาน,Chiang Khan,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เลย ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 6 ต.ค. 2542 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+159,WNA,วัฒนานคร,Watthana Nakhon,ถาวร ,22kV,-,Without NGR,จ. สระแก้ว ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 9 ต.ค. 2542 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+161,CMD,เชียงใหม่ 4,Chiang Mai 4,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 11 พ.ย. 2542 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+162,SLY,ศาลายา,Salaya,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 17 พ.ย. 2542 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+164,BLA,บางละมุง,Bang Lamung,ถาวร ,22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 25 พ.ย. 2542 ,-,KT2A ขนาด 50 MVA,KT3A ขนาด 50 MVA
+165,UBB,อุบลราชธานี 2,Ubon Ratchathani 2,ถาวร ,22kV,-,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 20 ธ.ค. 2542 ,-,KT1A ขนาด 50 MVA
+166,KAA,แกลง 1,Klaeng 1,ถาวร ,22kV,-,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 27 ธ.ค. 2542 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+167,PTB,ปัตตานี 2,Pattani 2,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. ปัตตานี ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 27 ก.พ. 2558 , 1. จ่ายไฟเบย์ 2YB-01 สฟฟ.ปัตตานี 2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+170,AYA,อยุธยา 1,Ayutthaya 1,ถาวร ,22kV,-,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 21 มี.ค. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+171,WGT,วังทอง,Wang Thong,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 28 มี.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+172,SKK,สามโคก,Sam Khok,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 2 เม.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+173,CNA,ชัยนาท,Chai Nat,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชัยนาท ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 3 เม.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+174,SOA,สกลนคร,Sakon Nakhon 1,ถาวร ,22kV,-,Without NGR,จ. สกลนคร ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 5 เม.ย. 2543 ,-,KT1A ขนาด 25 MVA,KT3A ขนาด 25 MVA
+175,RNB,ระนอง 2,Ranong 2,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. ระนอง ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 10 เม.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+176,BPU,บ้านผือ,Ban Phue,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 20 เม.ย. 2543 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+177,SEK,เซกา,Seka,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. บึงกาฬ ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 22 พ.ค. 2564 , 1. กจฟ.(คฟ.)257 อนุมัติจ่ายไฟสถานีไฟฟ้าเซกา (ปรับปรุงใหม่) จ.บึงกาฬ คชฟ.3 คพจ.1.pdf ,TP1 ขนาด 50 MVA
+178,BAK,บางคล้า,Bang Khla,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 28 พ.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+179,KSA,กำแพงแสน,Kamphaeng Saen,ถาวร ,22kV,-,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 28 พ.ค. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+180,SAK,สังขะ,Sangkha,ถาวร ,22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สุรินทร์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 12 มิ.ย. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+181,SDA,สมเด็จ,Somdet,ถาวร ,22kV,-,Without NGR,จ. กาฬสินธุ์ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 14 มิ.ย. 2543 ,-,KT1A ขนาด 31.5 MVA,KT2A ขนาด 31.5 MVA
+182,CLU,ฉลุง,Chalung,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 15 มิ.ย. 2543 ,-,TP2 ขนาด 50 MVA
+183,ANA,อำนาจเจริญ,Amnat Charoen,ถาวร ,22kV,-,Without NGR,จ. อำนาจเจริญ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 16 มิ.ย. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+184,SKW,สระแก้ว,Sa Kaeo,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระแก้ว ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 16 มิ.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+185,SIA,สิรินธร,Sirindhorn Dam,ถาวร ,22kV,-,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 20 มิ.ย. 2543 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+186,SRE,สระบุรี 5,Saraburi 5,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 3 ก.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+187,NSB,นครสวรรค์ 2,Nakhon Sawan 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครสวรรค์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 4 ก.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+188,KMA,เกาะสมุย 1,Ko Samui 1,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 17 ก.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+190,NTB,นครศรีธรรมราช 2,Nakhon Si Thammarat 2,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครศรีธรรมราช ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 8 ส.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+191,SMB,สมุทรสาคร 2,Samut Sakhon 2,ถาวร ,22kV,-,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 13 ส.ค. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA,KT3A ขนาด 50 MVA,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+192,NPT,นครปฐม 1,Nakhon Pathom 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 14 ส.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+193,LGA,แหลมงอบ,Laem Ngop,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ตราด ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 25 ส.ค. 2543 ,-,TP1 ขนาด 50 MVA
+194,KBB,กระบี่ 2,Krabi 2,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. กระบี่ ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 6 ก.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+196,DCA,เด่นชัย,Denchai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. แพร่ ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 15 ก.ย. 2543 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+197,KHY,เขาย้อย 1,Khao Yoi 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เพชรบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 19 ก.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+198,LIA,ลี้,Li,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ลำพูน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 20 ก.ย. 2543 ,-,TP1 ขนาด 25 MVA
+199,CHT,จอมเทียน 1,Chom Thian 1,ถาวร ,22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 21 ก.ย. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+200,BKA,บางขันธ์ 1,Bang Khan 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 22 ก.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+201,BSG,บ้านสร้าง,Ban Sang,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 25 ก.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+202,NCB,นครชัยศรี 2,Nakhon Chaisi 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 28 ก.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+203,TEA,เถิน,Thoen,ถาวร ,22kV,-,Without NGR,จ. ลำปาง ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 11 ต.ค. 2543 ,-,KT1A ขนาด 25 MVA
+204,TNG,เทิง,Thoeng,ถาวร ,22kV,-,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 26 ต.ค. 2543 , 1. กจฟ. ขออนุมัติรับไฟ Line No.2 THG-7082 สฟ.เทิง และเปลี่ยนแปลงการรับไฟจาก สฟ.เทิง.pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+205,ONA,อ้อมน้อย 1,Om Noi 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 29 ต.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+206,DAA,ด่านช้าง,Dan Chang,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 7 พ.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+207,PTR,โพธาราม 1,Photharam 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 7 พ.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+208,PKA,ภูเก็ต 1,Phuket 1,ถาวร ,33kV,-,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 8 พ.ย. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+209,HTL,ห้วยแถลง,Huai Thalaeng,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 9 พ.ย. 2543 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+210,PKB,ภูเก็ต 2,Phuket 2,ถาวร ,33kV,-,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 9 พ.ย. 2543 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA,KT3A ขนาด 31.5 MVA
+211,DNA,ดำเนินสะดวก,Damnoen Saduak,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 13 พ.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+212,PLA,พิษณุโลก 1,Phitsanulok 1,ถาวร ,22kV,-,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 13 พ.ย. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+213,PRA,แพร่,Phrae,ถาวร ,22kV,-,Without NGR,จ. แพร่ ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 23 พ.ย. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+214,UTA,อุตรดิตถ์,Uttaradit,ถาวร ,22kV,-,Without NGR,จ. อุตรดิตถ์ ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 28 พ.ย. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+215,WSA,เวียงสระ,Wiang Sra,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 28 พ.ย. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+216,APA,อ่าวไผ่ 1,Ao Phai 1,ถาวร ,22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 7 ธ.ค. 2543 ,-,KT3A ขนาด 50 MVA
+217,BSP,บางสะพาน 1,Bang Saphan 1,ถาวร ,115-22kV, Breaker and a half,Without NGR,จ. ประจวบคีรีขันธ์ ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 17 ธ.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+218,UTG,อู่ทอง,U Thong,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 17 ธ.ค. 2543 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+219,SPA,สุพรรณบุรี 1,Suphan Buri 1,ถาวร ,22kV,-,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 24 ธ.ค. 2543 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+220,PUU,ปัว,Pua,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. น่าน ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 11 ม.ค. 2544 , 1. กจฟ.ขออนุมัติจ่ายไฟ สฟฟ.ปัว เพิ่มเติม 4YB-01 จ.น่าน.pdf ,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+221,WBU,วชิรบารมี,Wachirabarami,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. พิจิตร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 18 ม.ค. 2544 ,-,TP1 ขนาด 25 MVA
+222,PLC,พิษณุโลก 3,Phitsanulok 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 15 ก.พ. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+223,PTH,ปากท่อ 1,Paktho 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 16 ก.พ. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+224,TRA,ตรัง,Trang,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. ตรัง ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 21 ก.พ. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+225,CBA,ชลบุรี 1,Chon Buri 1,ถาวร ,22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 25 ก.พ. 2544 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+226,PIH,พิชัย,Phichai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุตรดิตถ์ ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 7 มี.ค. 2544 ,-,TP1 ขนาด 50 MVA
+227,DSA,ด่านซ้าย 1,Dan Sai 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เลย ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 3 เม.ย. 2544 ,-,TP1 ขนาด 25 MVA
+228,KSW,เกษตรวิสัย,Kaset Wisai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ร้อยเอ็ด ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 4 เม.ย. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+229,NOK,หนองกี่,Nong Ki,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. บุรีรัมย์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 10 เม.ย. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+230,KSR,โคกสำโรง,Khok Samrong,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 13 เม.ย. 2544 , 1. กจฟ.(คฟ.)441อนุมัติจ่ายไฟสวิตช์เกียร์ระบบ 115 kV เพิ่มเติมที่สถานีไฟฟ้าโคกสำโรง จ.ลพบุรี คพส.9.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+231,SSA,สมุทรสงคราม,Samut Songkhram,ถาวร ,22kV,-,Without NGR,จ. สมุทรสงคราม ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 3 พ.ค. 2544 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA,KT3A ขนาด 50 MVA
+232,UAA,อุทัยธานี,Uthai Thani,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุทัยธานี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 3 พ.ค. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+233,ARA,อรัญประเทศ 1,Aranyaprathet 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระแก้ว ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 18 พ.ค. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+234,RAC,ระยอง 3,Rayong 3,ถาวร ,22kV,-,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 19 พ.ค. 2544 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+235,NCH,หนองฉาง,Nong Chang,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุทัยธานี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 22 พ.ค. 2544 , 1. อนุมัติจ่ายไฟสวิตซ์เกียร์ เพิ่มเติม ที่สถานีไฟฟ้าหนองฉาง จ.อุทัยธานี คพจ.1.pdf ,TP1 ขนาด 40 MVA
+236,WRA,วารินชำราบ,Warin Chamrap,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 29 พ.ค. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+237,KRA,กระนวน,Kranuan,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 11 ก.ค. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+238,TPP,ตระการพืชผล,Trakan Phutphon,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 31 ก.ค. 2544 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+239,BBA,บ้านบึง 1,Ban Bueng 1,ถาวร ,115kV และ 22/33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 5 ส.ค. 2544 , 1. กจฟ.(คฟ.)582อนุมัติจ่ายไฟสถานีไฟฟ้าบ้านบึง 1 (ลานไก) จ.ชลบุรี ตามโครงการ คพจ.1.pdf 
+240,BUY,บัวใหญ่,Bua Yai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 22 ส.ค. 2544 ,-,TP1 ขนาด 50 MVA
+241,KKA,ขอนแก่น 1,Khon Kaen 1,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 27 ธ.ค. 2559 ,-,TP1 ขนาด 25 MVA
+242,PPN,ปากพนัง,Pak Phanang,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. นครศรีธรรมราช ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 19 ก.ย. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+243,BSR,บางสะพาน 2,Bang Saphan 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ประจวบคีรีขันธ์ ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 25 ก.ย. 2544 ,-,TP2 ขนาด 50 MVA
+244,TPH,ตะพานหิน,Taphan Hin,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พิจิตร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 28 ก.ย. 2544 , 1. กจฟ.ขออนุมัติจ่ายไฟ 3YB-01 เพิ่มเติม ที่ สฟฟ.ตะพานหิน จ.พิจิตร.PDF ,TP2 ขนาด 50 MVA
+245,HYC,หาดใหญ่ 3,Hat Yai 3,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 11 ต.ค. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+246,CCA,ฉะเชิงเทรา 1,Chachoengsao 1,ถาวร ,22kV,-,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 13 ต.ค. 2544 ,-,KT1A ขนาด 40 MVA,KT2A ขนาด 40 MVA
+247,MCA,แม่จัน,Mae Chan,ถาวร ,115kV และ 22/33kV, H-Configuration,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 15 ต.ค. 2544 , 1. อนุมัติรับไฟระบบ 22 kV จากสถานีไฟฟ้าแรงสูงแม่จัน ของ กฟผ. วงจรที่ 2.pdf 
+248,HYD,หาดใหญ่ 4,Hat Yai 4,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 16 ต.ค. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+249,CBB,ชลบุรี 2,Chon Buri 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 24 ต.ค. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+250,LAA,ลาดยาว,Lat Yao,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครสวรรค์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 20 พ.ย. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+251,TTU,ท่าตูม,Tha Tum,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สุรินทร์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 26 พ.ย. 2544 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+252,KYA,คลองใหญ่,Khlong Yai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ตราด ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 27 พ.ย. 2544 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+253,SNG,สุไหงโก-ลก,Sungai Kolok,ถาวร ,33kV,-,Without NGR,จ. นราธิวาส ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 27 พ.ย. 2544 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+254,DEA,เดชอุดม,Det Udom,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 18 ธ.ค. 2544 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์ 2YB-01,3YB-01สถานีไฟฟ้าเดชอุดม จ.อุบลราชธานี.pdf ,TP2 ขนาด 50 MVA
+255,PON,โพนพิสัย,Phon Phisai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. หนองคาย ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 20 ธ.ค. 2544 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+256,BJA,บ้านฉาง,Ban Chang,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 21 ธ.ค. 2544 , 1. ขออนุมัติจ่ายไฟสวิตช์เกียร์ (2YB-01) และหม้อแปลง (TP1) เพิ่มเติมที่ สฟฟ.บ้านฉาง จ.ระยอง คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+257,PCK,ประจันตคาม,Prachantakham,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 30 ม.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+258,SSK,ศรีสงคราม,Si Songkhram,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครพนม ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 6 มี.ค. 2545 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+259,HOA,ฮอด,Hot,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 8 มี.ค. 2545 ,-,TP2 ขนาด 50 MVA
+260,KEA,เขมราฐ,Khem Marat,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 15 มี.ค. 2545 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+261,TSE,ท่าแซะ,Tha Sae,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชุมพร ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 19 มี.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+262,MRM,แม่ริม,Mae Rim,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 22 มี.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+263,PKE,พุแค,Phu Khae,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 23 มี.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+264,PNR,โป่งน้ำร้อน 1,Pong Nam Ron 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. จันทบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 27 มี.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+265,RLA,ราษีไศล,Rasi Salai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ศรีสะเกษ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 27 มี.ค. 2545 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+266,SAM,สำโรงทาบ,Samrong Thap,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สุรินทร์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 27 มี.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+267,BNP,บ้านแพ้ว,Ban Phaeo 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 28 มี.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+268,WPA,เวียงป่าเป้า,Wiang Pa Pao,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 2 เม.ย. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+269,OYK,อ้อมใหญ่ 2,Om Yai 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 7 เม.ย. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+270,MHA,แม่ฮ่องสอน,Mae Hong Son,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. แม่ฮ่องสอน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 24 เม.ย. 2545 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+271,TLG,ถลาง 1,Thalang 1,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 26 เม.ย. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+272,MLA,แม่ลาว,Mae Lao,ถาวร ,115-22kV, Breaker and a half,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 15 พ.ค. 2545 ,-,TP2 ขนาด 50 MVA
+273,MLK,มวกเหล็ก,Muak Lek,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 17 พ.ค. 2545 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์ เพิ่มเติมที่ สฟฟ.มวกเหล็ก และเปลี่ยนแปลงการจ่ายไฟ.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+274,ALA,อ่าวลึก,Ao Luek,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. กระบี่ ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 19 พ.ค. 2545 ,-,TP2 ขนาด 50 MVA
+275,CSA,เชียงแสน,Chiang Saen,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 4 มิ.ย. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+276,MEA,แม่สาย,Mae Sai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 4 มิ.ย. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+277,KUA,กุยบุรี,Kui Buri,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ประจวบคีรีขันธ์ ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 12 มิ.ย. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+278,DOA,ดอนเจดีย์,Don Chedi 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 25 มิ.ย. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+279,LNC,ลำพูน 3,Lamphun 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ลำพูน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 19 ก.ย. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+280,KTA,กระทุ่มแบน 1,Krathum Baen 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 16 ต.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+281,NYM,นายายอาม,Na Yai Arm,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. จันทบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 31 ต.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+283,SKP,สันกำแพง,San Kamphaeng,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 14 พ.ย. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+284,RAA,ระยอง 1,Rayong 1,ถาวร ,22kV,-,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 23 พ.ย. 2545 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+286,CHN,จะนะ,Chana,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 12 ธ.ค. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+288,KLG,ขลุง,Khlung,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. จันทบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 20 ก.พ. 2546 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+289,MDB,มุกดาหาร 2,Mukdahan 2,ถาวร ,22kV,-,Without NGR,จ. มุกดาหาร ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 15 พ.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้ามุกดาหาร 2 (ระบบ 22 kV Indoor Type) จ.มุกดาหาร ตามโครงการ คชฟ.3.pdf ,KT1A ขนาด 25 MVA
+290,TMG,ท้ายเหมือง,Thai Muang,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. พังงา ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 10 เม.ย. 2546 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+291,NVC,นวนคร 3,Nava Nakhon 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 13 เม.ย. 2546 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+293,SBY,สะบ้าย้อย,Saba Yoi,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 29 พ.ค. 2546 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+294,BAL,บางปลา,Bang Pla,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 30 พ.ค. 2546 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+296,BSH,บึงสามพัน,Bung Sam Phan,ถาวร ,115kV และ 22/33kV, Breaker and a half,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 1 ก.ค. 2546 , 1. อนุมัติจ่ายไฟ สฟฟ.บึงสามพัน (ลานไก) จ.เพชรบูรณ์ ตาม คพส.9.1 และ.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+297,CUN,จุน,Chun,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พะเยา ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 2 ก.ค. 2546 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+298,LSA,หลังสวน,Lang Suan,ถาวร ,22kV,-,Without NGR,จ. ชุมพร ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 9 ก.ค. 2546 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 50 MVA
+299,NOA,หนองเรือ,Nong Rua,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 7 ส.ค. 2546 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+300,RBA,ราชบุรี 1,Ratchaburi 1,ถาวร ,22kV,-,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 29 ก.ย. 2546 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 25 MVA
+301,KOU,โคกกรวด 2,Khok Kruat 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 27 ธ.ค. 2561 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าโคกกรวด 2 (ชั่วคราว) จ.นครราชสีมา.pdf ,TP1 ขนาด 25 MVA
+302,BIC,บางปะอิน 3,Bang Pa-In 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 19 เม.ย. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+303,WAM,วังม่วง,Wang Muang,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 27 เม.ย. 2547 ,-,TP1 ขนาด 50 MVA
+305,KTB,กระทุ่มแบน 2,Krathum Baen 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 7 พ.ค. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+306,LBL,ลาดบัวหลวง,Lat Bua Luang,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 10 พ.ค. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+307,KMK,เขาไม้แก้ว,Khao Mai Kaew,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 14 พ.ค. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+308,SAT,แสนตุ้ง,San Tung,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ตราด ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 20 พ.ค. 2547 , 1. กจฟ.ขออนุมัติจ่ายไฟ 5YB-01 และ TP2 เพิ่มเติม สฟฟ.แสนตุ้ง.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+309,BKH,บ้านค่าย 1,Ban Khai 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 23 พ.ค. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+310,EKA,เอกชัย 1,Eka Chai 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 29 พ.ค. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+311,TMM,ท่าใหม่,Tha Mai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. จันทบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 23 มิ.ย. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+312,SLU,สงขลา 2,Songkhla 2,ชั่วคราว (Mobile Substation) ,115-33kV,-,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 20 มิ.ย. 2547 ,-,TP1 ขนาด 25 MVA
+313,NYB,นครนายก 2,Nakhon Nayok 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครนายก ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 30 มิ.ย. 2547 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์ระบบ 115 kV และหม้อแปลงTP2 เพิ่มเติมที่สถานีไฟฟ้านครนายก 2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+314,PAT,ป่าตอง,Patong,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 2 ก.ค. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+315,SMP,ศรีมหาโพธิ 1,Si Maha Phot 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 30 ก.ค. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+316,BPI,บางปะหัน,Bang Pahan,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 3 ก.ย. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+317,KCD,กาญจนดิษฐ์,Kanchanadit,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 22 ก.ย. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+318,YRA,ยุพราชันย์,Yuppharachan,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. ยะลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 15 ต.ค. 2547 ,-,TP1 ขนาด 25 MVA
+319,RBU,ราชบุรี 3,Ratchaburi 3,ชั่วคราว () ,115-22kV,-,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 16 ธ.ค. 2547 ,-,TP1 ขนาด 25 MVA
+320,LPU,ลำปาง 3,Lampang 3,ชั่วคราว () ,115-22kV,-,Without NGR,จ. ลำปาง ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 21 เม.ย. 2553 ,-,TP1 ขนาด 25 MVA
+321,UBC,อุบลราชธานี 3,Ubon Ratchathani 3,ชั่วคราว () ,115-22kV,-,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 25 ธ.ค. 2542 ,-,TP1 ขนาด 50 MVA
+325,BBCT,บ้านบึง 3,Ban Bueng 3,ชั่วคราว () ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 9 ธ.ค. 2552 ,-,TP1 ขนาด 25 MVA
+326,LBU,ลพบุรี 3,Lop Buri 3,ชั่วคราว () ,115-22kV,-,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 26 เม.ย. 2548 ,-,TP1 ขนาด 25 MVA
+327,WYA,วังน้ำเย็น,Wang Nam Yen,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระแก้ว ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 30 เม.ย. 2548 , 1. ขออนุมัติจ่ายไฟ 3YB-01 และหม้อแปลง (TP.1) (เพิ่มเติม) ที่ สฟฟ.วังน้ำเย็น จ.สระแก้ว.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+328,KKDT,ขอนแก่น 4,Khon Kaen 4,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ขอนแก่น ,กฟฉ.1, สถานียกเลิกการใช้งาน/รื้อถอน ,-,TP1 ขนาด 25 MVA
+330,SQB,สะเดา 2,Sadao 2,ชั่วคราว () ,115-33kV,-,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 31 มี.ค. 2548 ,-,TP1 ขนาด 25 MVA
+331,BSK,บางสมัคร 2,Bang Samak 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 9 ก.ย. 2548 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+332,PYN,พัทยาเหนือ 1,Pattaya Nua 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 22 ก.ย. 2548 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+333,DOP,ดอนพุด,Don Phut,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 2 ธ.ค. 2548 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+334,RKA,ร้องกวาง,Rong Kwang,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. แพร่ ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 8 ธ.ค. 2548 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+335,WAU,วังน้อย 2,Wang Noi 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 19 ธ.ค. 2548 ,-,TP1 ขนาด 40 MVA
+336,BSN,บางแสน 1,Bang Saen 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 20 ธ.ค. 2548 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+337,HKA,หันคา,Han Kha,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชัยนาท ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 27 ต.ค. 2559 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+338,BAP,บางน้ำเปรี้ยว,Bang Nam Prieo,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 29 ธ.ค. 2548 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+339,PQC,ปทุมธานี 3,Pathum Thani 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 15 ม.ค. 2549 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+340,SPC,ศรีประจันต์,Si Prachan,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 18 ม.ค. 2549 ,-,TP1 ขนาด 25 MVA
+342,PLD,พิษณุโลก 4,Phitsanulok 4,ถาวร ,115-22kV, Breaker and a half,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 25 ม.ค. 2549 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์ และหม้อแปลง TP1 เพิ่มเติม ที่ สฟฟ.พิษณุโลก 4 (ลานไก).pdf ,TP1 ขนาด 50 MVA
+343,KLO,คลองหลวง,Khlong Luang 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 29 ม.ค. 2549 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+345,BNV,บ้านเลน 2,Ban Lane 2,ชั่วคราว () ,115-22kV,-,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 9 มี.ค. 2549 ,-,TP1 ขนาด 40 MVA,TP2 ขนาด 40 MVA
+346,BPE,บางพระ,Bang Phra,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 23 เม.ย. 2549 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+348,MTA,แม่แตง,Mae Taeng,ชั่วคราว (รับไฟผ่าน recloser) ,22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 30 พ.ค. 2549 ,-,KT1A ขนาด 25 MVA
+349,CDO,เชียงดาว,Chiang Dao,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 10 มิ.ย. 2549 ,-,TP1 ขนาด 50 MVA
+350,PAA,ปราจีนบุรี 1,Prachin Buri 1,ถาวร ,22kV,-,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 20 มิ.ย. 2549 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+351,NAT,นครไทย,Nakhon Thai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 26 มิ.ย. 2549 ,-,TP1 ขนาด 50 MVA
+352,SRD,สระบุรี 4,Saraburi 4,ถาวร ,22kV,-,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 15 ก.ค. 2549 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+353,CAB,ชะอำ 2,Cha Am 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เพชรบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 24 ก.ค. 2549 , 1. กจฟ.(คฟ.)21 อนุมัติจ่ายไฟสวิตช์เกียร์ (6YB-01) ที่สถานีไฟฟ้าชะอำ 2 จ.เพชรบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+354,CBN,จอมบึง,Chom Bung,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 25 ก.ค. 2549 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+355,PKT,พรานกระต่าย,Phran Kratai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. กำแพงเพชร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 27 ก.ค. 2549 , 1. กจฟ.(คฟ.)460 อนุมัติจ่ายไฟสวิตช์เกีย และหม้อแปลงเพิ่มเติม สถานีไฟฟ้าพรานกระต่าย จ.กำแพงเพชร.pdf ,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+356,ONB,อ้อมน้อย 2,Om Noi 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 12 ส.ค. 2549 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+357,BMA,บ้านใหม่ 1,Ban Mai 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 20 ส.ค. 2549 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+358,CBC,ชลบุรี 3,Chon Buri 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 27 ส.ค. 2549 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+359,KKU,คลองขลุง,Khlong Khlung,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. กำแพงเพชร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 28 ส.ค. 2549 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+360,CMX,พืชสวนโลก,Phuet Suan Lok,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 20 ต.ค. 2549 ,-,TP1 ขนาด 25 MVA
+361,BNN,บำเหน็จณรงค์,Bamnet Narong,ถาวร ,22kV,-,Without NGR,จ. ชัยภูมิ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 6 พ.ย. 2549 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+362,FAA,ฝาง,Fang,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 20 ธ.ค. 2549 ,-, 1. กจฟ.(คฟ.)550อนุมัติจ่ายไฟคาปาซิเตอร์ระดับ 115 kV ขนาด 1x12 MVAR ที่สถานีไฟฟ้าฝาง จ.เชียงใหม่.pdf , 2. อนุมัติจ่ายไฟสวิตช์เกียร์ระบบ 115 kV (Bay 3YB-01) เพิ่มเติม ที่สถานีไฟฟ้าฝาง จ.เชียงใหม่.pdf ,TP1 ขนาด 50 MVA
+363,SAA,สามพราน 1,Sam Phran 1,ถาวร ,115kV และ 22/33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 31 ธ.ค. 2549 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+364,KBG,ค่ายบางระจัน,Khai Bang Rachan,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สิงห์บุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 17 ม.ค. 2550 , 1. กจฟ.ขออนุมัติจ่ายไฟ BYB-01,2YB-01,4YB-01,TP1 เพิ่มเติมที่ สฟฟ.ค่ายบางระจัน จ.สิงห์บุรี.PDF ,TP1 ขนาด 40 MVA,TP2 ขนาด 50 MVA
+365,MPC,มาบตาพุด 3,Maptaphut 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 9 ก.พ. 2550 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+367,BGA,บ้านโฮ่ง,Ban Hong,ชั่วคราว (Mobile Substation) ,115-22kV, H-Configuration,Without NGR,จ. ลำพูน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 7 มิ.ย. 2550 ,-,TP1 ขนาด 25 MVA
+368,TLI,ท่าลี่,Tha Li,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เลย ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 20 มี.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าท่าลี่ จ.เลย ตามโครงการ คพส.9.2 และ คพจ.1.pdf ,TP1 ขนาด 25 MVA
+369,PAN,พาน,Phan,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 15 ส.ค. 2550 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+371,SCM,ศรีเชียงใหม่,Si Chaing Mai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. หนองคาย ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 6 ก.ย. 2550 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+373,NOH,หนองแค 1,Nong Khae 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 5 ต.ค. 2550 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+374,PCB,ปากช่อง 2,Pak Chong 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 13 ต.ค. 2550 ,-,TP1 ขนาด 50 MVA
+375,UDC,อุดรธานี 3,Udon Thani 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 25 ต.ค. 2550 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+376,DTA,ด่านขุนทด,Dan Khun Thot,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 12 พ.ย. 2550 ,-,TP1 ขนาด 50 MVA
+377,TYI,ทุ่งใหญ่,Thung Yai,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. นครศรีธรรมราช ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 14 พ.ย. 2550 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+379,KON,ครบุรี,Khon Buri,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 14 พ.ค. 2562 , 1. ขออนุมัติจ่ายไฟสวิตช์เกียร์ ระบบ 115 kV เพิ่มเติม (Bay 5YB-01) ที่สถานีไฟฟ้าครบุรี จ.นครราชสีมา.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+380,HCA,ห้างฉัตร,Hang Chat,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ลำปาง ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 7 ธ.ค. 2550 ,-,TP1 ขนาด 25 MVA
+381,BPN,บางพูน,Bang Phun,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 11 ธ.ค. 2550 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+382,KKC,ขอนแก่น 3,Khon Kaen 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 13 ธ.ค. 2550 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+383,NKL,นครหลวง,Nakhon Luang,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 18 ธ.ค. 2550 , 1. อนุมัติจ่ายไฟ Bay 3YB-01 และ TP2 (เพิ่มเติม) ที่สถานีไฟฟ้านครหลวง จ.พระนครศรีอยุธยา.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+384,KOT,โคกกรวด 1,Khok Kruat 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 30 ธ.ค. 2550 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+386,BBB,บ้านบึง 2,Ban Bueng 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 13 ม.ค. 2551 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+387,PAL,พังลา,Phang La,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 15 ม.ค. 2551 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+388,BKI,บ้านค่าย 2,Ban Khai 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 20 ม.ค. 2551 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+389,NAB,น่าน 2,Nan 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. น่าน ,กฟน.2, สถานียกเลิกการใช้งาน/รื้อถอน ,-,TP1 ขนาด 25 MVA
+390,SQA,สะเดา 1,Sadao 1,ถาวร ,33kV,-,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 12 มี.ค. 2551 ,-,KT1A ขนาด 25 MVA
+391,KPO,เกาะโพธิ์,Ko Pho,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 16 มี.ค. 2551 , 1. 1227.ขออนุมัติจ่ายไฟสวิตช์เกียร์ระบบ 115 kV เพิ่มเติม (Bay 4YB-01) ที่สถานีไฟฟ้าเกาะโพธิ์ จ.ชลบุรี.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+392,RTP,รัตภูมิ,Rattaphum,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 17 มี.ค. 2551 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+393,WWAT,วานรนิวาส,Wanon Niwat,ชั่วคราว () ,115-22kV,-,Without NGR,จ. สกลนคร ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 30 พ.ค. 2551 ,-,TP1 ขนาด 25 MVA
+394,NOB,หนองบัว,Nong Bua,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครสวรรค์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 4 มิ.ย. 2551 ,-,TP1 ขนาด 25 MVA
+395,HUC,หัวหิน 3,Hua Hin 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ประจวบคีรีขันธ์ ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 5 มิ.ย. 2551 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+396,CAY,ไชยา,Chai Ya,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 19 มิ.ย. 2551 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์ 115 kV และหม้อแปลงTP.1 (เพิ่มเติม) ที่ สฟฟ.ไชยา จ.สุราษฎร์ธานี.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+397,PST,ปราสาท 1,Prasat 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สุรินทร์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 23 มิ.ย. 2551 , 1. กจฟ. อนุมัติจ่ายไฟสวิตซ์เกียร์ สฟฟ.ปราสาท เพิ่มเติม.PDF ,TP1 ขนาด 50 MVA
+398,MKB,มหาสารคาม 2,Mahasarakham 2,ชั่วคราว () ,115-22kV,-,Without NGR,จ. มหาสารคาม ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 25 ม.ค. 2548 ,-,TP1 ขนาด 25 MVA
+399,NCA,นครชัยศรี 1,Nakhon Chaisi 1,ถาวร ,115kV และ 22/33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 12 ส.ค. 2551 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+400,LOU,หล่มเก่า,Lom Kao,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 9 ก.ย. 2551 ,-,TP1 ขนาด 25 MVA
+403,NOY,หนองใหญ่,Nong Yai,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 26 ต.ค. 2551 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+406,PBB,เพชรบุรี 2,Phetchaburi 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เพชรบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 8 ธ.ค. 2551 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+407,SYA,ไทรโยค,Sai Yok,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 9 ธ.ค. 2551 ,-,TP1 ขนาด 50 MVA
+408,CYU,ชัยภูมิ 2,Chaiyaphum 2,ชั่วคราว () ,115-22kV,-,Without NGR,จ. ชัยภูมิ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 11 ธ.ค. 2551 ,-,TP1 ขนาด 50 MVA
+409,KTZ,คลองท่อม,Khlong Thom,ชั่วคราว (Mobile Substation) ,115-33kV,-,Without NGR,จ. กระบี่ ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 18 ธ.ค. 2551 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+410,NSA,นครสวรรค์ 1,Nakhon Sawan 1,ถาวร ,115kV และ 22/33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครสวรรค์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 3 พ.ย. 2562 , 1. กจฟ.(คฟ.)47ขออนุมัติเปลี่ยนแปลงการจ่ายไฟ สถานีไฟฟ้านครสวรค์ 1 (ลานไก).pdf 
+412,PDA,ประจวบคีรีขันธ์,Prachuap Khiri Khan,ถาวร ,22kV,-,Without NGR,จ. ประจวบคีรีขันธ์ ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 14 ม.ค. 2552 ,-,KT1A ขนาด 40 MVA
+414,PNA,ปราณบุรี,Pran Buri,ถาวร ,22kV,-,Without NGR,จ. ประจวบคีรีขันธ์ ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 28 ม.ค. 2552 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+415,BWB,บางวัว 2,Bang Wua 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 2 ก.พ. 2552 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+416,WIA,วิหารแดง,Wihan Daeng,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 3 ก.พ. 2552 , 1. กจฟ.ขออนุมัติจ่ายไฟ 5YB-01 เพิ่มเติม สฟฟ.วิหารแดง จ.สระบุรี.PDF ,TP1 ขนาด 50 MVA
+417,SLC,สงขลา 3,Songkhla 3,ชั่วคราว (Temporary Transformer) ,115-33kV,-,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 6 ก.พ. 2552 ,-,TP1 ขนาด 25 MVA
+418,CMW,ช้างคลาน,Chang Khlan,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 5 มี.ค. 2552 ,-,TP1 ขนาด 25 MVA
+419,RCO,โรจนะ 2,Rotchana 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 22 ก.พ. 2552 , 1. กจฟ. ขออนุมัติจ่ายไฟ 5YB-01 เพิ่มเติม สฟฟ.โรจนะ 2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+421,YLB,ยะลา2,Yala 2,ชั่วคราว (Temporary Transformer) ,115-33kV,-,Without NGR,จ. ยะลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 31 มี.ค. 2552 ,-,TP1 ขนาด 25 MVA
+422,NOM,หนองปลาหมอ,Nong Pla Mo,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ราชบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 29 มี.ค. 2552 , 1. กจฟ.ขออนุมัติจ่ายไฟ 1,3,5YB สฟฟ.หนองปลาหมอ เพิ่มเติม.pdf ,TP1 ขนาด 50 MVA
+424,NWA,นราธิวาส,Narathiwat,ถาวร ,33kV,-,Without NGR,จ. นราธิวาส ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 31 ก.ค. 2552 ,-,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA,KT3A ขนาด 50 MVA
+425,YTK,ย่านตาขาว,Yan Ta Khao,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. ตรัง ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 29 ต.ค. 2552 ,-, 1. อนุมัติจ่ายไฟสวิตช์เกียร์ (Bay 3YB-01) และหม้อแปลง 50 MVA TP2 สฟฟ.ย่านตาขาว จ.ตรัง.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+426,BNF,บึง 2,Bueng 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 1 พ.ย. 2552 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+427,TYA,ธัญบุรี,Thanya Buri,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 19 ธ.ค. 2552 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 40 MVA
+428,BSU,บางสมัคร 4,Bang Samak 4,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 21 ธ.ค. 2552 ,-,TP1 ขนาด 50 MVA
+429,KUR,คุระบุรี,Khura Buri,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. พังงา ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 29 ม.ค. 2553 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 50 MVA
+430,KWU,คลองขวาง 3,Khlong Khwang 3,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 14 มี.ค. 2553 ,-,TP1 ขนาด 50 MVA
+431,DKA,ดอยสะเก็ด,Doi Saket,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 23 มี.ค. 2553 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+432,CHM,แจ้ห่ม,Chae Hom,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ลำปาง ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 21 เม.ย. 2553 ,-,TP1 ขนาด 25 MVA
+433,WBT,วัดโบสถ์,Wat Bot,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 27 พ.ค. 2553 ,-,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+434,PEA,เพชรบูรณ์ 1,Phetchabun 1,ถาวร ,22kV,-,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 12 มิ.ย. 2553 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 25 MVA
+435,CPB,ชุมพร2,Chumphon 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชุมพร ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 12 ก.ค. 2553 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+436,PAS,ป่าซาง,Pa Sang,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ลำพูน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 5 ส.ค. 2553 ,-,TP1 ขนาด 50 MVA
+437,NIA,นิคมอุตสาหกรรมภาคเหนือ 1,Northern Industrial Estate 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ลำพูน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 10 ส.ค. 2553 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+439,PKU,ภูเก็ต 3,Phuket 3,ชั่วคราว (Temporary Transformer) ,115-33kV,-,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 30 ก.ค. 2553 ,-,TP1 ขนาด 50 MVA
+440,BLS,บ้านลาดทราย,Ban Latsai,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 29 ส.ค. 2553 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+441,OYL,อ้อมใหญ่ 3,Om Yai 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 28 ก.ย. 2553 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+442,TWA,ท่าวุ้ง,Tha Wung,ถาวร ,115-22kV, Breaker and a half,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 1 ต.ค. 2553 , 1. กจฟ. ขออนุมัติจ่ายไฟ 3YB-03 , TP1 และระบบจำหน่าย 22 kV เพิ่มเติม สฟฟ.ท่าวุ้ง.PDF ,TP1 ขนาด 50 MVA
+443,PRI,พรหมบุรี,Phrom Buri,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. สิงห์บุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 13 ต.ค. 2553 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+444,KUK,ขุขันธ์,Khukhan,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ศรีสะเกษ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 30 ต.ค. 2553 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+445,WIR,วิเชียรบุรี,Wichian Buri,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 3 พ.ย. 2553 , 1. ขออนุมัติจ่ายไฟสวิตช์เกียร์ระบบ 115, 22kV TP.2 เพิ่มเติม ที่ สฟฟ.วิเชียรบุรี จ.เพชรบูรณ์.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+446,LAK,ลาดหลุมแก้ว,Lat Lum Kaew,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 14 พ.ย. 2553 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+448,SEL,เสลภูมิ,Selaphum,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ร้อยเอ็ด ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 16 ก.พ. 2554 ,-,TP1 ขนาด 50 MVA
+449,NAR,นางรอง,Nang Rong,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. บุรีรัมย์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 8 มี.ค. 2554 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์ระบบ 115 kV จำนวน 3 ชุด ที่ สฟฟ.นางรอง จ.บุรีรัมย์.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+450,PCC,ปากช่อง 3,Pak Chong 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 28 เม.ย. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+451,IBU,อินทร์บุรี,In Buri,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. สิงห์บุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 1 พ.ค. 2554 ,-,TP1 ขนาด 50 MVA
+452,BSO,บางแสน 2,Bang Saen 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 1 พ.ค. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+453,BKU,บางขันธ์ 2,Bang Khan 2,ชั่วคราว (อื่นๆ) ,115-22kV,-,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 9 พ.ค. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+454,BOR,บรบือ,Borabue,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. มหาสารคาม ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 31 พ.ค. 2554 , 1. อนุมัติจ่ายไฟผ่านสวิตช์เกียร์ระบบ 22 kV (เพิ่มเติม) ที่ สฟฟ.บรบือ จ.มหาสารคาม.pdf ,TP1 ขนาด 50 MVA
+455,AKA,อมตะนคร 1,Amata Nakhon 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 19 มิ.ย. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+456,KUP,กุมภวาปี,Kumphawapi,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 27 มิ.ย. 2554 ,-,TP1 ขนาด 50 MVA
+457,BOP,บ่อพลอย,Bo Phloi,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 10 ก.ค. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+458,CUM,ชุมพวง,Chum Phuang,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 19 ก.ค. 2554 ,-,TP1 ขนาด 50 MVA
+459,KAC,แกลง 3,Klaeng 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 20 ก.ค. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+460,CYN,เชียงยืน,Chiang Yun,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. มหาสารคาม ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 22 ก.ค. 2554 ,-,TP1 ขนาด 50 MVA
+461,KNI,เขื่องใน,Khuang Nai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 27 ก.ค. 2554 ,-,TP1 ขนาด 50 MVA
+462,SUB,สุรินทร์ 2,Surin 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. สุรินทร์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 29 ก.ค. 2554 ,-,TP1 ขนาด 50 MVA
+463,PLX,ปลวกแดง 4,Pluak Daeng 4,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 31 ก.ค. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+464,BDH,บ้านดุง 2,Ban Dung 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 1 ก.พ. 2562 ,-, 1. ขออนุมัติจ่ายไฟหม้อแปลงไฟฟ้ากำลัง (TP.1) ขนาด 50 MVA ที่สถานีไฟฟ้าบ้านดุง 2 จ.อุดรธานี.pdf ,TP1 ขนาด 50 MVA
+465,NRC,นครราชสีมา 3,Nakhon Ratchasima 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 6 ก.ย. 2554 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์เพิ่มเติมสฟฟ.นครราชสีมา 3 เพื่อจ่ายไฟให้ น้ำตาลระยอง จ.ชัยภูมิ.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+466,SMF,สมุทรสาคร 6,Samut Sakhon 6,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 1 ต.ค. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+467,BAM,บางปลาม้า,Bang Pla Ma,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 5 ต.ค. 2554 ,-,TP1 ขนาด 50 MVA
+468,CDB,ชัยบาดาล 2,Chai Badan 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 20 พ.ย. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+469,SMU,สมุทรสาคร 8,Samut Sakhon 8,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 6 ธ.ค. 2554 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสมุทรสาคร 8 (ชั่วคราว) ซึ่งติดตั้งในพื้นที่.pdf ,TP1 ขนาด 50 MVA
+470,NVD,นวนคร 4,Nava Nakhon 4,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 22 ธ.ค. 2554 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+471,BPH,บางพระครู,Bang Phra Khru,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 15 ธ.ค. 2559 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+473,DMA,ด่านมะขามเตี้ย,Dan Makham Tia,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 11 ม.ค. 2555 ,-,TP1 ขนาด 50 MVA
+474,AKU,อมตะนคร 6,Amata Nakhon 6,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 4 มี.ค. 2555 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+475,SPN,สองพี่น้อง,Song Phi Nong 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 15 มี.ค. 2555 ,-,TP1 ขนาด 50 MVA
+476,PTU,พนมทวน,Phanom Thuan,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 30 เม.ย. 2555 ,-,TP1 ขนาด 50 MVA
+477,CMU,หายยา,Hai Ya,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 19 มิ.ย. 2555 ,-,TP1 ขนาด 25 MVA
+479,DTM,ดอนตูม,Don Tum,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 8 ก.ค. 2555 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+480,KBJ,กบินทร์บุรี 2,Kabin Buri 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 27 ก.ค. 2555 , 1. ขออนุมัติจ่ายไฟหม้อแปลงไฟฟ้ากำลัง เพิ่มเติม ที่สถานีไฟฟ้ากบินทร์บุรี 2 จ.ปราจีนบุรี.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+482,PWU,ปักธงชัย,Pak Thong Chai,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 31 ส.ค. 2555 ,-,TP1 ขนาด 25 MVA
+483,CMV,ฟ้าฮ่าม,Fa Ham,ชั่วคราว () ,115-22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 5 ก.ย. 2555 ,-,TP1 ขนาด 25 MVA
+484,NKP,นิคมพัฒนา 1,Nikhom Phatthana 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 9 ก.ย. 2555 , 1. ขออนุมัติจ่ายไฟสวิตช์เกียร์ ระบบ 115 kV เพิ่มเติม (Bay 5YB-01) ที่สถานีไฟฟ้านิคมพัฒนา จ.ระยอง.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+485,KHZ,เขาย้อย 2,Khao Yoi 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เพชรบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 19 ก.ย. 2555 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+487,NKB,หนองคาย 2,Nong Khai 2,ชั่วคราว () ,115-22kV,-,Without NGR,จ. หนองคาย ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 28 ก.ย. 2555 ,-,TP1 ขนาด 25 MVA
+488,RIU,นิคมอุตสาหกรรมราชบุรี,Ratchaburi Industrial Estate,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 12 ต.ค. 2555 ,-,TP1 ขนาด 50 MVA
+489,PPB,พุนพิน 2,Phunphin 2,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 1 พ.ย. 2555 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+490,TUA,ทุ่งลุง,Thung Lung,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 8 พ.ย. 2555 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+491,PTA,ปัตตานี 1,Pattani 1,ถาวร ,33kV,-,Without NGR,จ. ปัตตานี ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 3 ธ.ค. 2555 ,-,KT1A ขนาด 50 MVA,KT2A ขนาด 25 MVA,KT3A ขนาด 25 MVA
+492,BDA,บางกะดี,Bang Ka Di 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 25 พ.ค. 2560 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+493,MPA,มาบตาพุด 1,Maptaphut 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 1 ธ.ค. 2560 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+494,SME,สมุทรสาคร 5,Samut Sakhon 5,ถาวร ,115-22kV, Breaker and a half,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 3 ก.พ. 2556 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+496,KMB,เกาะสมุย 2,Ko Samui 2,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 2 มี.ค. 2556 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+498,KTD,กระทุ่มแบน 4,Krathum Baen 4,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 2 เม.ย. 2556 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+499,SSL,ศรีสัชนาลัย,Si Satchanalai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. สุโขทัย ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 23 พ.ค. 2556 , 1. อนุมัติจ่ายไฟ Bay 1YB-01, 4YB-01 และ TP2 (เพิ่มเติม) ที่สถานีไฟฟ้าศรีสัชนาลัย จ.สุโขทัย.pdf , 2. กจฟ. ขออนุมัติจ่ายไฟ 3YB-01 เพิ่มเติม สฟฟ.ศรีสัช จ.สุโขทัย.pdf ,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+500,KTU,กระทุ่มแบน 6,Krathum Baen 6,ชั่วคราว () ,115-22kV,-,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 20 มิ.ย. 2556 ,-,TP1 ขนาด 25 MVA
+502,NSU,นครสวรรค์ 4,Nakhon Sawan 4,ชั่วคราว () ,115-22kV,-,Without NGR,จ. นครสวรรค์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 27 มิ.ย. 2556 ,-,TP1 ขนาด 25 MVA
+503,TSK,ทองแสนขัน,Thong Sean Khan,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อุตรดิตถ์ ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 27 มิ.ย. 2556 ,-,TP1 ขนาด 25 MVA
+504,BVU,บ่อทอง,Bo Thong,ชั่วคราว (Compact) ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 2 ก.ค. 2556 ,-,TP1 ขนาด 25 MVA
+508,KIU,คลองสอง,Khlong Song,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 25 ก.ย. 2556 ,-,TP1 ขนาด 40 MVA
+509,RGU,รังสิต 2,Rang Sit 2,ชั่วคราว (อื่นๆ) ,115-22kV,-,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 11 ต.ค. 2556 ,-,TP1 ขนาด 25 MVA
+510,KKN,ควนขนุน,Khuan Khanun,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. พัทลุง ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 15 พ.ย. 2556 ,-,TP2 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+511,RGA,รังสิต 1,Rang Sit 1,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 17 พ.ย. 2556 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+512,PSN,โพธิ์ไทรงาม,Pho Sai Ngam,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. พิจิตร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 29 พ.ย. 2556 ,-,TP1 ขนาด 25 MVA
+516,AKC,อมตะนคร 3,Amata Nakhon 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 6 มี.ค. 2557 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+517,NPA,น้ำพุง,Nam Phung,ชั่วคราว (รับไฟผ่าน Recloser) ,22kV,-,Without NGR,จ. สกลนคร ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 8 เม.ย. 2557 ,-,KT1A ขนาด 12.5 MVA
+518,HUU,หัวหิน 4,Hua Hin 4,ชั่วคราว (อื่นๆ) ,115-22kV,-,Without NGR,จ. ประจวบคีรีขันธ์ ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 25 พ.ค. 2557 ,-,TP1 ขนาด 50 MVA
+519,THU,ท่าทราย 2,Tha Sai 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 30 มิ.ย. 2557 ,-,TP1 ขนาด 50 MVA
+520,XPU,สวนผึ้ง,Suan Phueng,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 9 ก.ค. 2557 ,-,TP1 ขนาด 50 MVA
+521,PYV,พัทยาเหนือ 3,Pattaya Nua 3,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 14 ส.ค. 2557 ,-,TP1 ขนาด 50 MVA
+522,SHN,สิงหนคร,Singha Nakhon,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 14 ส.ค. 2557 ,-,TP1 ขนาด 50 MVA
+523,SMV,สมุทรสาคร 10,Samut Sakhon 10,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 2 พ.ย. 2557 ,-,TP1 ขนาด 50 MVA
+524,CKN,เชียงของ,Chiang Khong,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 4 มิ.ย. 2561 ,-,TP1 ขนาด 25 MVA
+525,SBR,ศรีบุญเรือง,Si Bun Ruang,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. หนองบัวลำภู ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 25 พ.ย. 2557 , 1. ขออนุมัติจ่ายไฟสวิตช์เกียร์ (Bay 1YB-01) ที่สถานีไฟฟ้าศรีบุญเรือง จ.หนองบัวลำภู.pdf ,TP2 ขนาด 50 MVA
+526,CON,ชนแดน,Chon Daen,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 17 ธ.ค. 2557 ,-,TP1 ขนาด 25 MVA
+528,ACA,อมตะซิตี้,Amata City 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 7 ม.ค. 2558 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+529,ESA,อีสเทิร์นซีบอร์ด,Eastern Seaboard 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 8 มี.ค. 2558 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+530,OND,อ้อมน้อย 4,Om Noi 4,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 1 เม.ย. 2558 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+531,PZA,ปิ่นทอง 1,Pinthong 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 7 มิ.ย. 2558 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+533,RSU,รังสิตใต้ 2,Rang Sit Tai 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 3 เม.ย. 2560 ,-,TP1 ขนาด 50 MVA
+534,KBV,กบินทร์บุรี 4,Kabin Buri 4,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 8 มี.ค. 2560 ,-,TP1 ขนาด 50 MVA
+536,KQU,คูคต,Khu Khot,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 28 ก.พ. 2560 ,-,TP1 ขนาด 50 MVA
+540,CTU,จันทบุรี 2,Chanthaburi 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. จันทบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 1 ส.ค. 2559 ,-,TP1 ขนาด 50 MVA
+541,PNU,โป่งน้ำร้อน 2,Pong Nam Ron 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. จันทบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 1 พ.ค. 2560 ,-,TP1 ขนาด 50 MVA
+542,ATV,อมตะซิตี้ 2,Amata City 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 30 ก.ค. 2560 ,-,TP1 ขนาด 50 MVA
+543,PZV,ปิ่นทอง 3,Pinthong 3,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 6 ส.ค. 2560 ,-,TP1 ขนาด 50 MVA
+544,BBU,บ้านบึง 4,Ban Bueng 4,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 31 ส.ค. 2560 ,-,TP1 ขนาด 50 MVA
+546,BNU,บึง 3,Bueng 3,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 3 ธ.ค. 2560 ,-,TP1 ขนาด 50 MVA
+547,CCX,ฉะเชิงเทรา 2,Chachoengsao 3,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 2 เม.ย. 2561 ,-,TP1 ขนาด 50 MVA
+548,SGA,สันป่าตอง,San Pa Tong,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 25 ก.ค. 2560 , 1. อนุมัติจ่ายไฟ 4YB-01 และ TP2 เพิ่มเติม สฟฟ.สันป่าตอง.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+549,CRB,เชียงราย 2,Chiang Rai 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 28 ก.พ. 2560 ,-,TP1 ขนาด 50 MVA
+553,SAU,สามพราน 3,Sam Phran 3,ชั่วคราว (Mobile Substation) ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 16 พ.ค. 2558 ,-,TP1 ขนาด 50 MVA
+554,SMW,สมุทรสาคร 11,Samut Sakhon 11,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 11 พ.ค. 2560 ,-,TP1 ขนาด 50 MVA
+560,XSU,สันทราย 1,San Sai 1,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 6 ก.พ. 2561 ,-,TP1 ขนาด 50 MVA
+562,PEU,เพชรบูรณ์ 2,Phetchabun 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 28 ธ.ค. 2560 ,-,TP1 ขนาด 25 MVA
+564,PTS,โพธาราม 2,Photharam 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 7 ก.ค. 2560 , 1. กจฟ.ขออนุมัติจ่ายไฟ 1,3YB-01 สฟฟ.โพธาราม 2 เพิ่มเติม.pdf ,TP1 ขนาด 50 MVA
+567,HUB,หัวหิน 2,Hua Hin 2,ถาวร ,115-22kV, Breaker and a half,Without NGR,จ. ประจวบคีรีขันธ์ ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 15 ก.พ. 2542 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+569,BKO,บ้านเขาหลัก,Ban Khao Lak,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. พังงา ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 27 เม.ย. 2560 , 1. อนุมัติIn2 จาก สฟ.สูงตะกั่วป่า กฟผ. และจ่ายไฟสวิตช์เกียร์ เพิ่มเติม ที่ สฟฟ.บ้านเขาหลัก.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+570,CCU,โชคชัย 2,Chok Chai 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 25 มี.ค. 2558 ,-,TP1 ขนาด 50 MVA
+573,KRN,กะรน,Karon,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 20 มิ.ย. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+574,CAU,ชะอำ 3,Cha Am 3,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. เพชรบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 28 ธ.ค. 2560 ,-,TP1 ขนาด 50 MVA
+575,TLH,ถลาง 2,Thalang 2,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 27 ต.ค. 2558 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+576,SQU,สะเดา 3,Sadao 3,ชั่วคราว (Mobile Substation) ,115-33kV,-,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 16 มี.ค. 2558 ,-,TP1 ขนาด 25 MVA
+578,PKC,ภูเก็ต 3,Phuket 3,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 10 ต.ค. 2560 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+579,KFU,เกาะพะงัน,Ko Pha-Ngan,ชั่วคราว (Mobile Substation) ,115-33kV,-,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 30 พ.ย. 2559 ,-,TP1 ขนาด 25 MVA
+584,TLU,ถลาง 3,Thalang 3,ชั่วคราว (Mobile Substation) ,115-33kV,-,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 6 ก.พ. 2561 ,-,TP1 ขนาด 50 MVA
+585,KFA,เกาะพะงัน,Ko Pha-Ngan,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 18 พ.ค. 2560 ,-,TP1 ขนาด 50 MVA
+586,BOB,บ้านดอน 2,Ban Don 2,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 20 มิ.ย. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+587,KBA,กระบี่ 1,Krabi 1,ถาวร ,115-33kV, Breaker and a half,Without NGR,จ. กระบี่ ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 19 ก.พ. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+588,SAD,สามพราน 4,Sam Phran 4,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 10 เม.ย. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+589,LPB,ลำปาง 2,Lampang 2,ถาวร ,22kV,-,Without NGR,จ. ลำปาง ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 3 ส.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าลำปาง 2 (ระบบ 22 kV Indoor Type) จ.ลำปาง ตามโครงการ คชฟ.3.pdf ,KT1A ขนาด 50 MVA,KT2A ขนาด 50 MVA
+590,RCR,โรจนะ 4,Rotchana 4,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 20 ส.ค. 2560 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+592,KHL,คลองสี่,Khlong Si,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 20 มิ.ย. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+594,PTP,พานทอง 2 ,Phan Thong 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 22 มิ.ย. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+595,HEA,เหมราช 1,Hemmaraj 1,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 29 มี.ค. 2558 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+596,PYU,พัทยาใต้ 2,Pattaya Tai 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 28 มิ.ย. 2559 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+597,PMB,พุทธมณฑล 2,Phutthamonthon 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 26 พ.ค. 2547 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+598,NPU,นครปฐม 2,Nakhon Pathom 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 15 ก.พ. 2545 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+599,LAU,ละงู,Langu,ถาวร ,115-33kV, Main and Transfer,Without NGR,จ. สตูล ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 1 พ.ค. 2550 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์ และหม้อแปลง(TP.1) (เพิ่มเติม) ที่ สฟฟ.ละงู จ.สตูล ตาม คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+600,CMB,เชียงใหม่ 2,Chiang Mai 2,ถาวร ,115kV และ 22/33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 30 ต.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าเชียงใหม่ 2 (ระบบ 22 kV Indoor Type) จ.เชียงใหม่ ตามโครงการ คชฟ.3.pdf , 2. อนุมัติรับไฟระบบ 115 kV Incoming ที่ 2 สฟ.เชียงใหม่ 2 ของ กฟผ. เพื่อจ่ายไฟให้สฟฟ.เชียงใหม่ 2.pdf , 3. อนุมัติ ปป รับไฟ 115 kV จาก สฟ.เชียงใหม่ 2 กฟผ. และ ปป จ่ายไฟ 115 kV ที่ สฟฟ.เชียงใหม่ 2.pdf 
+601,MMA,แม่เมาะ,Mae Moh,ชั่วคราว (รับไฟผ่าน recloser) ,22kV,-,Without NGR,จ. ลำปาง ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 9 เม.ย. 2561 , 1. ขออนุมัติรับไฟระบบ 22 kV จากสถานีไฟฟ้าแรงสูงแม่เมาะ 2 ของ กฟผ. เพื่อจ่ายไฟผ่านรีโคลสเซอร์.pdf 
+602,NIC,นิคมอุตสาหกรรมภาคเหนือ 3,Northern Industrial Estate 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ลำพูน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 8 มิ.ย. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+604,CHU,จอมเทียน 2,Chom Thian 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 17 พ.ค. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+605,HOU,ฮอด (หม้อแปลง TP3),Hot,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 23 ม.ค. 2556 ,-,TP3 ขนาด 25 MVA
+609,X93,กระบี่ 1,Krabi 1,ชั่วคราว (Mobile Substation) ,115-33kV,-,Without NGR,จ. กระบี่ ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 25 ธ.ค. 2557 ,-,TP2 ขนาด 25 MVA
+610,KMV,เกาะสมุย 2,Ko Samui 2,ชั่วคราว (Temporary Transformer) ,115-33kV,-,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 25 เม.ย. 2556 ,-,TP2 ขนาด 50 MVA
+611,SMG,สมุทรสาคร 7,Samut Sakhon 7,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 22 ก.ค. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+613,BSL,บางสมัคร 3,Bang Samak 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 16 ก.ย. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+614,QRA,พรหมพิราม,Phrom Phiram,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 31 ส.ค. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+615,TMU,ท่ามะกา 2,Tha Maka 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 1 ก.ย. 2561 ,-,TP1 ขนาด 25 MVA
+616,KWB,คลองขวาง 2,Khlong Khwang 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 26 ส.ค. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+617,NIB,นิคมอุตสาหกรรมภาคเหนือ 2,Northern Industrial Estate 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ลำพูน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 1 ก.ย. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+618,WEA,เวียงสา,Wiang Sa,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. น่าน ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 26 ก.ย. 2561 ,-,TP1 ขนาด 25 MVA
+619,SAC,สามพราน 3,Sam Phran 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 22 ต.ค. 2561 ,-,TP1 ขนาด 50 MVA
+620,NGA,หนองไผ่,Nong Phai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 23 ต.ค. 2561 , 1. กจฟ. ขออนุมัติจ่ายไฟ 4YB-01 และ TP2 เพิ่มเติม สฟฟ.หนองไผ่ จ.เพชรบูรณ์ ตาม คพจ.2.PDF ,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+621,PYG,พัทยากลาง,Pattaya Klang,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 25 ต.ค. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA,TP3 ขนาด 50 MVA
+622,WCN,วังจันทร์,Wang Chan,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 1 พ.ย. 2561 , 1. อนุมัติจ่ายไฟ 3YB-01 และ TP2 สฟฟ.วังจันทร์ เพิ่มเติม คพจ.2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+623,REB,ร้อยเอ็ด 2,Roi Et 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ร้อยเอ็ด ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 12 พ.ย. 2561 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าร้อยเอ็ด 2 จ.ร้อยเอ็ด ตามโครงการ คพส.9.2.pdf ,TP1 ขนาด 50 MVA
+624,KPB,กำแพงเพชร 2,Kamphaeng Phet 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. กำแพงเพชร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 6 ธ.ค. 2561 , 1. อนุมัติจ่ายไฟสวิตช์เกียร์ เพิ่มเติม ที่ สฟฟ.กำแพงเพชร 2 และเปลี่ยนแปลงการจ่ายไฟ.pdf ,TP1 ขนาด 50 MVA
+625,QKA,ภูเขียว,Phu Khieo,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชัยภูมิ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 2 ธ.ค. 2561 ,-,TP2 ขนาด 50 MVA
+626,MFA,แม่ระมาด,Mae Ramat,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ตาก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 25 ธ.ค. 2561 ,-,TP1 ขนาด 50 MVA
+627,BKT,บางกระสั้น 2,Bang Krasan 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 29 ธ.ค. 2561 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าบางกระสั้น 2 ตามโครงการ คพส.9.3 จ.พระนครศรีอยุธยา.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+628,SPO,สองพี่น้อง 2,Song Phi Nong 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 13 ม.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสองพี่น้อง 2 ตามโครงการ คพส.9.3 จ.สุพรรณบุรี.pdf ,TP1 ขนาด 50 MVA
+629,YLC,ยะลา 3,Yala 3,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. ยะลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 15 ม.ค. 2562 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+630,PQD,ปทุมธานี 4,Pathum Thani 4,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 16 ม.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าปทุมธานี 4 จ.ปทุมธานี ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+631,SXA,สินสาคร,Sin Sakhon,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 18 ม.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสินสาคร จ.สมุทรสาคร ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+632,RAD,ระยอง 4,Rayong 4,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 15 ม.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าระยอง 4 จ.ระยอง ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+633,QBA,ป่าบอน,Pa Bon,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. พัทลุง ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 14 ก.พ. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าป่าบอน จ.พัทลุง ตามโครงการ คพส.9.4.pdf ,TP1 ขนาด 50 MVA
+635,NPV,นครปฐม 3,Nakhon Pathom 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 15 ก.พ. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้านครปฐม 3 จ.นครปฐม ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+636,TTN,เขื่อนท่าทุ่งนา,Thathungna Dam,ชั่วคราว (Temporary Transformer) ,22kV,-,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 1 ม.ค. 2523 ,-,KT1A ขนาด 25 MVA
+637,GUN,คลองหนึ่ง,Khlong Nueng,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 17 ก.พ. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าคลองหนึ่ง(ชั่วคราว) จ.ปทุมธานี.pdf ,TP1 ขนาด 40 MVA
+638,KTE,กระทุ่มแบน 5,Krathum Baen 5,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 9 มี.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้ากระทุ่มแบน 5 (ถาวร) จ.สมุทรสาคร ตามโครงการ คพส.8.2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+639,MAA,แม่สะเรียง,Mae Sariang,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. แม่ฮ่องสอน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 9 ก.ย. 2563 , 1. กจฟ.(คฟ.)35145ขออนุมัติจ่ายไฟสถานีไฟฟ้าแม่สะเรียง ระบบ 115 kV จ.แม่ฮ่องสอน ตามโครงการ คพส.9.1.pdf ,TP1 ขนาด 25 MVA
+640,WPT,วาปีปทุม,Wapi Pathum,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. มหาสารคาม ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 28 ก.พ. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าวาปีปทุม จ.มหาสารคาม ตามโครงการ คพส.8.2.pdf ,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+641,KZA,เกาะช้าง,Ko Chang,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ตราด ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 13 มี.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าเกาะช้าง จ.ตราด ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA
+642,SMI,สมุทรสาคร 9,Samut Sakhon 9,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 20 มี.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสมุทรสาคร 9 จ.สมุทรสาคร ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+643,KOB,คลองใหม่ 2,Khlong Mai 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 31 มี.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าคลองใหม่ 2 จ.ฉะเชิงเทรา ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+644,LNT,เลิงนกทา,Loeng Nok Tha,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ยโสธร ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 11 เม.ย. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าเลิงนกทา (ถาวร) จ.ยโสธร.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+645,BNM,บ้านเลน 2,Ban Lane 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 26 เม.ย. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าบ้านเลน 2 จ.พระนครศรีอยุธยา ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+646,SMX,สมุทรสาคร 12,Samut Sakhon 12,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 28 เม.ย. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสมุทรสาคร 12 (ชั่วคราว) จ.สมุทรสาคร.pdf ,TP1 ขนาด 50 MVA
+647,NRU,นครราชสีมา 7,Nakhon Ratchasima 7,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 30 พ.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้านครราชสีมา 7 (ชั่วคราว) จ.นครราชสีมา.pdf ,TP1 ขนาด 50 MVA
+648,PJB,พระพุทธบาท 2,Phra Phutthabat 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 15 มิ.ย. 2562 , 1. กจฟ.(คฟ.) 432_2562 อนุมัติจ่ายไฟสถานีไฟฟ้าพระพุทธบาท 2 จ.สระบุรี ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+649,UDD,อุดรธานี 4,Udon Thani 4,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 5 ก.ค. 2562 , 1. กจฟ.(คฟ.) 488_2562 ขออนุมัติจ่ายไฟสถานีไฟฟ้าอุดรธานี 4 ตามโครงการ คพส.8.1 จ.อุดรธานี.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+651,WUA,วังสะพุง,Wang Sa Phung,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เลย ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 21 ก.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าวังสะพุง ตามโครงการ คพส.9.2 จ.เลย.pdf ,TP1 ขนาด 50 MVA
+652,RBC,ราชบุรี 3,Ratchaburi 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 13 ส.ค. 2562 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+653,QLA,โพทะเล,Pho Thale,ถาวร ,115-22kV, Single Bus Single Breaker,Without NGR,จ. พิจิตร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 30 ส.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าโพทะเล จ.พิจิตร ตามโครงการ คพส.8.2.pdf ,TP1 ขนาด 25 MVA
+654,KVU,กันทรวิชัย,Kantharawichai,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. มหาสารคาม ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 9 ก.ย. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้ากันทรวิชัย (ชั่วคราว) จ.มหาสารคาม.pdf ,TP1 ขนาด 25 MVA
+655,ARB,อรัญประเทศ 2,Aranyaprathet 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระแก้ว ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 25 ก.ย. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าอรัญประเทศ 2 จ.สระแก้ว ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+656,QYA,ปาย,Pai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. แม่ฮ่องสอน ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 17 ต.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าปาย ตามโครงการ คพส.9.1 จ.แม่ฮ่องสอน.pdf , 2. อนุมัติจ่ายไฟสวิตช์เกียร์ Bay 2YB-01,หม้อแปลง (TP.1) และระบบจำหน่าย 22 kV สฟฟ.ปาย คพจ.2.pdf ,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+657,SLB,สงขลา 2,Songkhla 2,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 31 ต.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสงขลา 2 (ถาวร) จ.สงขลา ตามโครงการ คพส.81. และ คพส.9.4.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+658,SOB,สกลนคร 2,Sakon Nakhon 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. สกลนคร ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 1 พ.ย. 2562 , 1. ขออนุมัติรับไฟระบบ 115 kV วงจรที่ 1 จาก สฟ.แรงสูงสกลนคร 2 ของ กฟผ. และจ่ายไฟ สฟฟ.สกลนคร 2 ....pdf ,TP1 ขนาด 50 MVA
+659,EKB,เอกชัย 2,Eka Chai 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 2 ธ.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าเอกชัย 2 (ถาวร) จ.สมุทรสาคร ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+660,GRU,กุฉินารายณ์,Kuchinarai,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. กาฬสินธุ์ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 1 ธ.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้ากุฉินารายณ์ (ชั่วคราว) จ.กาฬสินธุ์.pdf ,TP1 ขนาด 25 MVA
+661,LPC,ลำปาง 3,Lampang 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ลำปาง ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 26 ธ.ค. 2562 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าลำปาง 3 จ.ลำปาง ตามโครงการ คพส.9.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+662,BMB,บ้านใหม่ 2,Ban Mai 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 26 ม.ค. 2563 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าบ้านใหม่ 2 จ.ปทุมธานี ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+663,PLE,พิษณุโลก 5,Phitsanulok 5,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 15 พ.ย. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+664,GTU,ภูเก็ต 5,Phuket 5,ชั่วคราว (Temporary Transformer) ,115-33kV,-,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 19 ก.พ. 2563 ,-,TP1 ขนาด 50 MVA
+665,KKD,ขอนแก่น 4,Khon Kaen 4,ถาวร ,115-22kV, Breaker and a half,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 1 เม.ย. 2563 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าขอนแก่น 4 จ.ขอนแก่น ตามโครงการ คพส.9.2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 25 MVA
+666,XSV,สันทราย 2,San Sai 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, สถานียกเลิกการใช้งาน/รื้อถอน , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสันทราย 2 (ชั่วคราว) จ.เชียงใหม่.pdf ,TP1 ขนาด 40 MVA
+667,PYB,พะเยา 2,Phayao 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. พะเยา ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 18 ก.ค. 2561 , 1. อนุมัติจ่ายไฟ.pdf ,TP1 ขนาด 25 MVA
+668,BEU,บางเลน 2,Bang Lane 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 11 พ.ค. 2563 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าบางเลน 2 (ชั่วคราว) จ.นครปฐม.PDF ,TP1 ขนาด 50 MVA
+669,RCS,โรจนะ 5,Rotchana 5,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 24 พ.ค. 2563 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าโรจนะ 5 จ.พระนครศรีอยุธยา ตามโครงการ คพส.3.PDF ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+670,MSB,แม่สอด 2,Mae Sot 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ตาก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 12 มิ.ย. 2563 , 1. กจฟ.(คฟ.)30065ขออนุมัติจ่ายไฟสถานีไฟฟ้าแม่สอด 2 จ.ตาก ตามโครงการ คพพ.1.PDF ,TP1 ขนาด 25 MVA
+671,KLU,กาฬสินธุ์ 2,Kalasin 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. กาฬสินธุ์ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 31 ก.ค. 2563 , 1. กจฟ.(คฟ)35072อนุมัติจ่ายไฟสถานีไฟฟ้ากาฬสินธุ์ 2 ชั่วคราว.pdf ,TP1 ขนาด 25 MVA
+672,TMV,ท่าม่วง 2,Tha Muang 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 24 ก.ค. 2563 , 1. กจฟ.(คฟ.)35071 ขออนุมัติจ่ายไฟสถานีไฟฟ้าท่าม่วง 2 (ชั่วคราว) จ.กาญจนบุรี.PDF ,TP1 ขนาด 25 MVA
+673,XBA,สายบุรี,Sai Buri,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. ปัตตานี ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 7 ส.ค. 2563 , 1. กจฟ.(คฟ.)35088ขออนุมัติจ่ายไฟชั่วคราวผ่านอุปกรณ์ 33 kV สฟฟ.สายบุรี จ.ปัตตานี คพส.9.4.pdf ,TP1 ขนาด 50 MVA
+674,BRB,บุรีรัมย์ 2,Buri Ram 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. บุรีรัมย์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 1 ส.ค. 2563 , 1. กจฟ.(คฟ.)35081ขออนุมัติจ่ายไฟสถานีไฟฟ้าบุรีรัมย์ 2 จ.บุรีรัมย์ ตามโครงการ คพส.9.2.pdf ,TP1 ขนาด 50 MVA
+675,FYU,แปลงยาว,Plaeng Yao,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 23 ส.ค. 2563 , 1. กจฟ.(คฟ.)35108ขออนุมัติจ่ายไฟสถานีไฟฟ้าแปลงยาว (ชั่วคราว) จ.ฉะเชิงเทรา.pdf ,TP1 ขนาด 50 MVA
+676,RCQ,โรจนะ 3,Rotchana 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 28 ส.ค. 2561 ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+677,STU,สทิงพระ,Sathing Phra,ชั่วคราว (Temporary Transformer) ,115-33kV,-,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 8 ก.ย. 2563 , 1. กจฟ.(คฟ.)35144ขออนุมัติจ่ายไฟสถานีไฟฟ้าสทิงพระ (ชั่วคราว) จ.สงขลา.pdf ,TP1 ขนาด 25 MVA
+678,NEA,น้ำยืน,Nam Yuen,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 19 ก.ย. 2563 , 1. กจฟ.(คฟ.)35155อนุมัติจ่ายไฟสถานีไฟฟ้าน้ำยืน จ.อุบลราชธานี ตามโครงการ คพส.9.2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+679,NRE,นครราชสีมา 5,Nakhon Ratchasima 5,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 12 ต.ค. 2563 ,-,TP1 ขนาด 50 MVA
+680,UDU,อุดรธานี 5,Udon Thani 5,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. อุดรธานี ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 30 ต.ค. 2563 , 1. กจฟ.(คฟ.)35224อนุมัติจ่ายไฟสถานีไฟฟ้าอุดรธานี 5 (ชั่วคราว).pdf ,TP1 ขนาด 25 MVA
+681,BOU,บ่อพลอย 2 ,Bo Phloi,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 17 พ.ย. 2563 , 1. กจฟ.(คฟ.)35271อนุมัติจ่ายไฟสถานีไฟฟ้าบ่อพลอย 2 (ชั่วคราว) จ.กาญจนบุรี.pdf ,TP1 ขนาด 25 MVA
+682,CIU,เชียงคำ,Chaing Kham,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. พะเยา ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 10 ธ.ค. 2563 , 1. กจฟ.(คฟ.)35316อนุมัติจ่ายไฟสถานีไฟฟ้าเชียงคำ (ชั่วคราว) จ.พะเยา.pdf ,TP1 ขนาด 25 MVA
+683,AKB,อมตะนคร 2,Amata Nakhon 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 6 ธ.ค. 2563 , 1. กจฟ.(คฟ.)35311อนุมัติจ่ายไฟสถานีไฟฟ้าอมตะนคร 2 จ.ชลบุรี ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+684,BKJ,บ้านค่าย 3,Ban Khai 3,ถาวร ,115kV, Breaker and a half,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 14 ม.ค. 2564 , 1. กจฟ.(คฟ.)17อนุมัติจ่ายไฟ สถานีไฟฟ้าบ้านค่าย 3.pdf 
+685,PLY,ปลวกแดง 5,Pluak Daeng 5,ถาวร ,115kV, Breaker and a half,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 11 เม.ย. 2564 , 1. กจฟ.(คฟ.)184ขออนุมัติจ่ายไฟระบบ 115 kV สถานีไฟฟ้าปลวกแดง 5 (ลานไก) จ.ระยอง ตามโครงการ คพส.8.1.pdf 
+687,ONC,อ้อมน้อย 3,Om Noi 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 9 พ.ค. 2564 , 1. กจฟ.(คฟ.)238ขออนุมัติจ่ายไฟสถานีไฟฟ้าอ้อมน้อย 3 (ถาวร) จ.สมุทรสาคร ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+688,NUA,หนองม่วง,Nong Muang,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 18 ม.ค. 2564 , 1. กจฟ.(คฟ.)3อนุมัติจ่ายไฟสถานีไฟฟ้าหนองม่วง จ.ลพบุรี ตามโครงการ คพส.9.1.pdf ,TP2 ขนาด 50 MVA
+689,UTU,อุตรดิตถ์ 2,Uttaradit 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. อุตรดิตถ์ ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 24 ธ.ค. 2563 , 1. กจฟ.(คฟ.)35347ขออนุมัติจ่ายไฟสถานีไฟฟ้าอุตรดิตถ์ 2 (ชั่วคราว) จ.อุตรดิตถ์.pdf ,TP1 ขนาด 25 MVA
+760,DDA,ด่านนอก,Dan Nok,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 25 ธ.ค. 2563 , 1. กจฟ.(คฟ.)35353อนุมัติจ่ายไฟสถานีไฟฟ้าด่านนอก จ.สงขลา ตามโครงการ คพพ.1.pdf ,TP1 ขนาด 50 MVA
+761,CCB,ฉะเชิงเทรา 2,Chachoengsao 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 6 มี.ค. 2564 , 1. กจฟ.(คฟ.)131อนุมัติจ่ายไฟสถานีไฟฟ้าฉะเชิงเทรา 2 จ.ฉะเชิงเทรา ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+762,SRU,สระบุรี 6,Saraburi 6,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 16 ม.ค. 2564 , 1. กจฟ.(คฟ.)11ขออนุมัติจ่ายไฟสถานีไฟฟ้าสระบุรี 6 (ชั่วคราว).pdf ,TP1 ขนาด 25 MVA
+764,ESU,อีสเทิร์นซีบอร์ด 3,Eastern Seaboard 3,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ระยอง ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 14 ก.พ. 2564 , 1. กจฟ.(คฟ.)84อนุมัติจ่ายไฟสถานีไฟฟ้าอีสเทิร์นซีบอร์ด 3 (ชั่วคราว) จ.ระยอง.pdf ,TP1 ขนาด 50 MVA
+765,MUB,เมืองเอก 2,Muang Ake 2,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 25 ธ.ค. 2564 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าเมืองเอก 2 จ.ปทุมธานี ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+766,CBD,ชลบุรี 4,Chon Buri 4,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 21 มิ.ย. 2564 , 1. 1601.ขออนุมัติจ่ายไฟสถานีไฟฟ้าชลบุรี 4 จ.ชลบุรี ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+767,KHC,คลองเจ็ด,Khlong Chet,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 28 ก.พ. 2564 , 1. กจฟ.(คฟ.)106อนุมัติจ่ายไฟสถานีไฟฟ้าคลองเจ็ด จ.ปทุมธานี ตามโครงการ คพส.8.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+768,QTA,ปะทิว,Pathiu,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชุมพร ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 24 มี.ค. 2564 , 1. กจฟ.(คฟ.)151ขออนุมัติจ่ายไฟสถานีไฟฟ้าปะทิว จ.ชุมพร ตามโครงการ คพส.9.4.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+769,WAB,วังน้อย 2,Wang Noi 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 14 มี.ค. 2564 , 1. กจฟ.(คฟ.)134ขออนุมัติจ่ายไฟสถานีไฟฟ้าวังน้อย 2 จ.พระนครศรีอยุธยา ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+770,KMU,เกาะสมุย 3,Ko Samui 3,ชั่วคราว (Temporary Transformer) ,115-33kV,-,Without NGR,จ. สุราษฎร์ธานี ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 29 ต.ค. 2564 , 1. กจฟ.(คฟ.)146ขออนุมัติจ่ายไฟสถานีไฟฟ้าเกาะสมุย 3 (ชั่วคราว) จ.สุราษฎร์ธานี.pdf ,TP1 ขนาด 50 MVA
+771,LHU,ละหานทราย,Lahan Sai,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. บุรีรัมย์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 25 มี.ค. 2564 , 1. กจฟ.(คฟ.)161ขออนุมัติจ่ายไฟสถานีไฟฟ้าละหานทราย (ชั่วคราว) จ.บุรีรัมย์.pdf ,TP1 ขนาด 50 MVA
+772,PZW,ปิ่นทอง 2,Pinthong 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 21 มี.ค. 2564 , 1. กจฟ.(คฟ.)155ขออนุมัติจ่ายไฟสถานีไฟฟ้าปิ่นทอง 2 (ชั่วคราว) จ.ชลบุรี.pdf ,TP1 ขนาด 50 MVA
+773,FAU,ฝาง,Fang,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 17 มี.ค. 2564 , 1. กจฟ.(คฟ.)156ขออนุมัติจ่ายไฟสถานีไฟฟ้าฝาง (ชั่วคราว) จ.เชียงใหม่.pdf ,TP1 ขนาด 25 MVA,TP3 ขนาด 25 MVA
+774,CRU,เชียงราย 3,Chiang Rai 3,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 8 เม.ย. 2564 , 1. กจฟ.(คฟ.)188ขออนุมัติจ่ายไฟสถานีไฟฟ้าเชียงราย 3 (ชั่วคราว) จ.เชียงราย.pdf ,TP1 ขนาด 25 MVA
+775,SCU,ศรีราชา 2,Si Racha 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 4 พ.ค. 2564 , 1. กจฟ.(คฟ.)230อนุมัติจ่ายไฟสถานีไฟฟ้าศรีราชา 2 (ชั่วคราว) จ.ชลบุรี.pdf ,TP1 ขนาด 50 MVA
+776,NRD,นครราชสีมา 4,Nakhon Ratchasima 4,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 1 พ.ค. 2564 , 1. กจฟ.(คฟ.)237อนุมัติจ่ายไฟสถานีไฟฟ้านครราชสีมา 4 จ.นครราชสีมา คพส.9.2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+777,NRF,นครราชสีมา 6,Nakhon Ratchasima 6,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 18 ก.ค. 2564 , 1. กจฟ.(คฟ.)344อนุมัติจ่ายไฟสถานีไฟฟ้านครราชสีมา 6 จ.นครราชสีมา ตามโครงการ คพญ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+779,PLZ,พิษณุโลก 6,Phitsanulok 6,ชั่วคราว (Modular) ,115-22kV,-,Without NGR,จ. พิษณุโลก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 28 พ.ค. 2564 , 1. กจฟ.(คฟ.)263อนุมัติจ่ายไฟสถานีไฟฟ้าพิษณุโลก 6 (ชั่วคราว) จ.พิษณุโลก.pdf ,TP1 ขนาด 25 MVA
+780,NZU,จักราช,Chakkarat,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 9 มิ.ย. 2564 , 1. กจฟ.(คฟ.)293อนุมัติจ่ายไฟสถานีไฟฟ้าโนนสูง (ชั่วคราว) จ.นครราชสีมา.pdf ,TP1 ขนาด 50 MVA
+781,SJB,ศรีสะเกษ 2,Si Sa Ket 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ศรีสะเกษ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 29 ก.ย. 2564 , 1. กจฟ.(คฟ.)458อนุมัติจ่ายไฟสถานีไฟฟ้าศรีสะเกษ 2 จ.ศรีสะเกษ ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+782,SFB,สีคิ้ว 2,Sikhiu 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 5 ต.ค. 2564 , 1. กจฟ.(คฟ.)483อนุมัติจ่ายไฟสถานีไฟฟ้าสีคิ้ว 2 จ.นครราชสีมา ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+783,XNA,สูงเนิน,Sung Noen,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 23 ต.ค. 2564 , 1. กจฟ.(คฟ.)514ขออนุมัติจ่ายไฟสถานีไฟฟ้าสูงเนิน จ.นครราชสีมา ตาม คพจ.1.pdf ,TP1 ขนาด 50 MVA
+784,CYB,ชัยภูมิ 2,Chaiyaphum 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชัยภูมิ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 15 ก.พ. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าชัยภูมิ 2 จ.ชัยภูมิ ตามโครงการ คพส.9.2.pdf ,TP1 ขนาด 50 MVA
+785,KQA,คูคต,Khu Khot,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 26 พ.ย. 2564 , 1. กจฟ.(คฟ.)565อนุมัติจ่ายไฟสถานีไฟฟ้าคูคต (ถาวร) จ.ปทุมธานี ตามโครงการ คพส.9.3 และ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+786,NJA,นาทวี,Na Thawi,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 9 ก.ค. 2564 , 1. กจฟ.(คฟ)335จ่ายไฟชั่วคราวผ่านอุปกรณ์ 33 kv ของสถานีไฟฟ้านาทวี จ.สงขลา ตามโครงการ คพจ.1.pdf , 2. อนุมัติจ่ายไฟสวิตช์เกียร์ระบบ 115 kV และหม้อแปลง (TP.1) ที่ สฟฟ.นาทวี จ.สงขลา.pdf ,TP1 ขนาด 50 MVA
+787,LWA,เลาขวัญ,Lao Khwan,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 17 ต.ค. 2564 , 1. กจฟ.(คฟ.)503อนุมัติจ่ายไฟสถานีไฟฟ้าเลาขวัญ (ถาวร) จ.กาญจนบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+788,KBK,กบินทร์บุรี 3,Kabin Buri 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 14 พ.ย. 2564 , 1. กจฟ.(คฟ.)552อนุมัติจ่ายไฟสถานีไฟฟ้ากบินทร์บุรี 3 (ถาวร) จ.ปราจีนบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+789,KBL,กบินทร์บุรี 4,Kabin Buri 4,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 7 พ.ย. 2564 , 1. กจฟ.(คฟ.)540อนุมัติจ่ายไฟสถานีไฟฟ้ากบินทร์บุรี 4 (ถาวร) จ.ปราจีนบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+790,PXU,พัฒนานิคม 2,Phatthana Nikhom 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 21 ส.ค. 2564 ,-,TP1 ขนาด 40 MVA
+791,KCE,กาญจนบุรี 4,Kanchana Buri 4,ถาวร ,115-22kV, Single Bus Single Breaker,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 6 ก.ย. 2564 , 1. กจฟ.(คฟ.)414อนุมัติจ่ายไฟสถานีไฟฟ้ากาญจนบุรี 4 จ.กาญจนบุรี ตามโครงการ คพพ.2.pdf ,TP1 ขนาด 50 MVA
+792,NOU,หนองใหญ่ 2,Nong Yai 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 19 ก.ย. 2564 , 1. กจฟ.(คฟ.)431อนุมัติจ่ายไฟสถานีไฟฟ้าหนองใหญ่ 2 (ชั่วคราว) จ.ชลบุรี.pdf ,TP1 ขนาด 40 MVA
+793,ONU,อ้อมน้อย 5,Om Noi 5,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 28 ก.ย. 2564 , 1. กจฟ.(คฟ.)457 อนุมัติจ่ายไฟสถานีไฟฟ้าอ้อมน้อย 5 (ชั่วคราว) จ.สมุทรสาคร.pdf ,TP1 ขนาด 50 MVA
+794,NSC,นครสวรรค์ 3,Nakhon Sawan 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครสวรรค์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 11 มิ.ย. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้านครสวรรค์ 3 จ.นครสวรรค์ ตามโครงการ คพส.9.1.pdf ,TP1 ขนาด 50 MVA
+795,PZC,ปิ่นทอง 3,Pinthong 3,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 1 พ.ย. 2564 , 1. กจฟ.(คฟ.)522อนุมัติจ่ายไฟสถานีไฟฟ้าปิ่นทอง 3 จ.ชลบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+796,XSB,สันทราย 2,San Sai 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 30 พ.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าสันทราย 2 จ.เชียงใหม่ ตามโครงการ คพจ.1.pdf , 2. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสันทราย 2 จ.เชียงใหม่ แบบ In-Out (Non-Teleprotection).pdf ,TP2 ขนาด 50 MVA
+797,MEB,แม่สาย 2,Mae Sai 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เชียงราย ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 5 ก.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าแม่สาย 2 จ.เชียงราย ตามโครงการ คพพ.2.pdf ,TP1 ขนาด 50 MVA
+798,PYO,พัทยาเหนือ 2,Pattaya Nua 2,ถาวร ,115-22kV, Double Bus Double Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 20 เม.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าพัทยาเหนือ 2 (ถาวร) จ.ชลบุรี ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+799,QHA,พยุหะคีรี,Phayuha Khiri,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครสวรรค์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 19 ส.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าพยุหะคีรี จ.นครสวรรค์ ตามโครงการ คพจ.1.pdf , 2. กจฟ.ขออนุมัติจ่ายไฟ 3YB-01 และ 4YB-01 TP2 สฟฟ.พยุหะคีรี จ.นครสวรรค์.PDF ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+800,GUU,เขาคิชฌกูฏ,Khao Khitchakut,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. จันทบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 7 พ.ย. 2564 , 1. กจฟ.(คฟ.)543อนุมัติจ่ายไฟสถานีไฟฟ้าเขาคิชฌกูฏ (ชั่วคราว) จ.จันทบุรี.pdf ,TP1 ขนาด 50 MVA
+801,PKD,ภูเก็ต 4,Phuket 4,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ภูเก็ต ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 28 ก.พ. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าภูเก็ต 4 จ.ภูเก็ต ตามโครงการ คพส.9.4.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+802,CAC,ชะอำ 3,Cha Am 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เพชรบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 15 มี.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าชะอำ 3 (ถาวร) จ.เพชรบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+803,KCC,กาญจนบุรี 3,Kanchana Buri 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. กาญจนบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 18 เม.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้ากาญจนบุรี 3 จ.กาญจนบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+804,PRU,ปทุมราชวงศา,Pathum Ratchawongsa,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. อำนาจเจริญ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 29 มี.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าปทุมราชวงศา (ชั่วคราว) จ.อำนาจเจริญ.pdf ,TP1 ขนาด 50 MVA
+805,HEB,เหมราช 2,Hemmaraj 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 23 ม.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าเหมราช 2 จ.ชลบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+806,BBD,บ้านบึง 4,Ban Bueng 4,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 4 ก.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าบ้านบึง 4 จ.ชลบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+808,IBA,อินทร์บุรี,In Buri,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สิงห์บุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 29 พ.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าอินทร์บุรี (ถาวร) จ.สิงห์บุรี คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+809,BQA,บ้านไร่,Ban Rai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อุทัยธานี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 19 เม.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าบ้านไร่ จ.อุทัยธานี คพจ.1.pdf ,TP1 ขนาด 25 MVA
+810,XPA,สวนผึ้ง,Suan Phueng,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ราชบุรี ,กฟต.1, อนุมัติจ่ายไฟ วันที่ 20 ธ.ค. 2564 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าสวนผึ้ง จ.ราชบุรี ตามโครงการ คพส.9.4.pdf ,TP1 ขนาด 50 MVA
+812,XEA,เสิงสาง,Soeng Sang,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 29 เม.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าเสิงสาง จ.นครราชสีมา คพจ.1.pdf ,TP1 ขนาด 50 MVA
+813,HYE,หาดใหญ่ 5,Hat Yai 5,ถาวร ,115-33kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สงขลา ,กฟต.3, อนุมัติจ่ายไฟ วันที่ 7 ก.ย. 2566 , 1. กจฟ.ขออนุมัติจ่ายไฟ สฟฟ.หาดใหญ่ 5.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+814,DTU,ด่านขุนทด 3,Dan Khun Thot 3,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 4 เม.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าด่านขุดทด 3 (ชั่วคราว) จ.นครราชสีมา.pdf ,TP1 ขนาด 50 MVA
+815,WBA,วชิรบารมี,Wachirabarami,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. พิจิตร ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 7 ก.พ. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าวชิรบารมี (ถาวร) จ.พิจิตร คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 25 MVA
+816,XTA,สตึก,Satuk,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. บุรีรัมย์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 17 มี.ค. 2565 , 1. อนุมัติรับไฟระบบ 115 kV Incoming 1 สฟ.บุรีรัมย์ ของ กฟผ. และจ่ายไฟ สฟฟ.สตึก.pdf ,TP1 ขนาด 50 MVA
+817,LOK,หล่มเก่า,Lom Kao,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 1 ก.พ. 2565 , 1. อนุมัติจ่ายไฟ สฟฟ.หล่มเก่า (ถาวร) จ.เพชรบูรณ์ ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+818,BHO,บ้านโพธิ์,Ban Pho,ถาวร ,115kV, Breaker and a half,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 27 มี.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าบ้านโพธิ์ (ลานไก) จ.ฉะเชิงเทรา คพจ.1.pdf 
+819,NNB,นครพนม 2,Nakhon Phanom 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครพนม ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 6 ก.ย. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้านครพนม 2 จ.นครพนม ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+820,PEB,เพชรบูรณ์ 2,Phetchabun 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 25 ก.ค. 2566 , 1. อนุมัติจ่ายไฟ สฟฟ.เพชรบูรณ์ 2 คพส.9.1.pdf ,TP1 ขนาด 50 MVA
+821,XIA,โซ่พิสัย,So Phisai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. บึงกาฬ ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 24 ก.พ. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าโซ่พิสัย จ.บึงกาฬ ตามโครงการ คพจ.1....pdf ,TP2 ขนาด 50 MVA
+822,GRA,กุฉินารายณ์,Kuchinarai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. กาฬสินธุ์ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 5 เม.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้ากุฉินารายณ์ จ.กาฬสินธุ์ ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+823,MSX,แม่สอด 5,Mae Sot 5,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ตาก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 6 พ.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าแม่สอด 5 (ชั่วคราว) จ.ตาก.pdf ,TP1 ขนาด 25 MVA
+824,XDA,สอยดาว,Soi Dao,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. จันทบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 20 ธ.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าสอยดาว จ.จันทบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+825,SMQ,ศรีมหาโพธิ 2,Si Maha Phot 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 4 มิ.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าศรีมหาโพธิ 2 จ. ปราจีนบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+826,ZTA,บุณฑริก,Buntharik,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 8 ก.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าบุณฑริก จ.อุบลราชธานี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 25 MVA,TP2 ขนาด 25 MVA
+827,SRF,สระบุรี 6,Saraburi 6,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สระบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 31 ก.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าสระบุรี 6 จ.สระบุรี.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+832,WWA,วานรนิวาส,Wanon Niwat,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สกลนคร ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 9 ม.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าวานรนิวาส จ.สกลนคร ตามโครงการ คพจ.1.PDF ,TP2 ขนาด 50 MVA
+833,SPB,สุพรรณบุรี 2,Suphan Buri 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 25 พ.ย. 2565 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าสุพรรณบุรี 2 จ.สุพรรณบุรี ตามโครงการ คพจ.1.PDF ,TP2 ขนาด 50 MVA
+834,NDA,หนองบัวแดง,Nong Bua Daeng,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชัยภูมิ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 27 ก.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าหนองบัวแดง จ.ชัยภูมิ ตาม คพจ.1.pdf ,TP2 ขนาด 50 MVA
+835,NZA,โนนสูง,Non Sung,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 4 พ.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าโนนสูง จ.นครราชสีมา ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+836,TNA,ท่ายาง,Tha Yang,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เพชรบุรี ,กฟต.1, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+837,BEV,บางเลน 3 (ชั่วคราว),Bang Lane 3,ชั่วคราว (Modular Substation) ,115-22kV,-,Without NGR,จ. นครปฐม ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 30 ส.ค. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าบางเลน 3 (ชั่วคราว) จ.นครปฐม.pdf ,TP1 ขนาด 25 MVA
+838,OYM,อ้อมใหญ่ 4,Om Yai 4,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 24 ม.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าอ้อมใหญ่ 4 จ.นครปฐม ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+839,UTV,อู่ทอง 2,U Thong 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. สุพรรณบุรี ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 23 ก.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าอู่ทอง 2 (ชั่วคราว) จ.สุพรรณบุรี.pdf ,TP1 ขนาด 25 MVA
+840,KTM,คลองท่อม,Khlong Thom,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. กระบี่ ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 28 ก.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าคลองท่อม (ถาวร) จ.กระบี่ ตามโครงการ คพส.8.1.pdf , 2. อนุมัติจ่ายไฟสวิตช์เกียร์ Bay 2YB-01,หม้อแปลง (TP.1) สฟฟ.คลองท่อม คพจ.2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+841,BBC,บ้านบึง 3,Ban Bueng 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 5 มี.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าบ้านบึง 3 จ.ชลบุรี ตามโครงการ คพส.9.3 และ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+842,CTB,จันทบุรี 2,Chanthaburi 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. จันทบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 14 ธ.ค. 2565 , 1. กจฟ.ขออนุมัติจ่ายไฟ สฟฟ.จันทบุรี 2 ตาม คพส.9.3.PDF ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+843,PGU,พังงา,Phang Nga,ชั่วคราว () ,33kV,-,Without NGR,จ. พังงา ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 21 ก.ย. 2565 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าพังงา (ชั่วคราว) ระบบ 33 kV จ.พังงา.pdf ,KT1A ขนาด 25 MVA,KT2A ขนาด 25 MVA
+844,KLB,กาฬสินธุ์ 2,Kalasin 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. กาฬสินธุ์ ,กฟฉ.2, อนุมัติจ่ายไฟ วันที่ 22 ธ.ค. 2565 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้ากาฬสินธุ์ 2 จ.กาฬสินธุ์ ตามโครงการ คพส.9.2.PDF ,TP1 ขนาด 50 MVA
+845,SCB,ศรีราชา 2,Si Racha 2,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 29 เม.ย. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าศรีราชา 2 จ.ชลบุรี ตามโครงการ คพส.9.3.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+846,NKC,หนองคาย 3,Nong Khai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. หนองคาย ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 13 ม.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าหนองคาย 3 จ.หนองคาย ตามโครงการ คพพ.1.PDF ,TP1 ขนาด 50 MVA
+847,BTA,บรรพตพิสัย,Banphot Phisai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครสวรรค์ ,กฟน.3, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 25 MVA
+848,WOA,วังเจ้า,Wang Chao,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ตาก ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 18 ก.ย. 2566 , 1. อนุมัติรับไฟ สฟ.ตาก EGAT และจ่ายไฟ สฟฟ.วังเจ้า.pdf ,TP1 ขนาด 50 MVA
+849,AYC,อยุธยา 3,Ayutthaya 3,ถาวร ,115kV, Breaker and a half,Without NGR,จ. พระนครศรีอยุธยา ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 6 พ.ย. 2565 , 1. กจฟ. ขออนุมัติรับไฟ Inc 3 จาก สฟ.อยุธยา 3 และจ่ายไฟ สฟฟ.อยุธยา 3 ลานไก ตาม คพจ.1.PDF 
+850,NVU,นวนคร 2,Nava Nakhon 2,ชั่วคราว (Modular Substation) ,115-22kV,-,Without NGR,จ. ปทุมธานี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 5 ธ.ค. 2565 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้านวนคร 2 (ชั่วคราว) จ.ปทุมธานี.pdf ,TP1 ขนาด 50 MVA
+851,XSA,สันทราย 1,San Sai 1,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 22 มี.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าสันทราย 1 จ.เชียงใหม่ ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+852,KBX,กบินทร์บุรี 6,Kabin Buri 6,ชั่วคราว (Modular Substation) ,115-22kV,-,Without NGR,จ. ปราจีนบุรี ,กฟก.1, อนุมัติจ่ายไฟ วันที่ 15 ธ.ค. 2565 , 1. กจฟ.ขออนุมัติจ่ายไฟ สฟฟ.กบินทร์บุรี 6 ชค จ.ปราจีนบุรี.PDF ,TP1 ขนาด 50 MVA
+853,DTV,ด่านขุนทด 2,Dan Khun Thot 2,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 26 ธ.ค. 2565 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าด่านขุนทด 2 (ชั่วคราว) จ.นครราชสีมา.PDF ,TP1 ขนาด 25 MVA
+854,CGA,ไชยปราการ,Chai Prakan,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 26 มี.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าไชยปราการ จ.เชียงใหม่ ตามโครงการ คพจ.1.pdf ,TP2 ขนาด 50 MVA
+855,BFA,บ้านแพง,Ban Phaeng,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครพนม ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 8 พ.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าบ้านแพง จ.นครพนม ตามโครงการ คพจ.1.pdf ,TP2 ขนาด 50 MVA
+856,PWA,ปักธงชัย,Pak Thong Chai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 3 มี.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าปักธงชัย จ.นครราชสีมา ตามโครงการ คพส.9.2.pdf ,TP1 ขนาด 50 MVA
+857,BVA,บ่อทอง,Bo Thong,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 15 มี.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าบ่อทอง จ.ชลบุรี ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+858,CMG,เชียงใหม่ 7,Chiang Mai 7,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เชียงใหม่ ,กฟน.1, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+859,BNH,บึง 3,Bueng 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชลบุรี ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 9 ก.ค. 2566 , 1. อนุมัติจ่ายไฟ สฟฟ.บึง 3 จ.ชลบุรี คพจ.1 และจ่ายไฟ BAY5YB-01 คพจ.2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+860,TWU,ท่าวังผา,Tha Wang Pha,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. น่าน ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 30 พ.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าท่าวังผา (ชั่วคราว) จ.น่าน.pdf ,TP1 ขนาด 50 MVA
+861,KTS,กันทรลักษ์ 2,Kantharalak 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ศรีสะเกษ ,กฟฉ.2, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+862,TOA,ตรอน,Tron,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อุตรดิตถ์ ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 3 ก.ค. 2566 , 1. ขออนุมัติจ่ายไฟ สฟฟ.ตรอน จ.อุตรดิตถ์.pdf ,TP2 ขนาด 50 MVA
+863,PSU,ปราสาท 2,Prasat 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. สุรินทร์ ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 4 ก.ย. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าปราสาท 2 จ.สุรินทร์ ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA
+864,KBU,กบินทร์บุรี 3,Kabin Buri 3,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ปราจีนบุรี ,กฟก.1, สถานียกเลิกการใช้งาน/รื้อถอน ,-,TP1 ขนาด 50 MVA
+865,KLJ,คลองเจ็ด,Khlong Chet,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ปทุมธานี ,กฟก.1, สถานียกเลิกการใช้งาน/รื้อถอน ,-,TP1 ขนาด 40 MVA
+867,SMY,ศรีมหาโพธิ 2,Si Maha Phot 2,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ปราจีนบุรี ,กฟก.1, สถานียกเลิกการใช้งาน/รื้อถอน ,-,TP1 ขนาด 50 MVA
+870,AKD,อมตะนคร 4,Amata Nakhon 4,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ชลบุรี ,กฟก.2, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+871,LWU,เลาขวัญ,Lao Khwan,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. กาญจนบุรี ,กฟก.3, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+872,CME,เชียงใหม่ 5,Chiang Mai 5,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เชียงใหม่ ,กฟน.1, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 25 MVA
+876,NSG,โนนสูง,Non Sung,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. อุดรธานี ,กฟฉ.1, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 25 MVA
+878,KXU,เกษตรสมบูรณ์,Kaset Sombun,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ชัยภูมิ ,กฟฉ.3, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 25 MVA
+879,NRV,นครราชสีมา 9,Nakhon Ratchasima 9,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. นครราชสีมา ,กฟฉ.3, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+880,HUA,หัวหิน 1,Hua Hin 1,ถาวร ,115-22kV, Breaker and a half,Without NGR,จ. ประจวบคีรีขันธ์ ,กฟต.1, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+881,HCU,ห้างฉัตร,Hang Chat,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. ลำปาง ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 12 เม.ย. 2566 , 1. กจฟ. ขออนุมัติจ่ายไฟ สฟฟ.ห้างฉัตร (ชั่วคราว) จ.ลำปาง.pdf ,TP1 ขนาด 40 MVA
+883,KKV,ขอนแก่น 7,Khon Kaen 7,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. ขอนแก่น ,กฟฉ.1, อนุมัติจ่ายไฟ วันที่ 12 พ.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าขอนแก่น 7 (ชั่วคราว) จ.ขอนแก่น.pdf ,TP1 ขนาด 50 MVA
+884,SAV,สามพราน 5,Sam Phran 5,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. นครปฐม ,กฟก.3, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+885,LHA,ละหานทราย,Lahan Sai,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. บุรีรัมย์ ,กฟฉ.3, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+886,BZA,บ้านเหลื่อม,Ban Lueam,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. นครราชสีมา ,กฟฉ.3, อนุมัติจ่ายไฟ วันที่ 4 ก.ย. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าบ้านเหลื่อม จ.นครราชสีมา ตามโครงการ คพจ.1.pdf ,TP2 ขนาด 50 MVA
+888,SMJ,สมุทรสาคร 10,Samut Sakhon 10,ถาวร ,115-22kV, Main and Transfer,Without NGR,จ. สมุทรสาคร ,กฟก.3, อนุมัติจ่ายไฟ วันที่ 3 ก.ค. 2566 , 1. กจฟ.ขออนุมัติจ่ายไฟ สฟฟ.สมุทรสาคร 10 (ถาวร).pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+889,TGA,ทุ่งช้าง,Thung Chang,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. น่าน ,กฟน.2, อนุมัติจ่ายไฟ วันที่ 2 ต.ค. 2566 , 1. กจฟ.ขออนุมัติจ่ายไฟ สฟฟ.ทุ่งช้าง จ.น่าน.pdf ,TP2 ขนาด 50 MVA
+890,KVV,เขาค้อ,Khao Kho,ชั่วคราว (Temporary Transformer) ,115-22kV,-,Without NGR,จ. เพชรบูรณ์ ,กฟน.3, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 25 MVA
+891,WDA,สว่างแดนดิน,Sawang Daen Din,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. สกลนคร ,กฟฉ.1, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+892,BUB,บึงกาฬ 2,Bueng Kan 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. บึงกาฬ ,กฟฉ.1, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+893,PYW,พัทยาใต้ 3,Pattaya Tai 3,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. ชลบุรี ,กฟก.2, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+897,LBC,ลพบุรี 3,Lop Buri 3,ถาวร ,115-22kV,-,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 30 มิ.ย. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าลพบุรี 3 จ.ลพบุรี ตามโครงการ คพส.9.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+899,ATC,อ่างทอง 3,Ang Thong 3,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. อ่างทอง ,กฟก.1, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+901,CMI,เชียงใหม่ 9,Chiang Mai 9,ถาวร ,115-22kV, GIS-Indoor/Double Bus Singer Breaker,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 20 ส.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าเชียงใหม่ 9 จ.เชียงใหม่ ตามโครงการ คพจ.2.pdf ,TP1 ขนาด 50 MVA
+902,BZD,บางสมัคร 4,Bang Samak 4,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ฉะเชิงเทรา ,กฟก.2, อนุมัติจ่ายไฟ วันที่ 13 ส.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าบางสมัคร 4 จ.ฉะเชิงเทรา ตามโครงการ คพจ.1.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+903,GOA,คลองแงะ,Khlong Nhae,ถาวร ,115kV, Breaker and a half,Without NGR,จ. สงขลา ,กฟต.3, ยังไม่อนุมัติจ่ายไฟ ,-,KT1A ขนาด 50 MVA
+904,TZA,ท่าศาลา,Tha Sala,ถาวร ,115-33kV, H-Configuration,Without NGR,จ. นครศรีธรรมราช ,กฟต.2, อนุมัติจ่ายไฟ วันที่ 4 ส.ค. 2566 , 1. อนุมัติจ่ายไฟสถานีไฟฟ้าท่าศาลา จ.นครศรีธรรมราช.pdf ,TP1 ขนาด 50 MVA
+905,PXB,พัฒนานิคม 2,Phatthana Nikhom 2,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. ลพบุรี ,กฟน.3, อนุมัติจ่ายไฟ วันที่ 29 ส.ค. 2566 , 1. ขออนุมัติจ่ายไฟสถานีไฟฟ้าพัฒนานิคม 2 จ.ลพบุรี ตามโครงการ คพจ.2.pdf ,TP1 ขนาด 50 MVA,TP2 ขนาด 50 MVA
+906,SHA,สารภี,Saraphi,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. เชียงใหม่ ,กฟน.1, อนุมัติจ่ายไฟ วันที่ 12 ต.ค. 2566 ,-,TP2 ขนาด 50 MVA
+907,RXA,รัตนบุรี,Rattanaburi,ถาวร ,115-22kV, H-Configuration,Without NGR,จ. สุรินทร์ ,กฟฉ.3, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 50 MVA
+908,LSU,เหล่าเสือโก้ก,Lao Suea Kok,ชั่วคราว (Mobile Substation) ,115-22kV,-,Without NGR,จ. อุบลราชธานี ,กฟฉ.2, ยังไม่อนุมัติจ่ายไฟ ,-,TP1 ขนาด 25 MVA
