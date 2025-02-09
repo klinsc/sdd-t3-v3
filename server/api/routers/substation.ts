@@ -236,6 +236,13 @@ export const substationRouter = createTRPCRouter({
       }),
     )
     .mutation(async ({ ctx, input }) => {
+      const { user } = ctx.session
+      if (user.email !== 'klinsc.sea@live.com') {
+        throw new Error(
+          'You are not authorized to perform this action',
+        )
+      }
+
       const { id, ...data } = input
 
       return ctx.db.substation.update({
