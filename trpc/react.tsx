@@ -59,11 +59,12 @@ export function TRPCReactProvider(props: {
             (op.direction === 'down' && op.result instanceof Error),
         }),
         unstable_httpBatchStreamLink({
+          transformer: SuperJSON,
           url: getBaseUrl() + '/api/trpc',
           headers: () => {
-            return {
-              'x-trpc-source': 'nextjs-react',
-            }
+            const headers = new Headers()
+            headers.set('x-trpc-source', 'nextjs-react')
+            return headers
           },
         }),
       ],
