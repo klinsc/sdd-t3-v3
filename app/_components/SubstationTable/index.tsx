@@ -193,6 +193,7 @@ export default function SubstationTable() {
         busArrangement: newRow.busArrangement as BusArrangement,
         isTemporary: newRow.isTemporary as boolean,
         isUnmanned: newRow.isUnmanned as boolean,
+        isAddedBay: newRow.isAddedBay as boolean,
         addressId: newRow.addressId as string,
         deedNumber: newRow.deedNumber as string,
         voltageLevel: newRow.voltageLevel as VoltageLevel,
@@ -325,6 +326,13 @@ export default function SubstationTable() {
         type: 'boolean',
         editable: true,
         width: columnWidth?.['isUnmanned'] ?? 120,
+      },
+      {
+        field: 'isAddedBay',
+        headerName: 'เพิ่ม Bay',
+        type: 'boolean',
+        editable: true,
+        width: columnWidth?.['isAddedBay'] ?? 120,
       },
       {
         field: 'addressId',
