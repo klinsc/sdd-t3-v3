@@ -224,6 +224,8 @@ export const substationRouter = createTRPCRouter({
         addressId: z.string(),
         deedNumber: z.string(),
         voltageLevel: z.nativeEnum(VoltageLevel),
+        newLineBayCount: z.number(),
+        newTransformerBayCount: z.number(),
         lineBayCount: z.number(),
         transformerBayCount: z.number(),
         feederCount: z.number(),
