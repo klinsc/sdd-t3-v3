@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 
 import { api } from '@/trpc/react'
@@ -5,7 +6,9 @@ import AddIcon from '@mui/icons-material/Add'
 import CancelIcon from '@mui/icons-material/Close'
 import DeleteIcon from '@mui/icons-material/DeleteOutlined'
 import EditIcon from '@mui/icons-material/Edit'
+import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 import SaveIcon from '@mui/icons-material/Save'
+import { IconButton } from '@mui/material'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
 import {
@@ -460,6 +463,26 @@ export default function SubstationTable() {
       type: 'number',
       editable: true,
       width: columnWidth?.['longitude'] ?? 120,
+    },
+    {
+      field: 'mapUrl',
+      headerName: 'แผนที่',
+      renderCell: (params) => {
+        const url = `https://maps.google.com/?q=${params.row.latitude},${params.row.longitude}`
+
+        return (
+          <Button
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            size="small">
+            <IconButton>
+              <OpenInNewIcon />
+            </IconButton>
+          </Button>
+        )
+      },
+      width: columnWidth?.['approvalDate'] ?? 120,
     },
     {
       field: 'approvalDate',
