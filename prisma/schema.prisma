@@ -95,9 +95,11 @@ model Substation {
 
     voltageLevel VoltageLevel
 
-    lineBayCount        Int
-    transformerBayCount Int
-    feederCount         Int
+    newLineBayCount        Int @default(0)
+    newTransformerBayCount Int @default(0)
+    lineBayCount           Int
+    transformerBayCount    Int
+    feederCount            Int
 
     communicationTopology CommunicationTopology
 
