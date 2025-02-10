@@ -285,6 +285,14 @@ export default function SubstationTable() {
       headerName: 'เอกสาร',
       type: 'string',
       editable: true,
+      renderCell: (params) => {
+        const url = params.value as string
+        return (
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            {url}
+          </a>
+        )
+      },
     },
     {
       field: 'abbreviation',
