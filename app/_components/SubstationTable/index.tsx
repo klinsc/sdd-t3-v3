@@ -12,6 +12,7 @@ import {
   GridActionsCellItem,
   type GridColDef,
   type GridEventListener,
+  GridRenderCellParams,
   GridRowEditStopReasons,
   type GridRowId,
   type GridRowModel,
@@ -33,6 +34,7 @@ import {
 } from '@prisma/client'
 import {
   NotificationsProvider,
+  useLocalStorageState,
   useNotifications,
 } from '@toolpad/core'
 import { useEffect, useState } from 'react'
@@ -126,15 +128,22 @@ export default function SubstationTable() {
   // state: rows data
   const [rows, setRows] = useState<EditableRow[]>([])
 
-  const [rowModesModel, setRowModesModel] =
-    useState<GridRowModesModel>({})
-
-  const hello = api.post.hello.useQuery(
-    { text: 'test' },
+  // state: the width of each column
+  const [columnWidth, setColumnWidth] = useLocalStorageState<
+    Record<string, number>
+  >(
+    'substation-table-column-width',
+    {},
     {
-      refetchOnWindowFocus: false,
+      codec: {
+        stringify: JSON.stringify,
+        parse: JSON.parse,
+      },
     },
   )
+
+  const [rowModesModel, setRowModesModel] =
+    useState<GridRowModesModel>({})
 
   const substations = api.substation.getAll.useQuery(undefined, {
     refetchOnWindowFocus: false,
@@ -267,18 +276,18 @@ export default function SubstationTable() {
   const columns: GridColDef<Substation>[] = [
     {
       field: 'isVerified',
-      headerName: 'Verified',
+      headerName: 'ยืนยัน',
       type: 'boolean',
       editable: true,
-      width: 120,
+      width: columnWidth?.['isVerified'] ?? 120,
     },
     {
       field: 'name',
       headerName: 'ชื่อ',
       type: 'string',
-      width: 200,
       sortable: true,
       editable: true,
+      width: columnWidth?.['name'] ?? 200,
     },
     {
       field: 'scannedDocumentUrl',
@@ -293,13 +302,14 @@ export default function SubstationTable() {
           </a>
         )
       },
+      width: columnWidth?.['scannedDocumentUrl'] ?? 200,
     },
     {
       field: 'abbreviation',
       headerName: 'ชื่อย่อ',
       type: 'string',
       editable: true,
-      width: 110,
+      width: columnWidth?.['abbreviation'] ?? 120,
     },
     {
       field: 'area',
@@ -310,6 +320,7 @@ export default function SubstationTable() {
         value,
         label: value,
       })),
+      width: columnWidth?.['area'] ?? 120,
     },
     {
       field: 'stationType',
@@ -320,7 +331,7 @@ export default function SubstationTable() {
         label: value,
       })),
       editable: true,
-      width: 150,
+      width: columnWidth?.['stationType'] ?? 150,
     },
     {
       field: 'busArrangement',
@@ -331,57 +342,63 @@ export default function SubstationTable() {
         label: value,
       })),
       editable: true,
-      width: 150,
+      width: columnWidth?.['busArrangement'] ?? 150,
     },
     {
       field: 'isTemporary',
       headerName: 'ชั่วคราว',
       type: 'boolean',
       editable: true,
-      width: 120,
+      width: columnWidth?.['isTemporary'] ?? 120,
     },
     {
       field: 'isUnmanned',
       headerName: 'Unmanned',
       type: 'boolean',
       editable: true,
-      width: 120,
+      width: columnWidth?.['isUnmanned'] ?? 120,
     },
     {
       field: 'addressId',
       headerName: 'ที่อยู่',
       type: 'string',
       editable: true,
+      width: columnWidth?.['addressId'] ?? 200,
     },
     {
       field: 'deedNumber',
       headerName: 'เลขโฉนด',
       type: 'string',
       editable: true,
+      width: columnWidth?.['deedNumber'] ?? 120,
     },
     {
       field: 'voltageLevel',
       headerName: 'แรงดัน',
       type: 'string',
       editable: true,
+      width: columnWidth?.['voltageLevel'] ?? 120,
     },
     {
       field: 'lineBayCount',
       headerName: 'Line Bay',
       type: 'number',
       editable: true,
+      width: columnWidth?.['lineBayCount'] ?? 120,
     },
     {
       field: 'transformerBayCount',
       headerName: 'Transformer Bay',
       type: 'number',
       editable: true,
+      width: columnWidth?.['transformerBayCount'] ?? 120,
     },
     {
       field: 'feederCount',
       headerName: 'Feeder',
       type: 'number',
       editable: true,
+      width: columnWidth?.['feederCount'] ?? 120,
     },
     {
       field: 'communicationTopology',
@@ -394,54 +411,63 @@ export default function SubstationTable() {
         }),
       ),
       editable: true,
+      width: columnWidth?.['communicationTopology'] ?? 120,
     },
     {
       field: 'demolitionCost',
       headerName: 'Demolition Cost',
       type: 'number',
       editable: true,
+      width: columnWidth?.['demolitionCost'] ?? 120,
     },
     {
       field: 'electricalCost',
       headerName: 'Electrical Cost',
       type: 'number',
       editable: true,
+      width: columnWidth?.['electricalCost'] ?? 120,
     },
     {
       field: 'civilCost',
       headerName: 'Civil Cost',
       type: 'number',
       editable: true,
+      width: columnWidth?.['civilCost'] ?? 120,
     },
     {
       field: 'securityCost',
       headerName: 'Security Cost',
       type: 'number',
       editable: true,
+      width: columnWidth?.['securityCost'] ?? 120,
     },
     {
       field: 'totalCost',
       headerName: 'Total Cost',
       type: 'number',
       editable: true,
+      width: columnWidth?.['totalCost'] ?? 120,
     },
     {
       field: 'latitude',
       headerName: 'Latitude',
       type: 'number',
       editable: true,
+      width: columnWidth?.['latitude'] ?? 120,
     },
     {
       field: 'longitude',
       headerName: 'Longitude',
       type: 'number',
       editable: true,
+      width: columnWidth?.['longitude'] ?? 120,
     },
     {
       field: 'approvalDate',
       headerName: 'Approval',
       type: 'date',
       editable: true,
+      width: columnWidth?.['approvalDate'] ?? 120,
     },
     {
       field: 'actions',
@@ -510,6 +536,12 @@ export default function SubstationTable() {
           },
         }}>
         <DataGrid
+          onColumnWidthChange={(newWidth) => {
+            setColumnWidth({
+              ...columnWidth,
+              [`${newWidth.colDef.field}`]: newWidth.width,
+            })
+          }}
           rows={rows}
           columns={columns}
           editMode="row"
