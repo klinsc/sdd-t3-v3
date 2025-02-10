@@ -87,6 +87,7 @@ model Substation {
 
     isTemporary Boolean
     isUnmanned  Boolean
+    isAddedBay  Boolean @default(false)
 
     addressId String
 
