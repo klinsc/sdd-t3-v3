@@ -202,6 +202,8 @@ export const substationRouter = createTRPCRouter({
       return a.name.localeCompare(b.name, 'th')
     })
 
+    void ctx.db.$disconnect()
+
     return substations
   }),
 
@@ -246,10 +248,14 @@ export const substationRouter = createTRPCRouter({
 
       const { id, ...data } = input
 
-      return ctx.db.substation.update({
+      const updated = await ctx.db.substation.update({
         where: { id },
         data,
       })
+
+      void ctx.db.$disconnect()
+
+      return updated
     }),
 
   updateAbbrv: protectedProcedure
@@ -262,10 +268,14 @@ export const substationRouter = createTRPCRouter({
     .mutation(async ({ ctx, input }) => {
       const { id, ...data } = input
 
-      return ctx.db.substation.update({
+      const updated = await ctx.db.substation.update({
         where: { id },
         data,
       })
+
+      void ctx.db.$disconnect()
+
+      return updated
     }),
 
   getLatest: protectedProcedure.query(async ({ ctx }) => {
@@ -273,6 +283,8 @@ export const substationRouter = createTRPCRouter({
       orderBy: { createdAt: 'desc' },
       where: { createdBy: { id: ctx.session.user.id } },
     })
+
+    void ctx.db.$disconnect()
 
     return post ?? null
   }),
