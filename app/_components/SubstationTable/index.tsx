@@ -23,6 +23,7 @@ import {
   type GridRowModesModel,
   type GridRowsProp,
   type GridSlotProps,
+  GridToolbar,
   GridToolbarContainer,
   type GridValidRowModel,
 } from '@mui/x-data-grid'
@@ -108,6 +109,19 @@ export default function SubstationTable() {
       },
     },
   )
+
+  // state: column visibility
+  const [columnVisibility, setColumnVisibility] =
+    useLocalStorageState<Record<string, boolean>>(
+      'substation-table-column-visibility',
+      {},
+      {
+        codec: {
+          stringify: JSON.stringify,
+          parse: JSON.parse,
+        },
+      },
+    )
 
   const [rowModesModel, setRowModesModel] =
     useState<GridRowModesModel>({})
@@ -572,7 +586,11 @@ export default function SubstationTable() {
           onRowModesModelChange={handleRowModesModelChange}
           onRowEditStop={handleRowEditStop}
           processRowUpdate={processRowUpdate}
-          slots={{ toolbar: EditToolbar }}
+          slots={{ toolbar: GridToolbar }}
+          columnVisibilityModel={columnVisibility || undefined}
+          onColumnVisibilityModelChange={(newModel) => {
+            setColumnVisibility(newModel)
+          }}
           slotProps={{
             toolbar: {
               setRows: setRows as unknown as (
