@@ -1,5 +1,6 @@
 'use client'
 
+import { api } from '@/trpc/react'
 import AddIcon from '@mui/icons-material/Add'
 import CancelIcon from '@mui/icons-material/Close'
 import DeleteIcon from '@mui/icons-material/DeleteOutlined'
@@ -12,7 +13,6 @@ import {
   GridActionsCellItem,
   type GridColDef,
   type GridEventListener,
-  GridRenderCellParams,
   GridRowEditStopReasons,
   type GridRowId,
   type GridRowModel,
@@ -38,7 +38,6 @@ import {
   useNotifications,
 } from '@toolpad/core'
 import { useEffect, useState } from 'react'
-import { api } from '@/trpc/react'
 
 // const initialRows: GridRowsProp = [
 //   {
