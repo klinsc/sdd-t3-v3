@@ -1,16 +1,12 @@
-import * as React from 'react'
 import Typography from '@mui/material/Typography'
-// import { auth } from '../../auth'
-import { redirect } from 'next/navigation'
+import { auth } from '../../auth'
 
 export default async function HomePage() {
-  // const session = await auth()
-
-  void redirect('/substation')
+  const session = await auth()
 
   return (
     <Typography>
-      {/* Welcome to Toolpad, {session?.user?.name || 'User'}! */}
+      Welcome to Toolpad, {session?.user?.name || 'User'}!
     </Typography>
   )
 }
