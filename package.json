@@ -10,6 +10,7 @@
   "dependencies": {
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@fontsource/noto-sans-thai": "^5.1.1",
     "@mui/icons-material": "^6",
     "@mui/material": "^6",
     "@mui/material-nextjs": "^6",
