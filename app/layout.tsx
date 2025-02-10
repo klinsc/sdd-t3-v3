@@ -1,17 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
-import * as React from 'react'
-import { NextAppProvider } from '@toolpad/core/nextjs'
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
-import DashboardIcon from '@mui/icons-material/Dashboard'
-import BarChartIcon from '@mui/icons-material/BarChart'
 import CorporateFareIcon from '@mui/icons-material/CorporateFare'
-import DescriptionIcon from '@mui/icons-material/Description'
-import LayersIcon from '@mui/icons-material/Layers'
+import DashboardIcon from '@mui/icons-material/Dashboard'
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
+import { NextAppProvider } from '@toolpad/core/nextjs'
+import * as React from 'react'
 
 import type { Navigation } from '@toolpad/core/AppProvider'
 import { SessionProvider, signIn, signOut } from 'next-auth/react'
+import { Noto_Sans_Thai } from 'next/font/google'
 import { auth } from '../auth'
 import theme from '../theme'
+
+const notoSansThai = Noto_Sans_Thai({
+  subsets: ['thai'],
+  weight: ['400', '700'],
+})
 
 const NAVIGATION: Navigation = [
   {
@@ -31,32 +34,6 @@ const NAVIGATION: Navigation = [
   {
     kind: 'divider',
   },
-  // {
-  //   kind: 'header',
-  //   title: 'Analytics',
-  // },
-  // {
-  //   segment: 'reports',
-  //   title: 'Reports',
-  //   icon: <BarChartIcon />,
-  //   children: [
-  //     {
-  //       segment: 'sales',
-  //       title: 'Sales',
-  //       icon: <DescriptionIcon />,
-  //     },
-  //     {
-  //       segment: 'traffic',
-  //       title: 'Traffic',
-  //       icon: <DescriptionIcon />,
-  //     },
-  //   ],
-  // },
-  // {
-  //   segment: 'integrations',
-  //   title: 'Integrations',
-  //   icon: <LayersIcon />,
-  // },
 ]
 
 const BRANDING = {
@@ -84,7 +61,7 @@ export default async function RootLayout(props: {
       lang="en"
       data-toolpad-color-scheme="light"
       suppressHydrationWarning>
-      <body>
+      <body className={`${notoSansThai.className}`}>
         <SessionProvider session={session}>
           <AppRouterCacheProvider options={{ enableCssLayer: true }}>
             <NextAppProvider
