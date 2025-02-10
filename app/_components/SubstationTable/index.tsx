@@ -39,46 +39,9 @@ import {
   NotificationsProvider,
   useLocalStorageState,
   useNotifications,
+  useSession,
 } from '@toolpad/core'
-import { useEffect, useState } from 'react'
-
-// const initialRows: GridRowsProp = [
-//   {
-//     id: randomId(),
-//     name: randomTraderName(),
-//     age: 25,
-//     joinDate: randomCreatedDate(),
-//     role: randomRole(),
-//   },
-//   {
-//     id: randomId(),
-//     name: randomTraderName(),
-//     age: 36,
-//     joinDate: randomCreatedDate(),
-//     role: randomRole(),
-//   },
-//   {
-//     id: randomId(),
-//     name: randomTraderName(),
-//     age: 19,
-//     joinDate: randomCreatedDate(),
-//     role: randomRole(),
-//   },
-//   {
-//     id: randomId(),
-//     name: randomTraderName(),
-//     age: 28,
-//     joinDate: randomCreatedDate(),
-//     role: randomRole(),
-//   },
-//   {
-//     id: randomId(),
-//     name: randomTraderName(),
-//     age: 23,
-//     joinDate: randomCreatedDate(),
-//     role: randomRole(),
-//   },
-// ]
+import { useEffect, useMemo, useState } from 'react'
 
 declare module '@mui/x-data-grid' {
   interface ToolbarPropsOverrides {
@@ -126,6 +89,8 @@ interface EditableRow extends Substation {
 export default function SubstationTable() {
   // context: message
   const notifications = useNotifications()
+
+  const session = useSession()
 
   // state: rows data
   const [rows, setRows] = useState<EditableRow[]>([])
@@ -275,274 +240,286 @@ export default function SubstationTable() {
     setRowModesModel(newRowModesModel)
   }
 
-  const columns: GridColDef<Substation>[] = [
-    {
-      field: 'isVerified',
-      headerName: 'ยืนยัน',
-      type: 'boolean',
-      editable: true,
-      width: columnWidth?.['isVerified'] ?? 120,
-    },
-    {
-      field: 'name',
-      headerName: 'ชื่อ',
-      type: 'string',
-      sortable: true,
-      editable: true,
-      width: columnWidth?.['name'] ?? 200,
-    },
-    {
-      field: 'scannedDocumentUrl',
-      headerName: 'เอกสาร',
-      type: 'string',
-      editable: true,
-      renderCell: (params) => {
-        const url = params.value as string
-        return (
-          <a href={url} target="_blank" rel="noopener noreferrer">
-            {url}
-          </a>
-        )
+  const columns: GridColDef<Substation>[] = useMemo(() => {
+    const newColumns = [
+      {
+        field: 'isVerified',
+        headerName: 'ยืนยัน',
+        type: 'boolean',
+        editable: true,
+        width: columnWidth?.['isVerified'] ?? 120,
       },
-      width: columnWidth?.['scannedDocumentUrl'] ?? 200,
-    },
-    {
-      field: 'abbreviation',
-      headerName: 'ชื่อย่อ',
-      type: 'string',
-      editable: true,
-      width: columnWidth?.['abbreviation'] ?? 120,
-    },
-    {
-      field: 'area',
-      headerName: 'เขต',
-      editable: true,
-      type: 'singleSelect',
-      valueOptions: Object.values(Area).map((value) => ({
-        value,
-        label: value,
-      })),
-      width: columnWidth?.['area'] ?? 120,
-    },
-    {
-      field: 'stationType',
-      headerName: 'ประเภท',
-      type: 'singleSelect',
-      valueOptions: Object.values(StationType).map((value) => ({
-        value,
-        label: value,
-      })),
-      editable: true,
-      width: columnWidth?.['stationType'] ?? 150,
-    },
-    {
-      field: 'busArrangement',
-      headerName: 'รูปแบบ',
-      type: 'singleSelect',
-      valueOptions: Object.values(BusArrangement).map((value) => ({
-        value,
-        label: value,
-      })),
-      editable: true,
-      width: columnWidth?.['busArrangement'] ?? 150,
-    },
-    {
-      field: 'isTemporary',
-      headerName: 'ชั่วคราว',
-      type: 'boolean',
-      editable: true,
-      width: columnWidth?.['isTemporary'] ?? 120,
-    },
-    {
-      field: 'isUnmanned',
-      headerName: 'Unmanned',
-      type: 'boolean',
-      editable: true,
-      width: columnWidth?.['isUnmanned'] ?? 120,
-    },
-    {
-      field: 'addressId',
-      headerName: 'ที่อยู่',
-      type: 'string',
-      editable: true,
-      width: columnWidth?.['addressId'] ?? 200,
-    },
-    {
-      field: 'deedNumber',
-      headerName: 'เลขโฉนด',
-      type: 'string',
-      editable: true,
-      width: columnWidth?.['deedNumber'] ?? 120,
-    },
-    {
-      field: 'voltageLevel',
-      headerName: 'แรงดัน',
-      type: 'string',
-      editable: true,
-      width: columnWidth?.['voltageLevel'] ?? 120,
-    },
-    {
-      field: 'lineBayCount',
-      headerName: 'Line Bay',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['lineBayCount'] ?? 120,
-    },
-    {
-      field: 'transformerBayCount',
-      headerName: 'Transformer Bay',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['transformerBayCount'] ?? 120,
-    },
-    {
-      field: 'feederCount',
-      headerName: 'Feeder',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['feederCount'] ?? 120,
-    },
-    {
-      field: 'communicationTopology',
-      headerName: 'Topology',
-      type: 'singleSelect',
-      valueOptions: Object.values(CommunicationTopology).map(
-        (value) => ({
+      {
+        field: 'name',
+        headerName: 'ชื่อ',
+        type: 'string',
+        sortable: true,
+        editable: true,
+        width: columnWidth?.['name'] ?? 200,
+      },
+      {
+        field: 'scannedDocumentUrl',
+        headerName: 'เอกสาร',
+        type: 'string',
+        editable: true,
+        renderCell: (params: { value: string }) => {
+          const url = params.value as string
+          return (
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              {url}
+            </a>
+          )
+        },
+        width: columnWidth?.['scannedDocumentUrl'] ?? 200,
+      },
+      {
+        field: 'abbreviation',
+        headerName: 'ชื่อย่อ',
+        type: 'string',
+        editable: true,
+        width: columnWidth?.['abbreviation'] ?? 120,
+      },
+      {
+        field: 'area',
+        headerName: 'เขต',
+        editable: true,
+        type: 'singleSelect',
+        valueOptions: Object.values(Area).map((value) => ({
           value,
           label: value,
-        }),
-      ),
-      editable: true,
-      width: columnWidth?.['communicationTopology'] ?? 120,
-    },
-    {
-      field: 'demolitionCost',
-      headerName: 'Demolition Cost',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['demolitionCost'] ?? 120,
-    },
-    {
-      field: 'electricalCost',
-      headerName: 'Electrical Cost',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['electricalCost'] ?? 120,
-    },
-    {
-      field: 'civilCost',
-      headerName: 'Civil Cost',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['civilCost'] ?? 120,
-    },
-    {
-      field: 'securityCost',
-      headerName: 'Security Cost',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['securityCost'] ?? 120,
-    },
-    {
-      field: 'totalCost',
-      headerName: 'Total Cost',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['totalCost'] ?? 120,
-    },
-    {
-      field: 'latitude',
-      headerName: 'Latitude',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['latitude'] ?? 120,
-    },
-    {
-      field: 'longitude',
-      headerName: 'Longitude',
-      type: 'number',
-      editable: true,
-      width: columnWidth?.['longitude'] ?? 120,
-    },
-    {
-      field: 'mapUrl',
-      headerName: 'แผนที่',
-      renderCell: (params) => {
-        const url = `https://maps.google.com/?q=${params.row.latitude},${params.row.longitude}`
-
-        return (
-          <Button
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            size="small">
-            <IconButton>
-              <OpenInNewIcon />
-            </IconButton>
-          </Button>
-        )
+        })),
+        width: columnWidth?.['area'] ?? 120,
       },
-      width: columnWidth?.['approvalDate'] ?? 120,
-    },
-    {
-      field: 'approvalDate',
-      headerName: 'Approval',
-      type: 'date',
-      editable: true,
-      width: columnWidth?.['approvalDate'] ?? 120,
-    },
-    {
-      field: 'actions',
-      type: 'actions',
-      headerName: 'Actions',
-      width: 100,
-      cellClassName: 'actions',
-      getActions: ({ id }) => {
-        const isInEditMode =
-          rowModesModel[id]?.mode === GridRowModes.Edit
-
-        if (isInEditMode) {
-          return [
-            <GridActionsCellItem
-              key={'save'}
-              icon={<SaveIcon />}
-              label="Save"
-              sx={{
-                color: 'primary.main',
-              }}
-              onClick={handleSaveClick(id)}
-            />,
-            <GridActionsCellItem
-              key={'cancel'}
-              icon={<CancelIcon />}
-              label="Cancel"
-              className="textPrimary"
-              onClick={handleCancelClick(id)}
-              color="inherit"
-            />,
-          ]
-        }
-
-        return [
-          <GridActionsCellItem
-            key={'edit'}
-            icon={<EditIcon />}
-            label="Edit"
-            className="textPrimary"
-            onClick={handleEditClick(id)}
-            color="inherit"
-          />,
-          <GridActionsCellItem
-            key={'delete'}
-            icon={<DeleteIcon />}
-            label="Delete"
-            onClick={handleDeleteClick(id)}
-            color="inherit"
-          />,
-        ]
+      {
+        field: 'stationType',
+        headerName: 'ประเภท',
+        type: 'singleSelect',
+        valueOptions: Object.values(StationType).map((value) => ({
+          value,
+          label: value,
+        })),
+        editable: true,
+        width: columnWidth?.['stationType'] ?? 150,
       },
-    },
-  ]
+      {
+        field: 'busArrangement',
+        headerName: 'รูปแบบ',
+        type: 'singleSelect',
+        valueOptions: Object.values(BusArrangement).map((value) => ({
+          value,
+          label: value,
+        })),
+        editable: true,
+        width: columnWidth?.['busArrangement'] ?? 150,
+      },
+      {
+        field: 'isTemporary',
+        headerName: 'ชั่วคราว',
+        type: 'boolean',
+        editable: true,
+        width: columnWidth?.['isTemporary'] ?? 120,
+      },
+      {
+        field: 'isUnmanned',
+        headerName: 'Unmanned',
+        type: 'boolean',
+        editable: true,
+        width: columnWidth?.['isUnmanned'] ?? 120,
+      },
+      {
+        field: 'addressId',
+        headerName: 'ที่อยู่',
+        type: 'string',
+        editable: true,
+        width: columnWidth?.['addressId'] ?? 200,
+      },
+      {
+        field: 'deedNumber',
+        headerName: 'เลขโฉนด',
+        type: 'string',
+        editable: true,
+        width: columnWidth?.['deedNumber'] ?? 120,
+      },
+      {
+        field: 'voltageLevel',
+        headerName: 'แรงดัน',
+        type: 'string',
+        editable: true,
+        width: columnWidth?.['voltageLevel'] ?? 120,
+      },
+      {
+        field: 'lineBayCount',
+        headerName: 'Line Bay',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['lineBayCount'] ?? 120,
+      },
+      {
+        field: 'transformerBayCount',
+        headerName: 'Transformer Bay',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['transformerBayCount'] ?? 120,
+      },
+      {
+        field: 'feederCount',
+        headerName: 'Feeder',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['feederCount'] ?? 120,
+      },
+      {
+        field: 'communicationTopology',
+        headerName: 'Topology',
+        type: 'singleSelect',
+        valueOptions: Object.values(CommunicationTopology).map(
+          (value) => ({
+            value,
+            label: value,
+          }),
+        ),
+        editable: true,
+        width: columnWidth?.['communicationTopology'] ?? 120,
+      },
+      {
+        field: 'demolitionCost',
+        headerName: 'Demolition Cost',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['demolitionCost'] ?? 120,
+      },
+      {
+        field: 'electricalCost',
+        headerName: 'Electrical Cost',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['electricalCost'] ?? 120,
+      },
+      {
+        field: 'civilCost',
+        headerName: 'Civil Cost',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['civilCost'] ?? 120,
+      },
+      {
+        field: 'securityCost',
+        headerName: 'Security Cost',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['securityCost'] ?? 120,
+      },
+      {
+        field: 'totalCost',
+        headerName: 'Total Cost',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['totalCost'] ?? 120,
+      },
+      {
+        field: 'latitude',
+        headerName: 'Latitude',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['latitude'] ?? 120,
+      },
+      {
+        field: 'longitude',
+        headerName: 'Longitude',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['longitude'] ?? 120,
+      },
+      {
+        field: 'mapUrl',
+        headerName: 'แผนที่',
+        renderCell: (params: {
+          row: { latitude: number; longitude: number }
+        }) => {
+          const url = `https://maps.google.com/?q=${params.row.latitude},${params.row.longitude}`
+
+          return (
+            <Button
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              size="small">
+              <IconButton>
+                <OpenInNewIcon />
+              </IconButton>
+            </Button>
+          )
+        },
+        width: columnWidth?.['approvalDate'] ?? 120,
+      },
+      {
+        field: 'approvalDate',
+        headerName: 'Approval',
+        type: 'date',
+        editable: true,
+        width: columnWidth?.['approvalDate'] ?? 120,
+      },
+      // {
+      //   field: 'actions',
+      //   type: 'actions',
+      //   headerName: 'Actions',
+      //   width: 100,
+      //   cellClassName: 'actions',
+      //   getActions: ({ id }) => {
+      //     const isInEditMode =
+      //       rowModesModel[id]?.mode === GridRowModes.Edit
+
+      //     if (isInEditMode) {
+      //       return [
+      //         <GridActionsCellItem
+      //           key={'save'}
+      //           icon={<SaveIcon />}
+      //           label="Save"
+      //           sx={{
+      //             color: 'primary.main',
+      //           }}
+      //           onClick={handleSaveClick(id)}
+      //         />,
+      //         <GridActionsCellItem
+      //           key={'cancel'}
+      //           icon={<CancelIcon />}
+      //           label="Cancel"
+      //           className="textPrimary"
+      //           onClick={handleCancelClick(id)}
+      //           color="inherit"
+      //         />,
+      //       ]
+      //     }
+
+      //     return [
+      //       <GridActionsCellItem
+      //         key={'edit'}
+      //         icon={<EditIcon />}
+      //         label="Edit"
+      //         className="textPrimary"
+      //         onClick={handleEditClick(id)}
+      //         color="inherit"
+      //       />,
+      //       <GridActionsCellItem
+      //         key={'delete'}
+      //         icon={<DeleteIcon />}
+      //         label="Delete"
+      //         onClick={handleDeleteClick(id)}
+      //         color="inherit"
+      //       />,
+      //     ]
+      //   },
+      // },
+    ]
+
+    return newColumns.map((column) => ({
+      ...column,
+      editable:
+        session?.user?.email === 'klinsc.sea@live.com'
+          ? column.editable
+          : false,
+    })) as GridColDef<Substation>[]
+  }, [columnWidth, session?.user?.email])
 
   return (
     <NotificationsProvider>
