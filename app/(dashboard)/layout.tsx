@@ -7,7 +7,7 @@ export default function Layout(props: {
   children: React.ReactNode
 }) {
   return (
-    <DashboardLayout>
+    <DashboardLayout defaultSidebarCollapsed>
       <PageContainer>
         <TRPCReactProvider>{props.children}</TRPCReactProvider>
       </PageContainer>
