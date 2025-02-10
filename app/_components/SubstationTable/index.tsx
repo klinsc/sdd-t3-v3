@@ -492,7 +492,7 @@ export default function SubstationTable() {
     <NotificationsProvider>
       <Box
         sx={{
-          height: 500,
+          height: 900,
           width: '100%',
           '& .actions': {
             color: 'text.secondary',
