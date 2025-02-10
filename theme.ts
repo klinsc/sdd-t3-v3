@@ -1,13 +1,15 @@
+'use client'
 
-  "use client";
-  import { createTheme } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles'
 
-  const theme = createTheme({
-    cssVariables: {
-      colorSchemeSelector: 'data-toolpad-color-scheme',
-    },
-    colorSchemes: { light: true, dark: true },
-  });
+const theme = createTheme({
+  cssVariables: {
+    colorSchemeSelector: 'data-toolpad-color-scheme',
+  },
+  colorSchemes: { light: true, dark: true },
+  typography: {
+    fontFamily: 'Noto Sans Thai, Roboto, sans-serif',
+  },
+})
 
-  export default theme;
-  
+export default theme
