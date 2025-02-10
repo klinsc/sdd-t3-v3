@@ -198,6 +198,8 @@ export default function SubstationTable() {
         deedNumber: newRow.deedNumber as string,
         voltageLevel: newRow.voltageLevel as VoltageLevel,
 
+        newLineBayCount: newRow.lineBayCount as number,
+        newTransformerBayCount: newRow.transformerBayCount as number,
         lineBayCount: newRow.lineBayCount as number,
         transformerBayCount: newRow.transformerBayCount as number,
         feederCount: newRow.feederCount as number,
@@ -354,6 +356,20 @@ export default function SubstationTable() {
         type: 'string',
         editable: true,
         width: columnWidth?.['voltageLevel'] ?? 120,
+      },
+      {
+        field: 'newLineBayCount',
+        headerName: 'New Line Bay',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['newLineBayCount'] ?? 120,
+      },
+      {
+        field: 'newTransformerBayCount',
+        headerName: 'New Transformer Bay',
+        type: 'number',
+        editable: true,
+        width: columnWidth?.['newTransformerBayCount'] ?? 120,
       },
       {
         field: 'lineBayCount',
