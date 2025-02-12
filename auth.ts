@@ -67,8 +67,10 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     authorized({ auth: session, request: { nextUrl } }) {
       const isLoggedIn = !!session?.user
       const isPublicPage = nextUrl.pathname.startsWith('/public')
+      const isSubstationPage =
+        nextUrl.pathname.startsWith('/substation')
 
-      if (isPublicPage || isLoggedIn) {
+      if (isPublicPage || isLoggedIn || isSubstationPage) {
         return true
       }
 
