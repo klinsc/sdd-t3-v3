@@ -65,16 +65,19 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   },
   callbacks: {
     authorized({ auth: session, request: { nextUrl } }) {
-      const isLoggedIn = !!session?.user
-      const isPublicPage = nextUrl.pathname.startsWith('/public')
-      const isSubstationPage =
-        nextUrl.pathname.startsWith('/substation')
+      // const isLoggedIn = !!session?.user
+      // const isPublicPage = nextUrl.pathname.startsWith('/public')
+      // const isSubstationPage =
+      //   nextUrl.pathname.startsWith('/substation')
 
-      if (isPublicPage || isLoggedIn || isSubstationPage) {
-        return true
-      }
+      // if (isPublicPage || isLoggedIn || isSubstationPage) {
+      //   return true
+      // }
 
-      return false // Redirect unauthenticated users to login page
+      // return false // Redirect unauthenticated users to login page
+
+      // temporary bypass authentication
+      return true
     },
   },
 })
