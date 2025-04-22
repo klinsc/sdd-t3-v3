@@ -55,34 +55,6 @@ declare module '@mui/x-data-grid' {
   }
 }
 
-function EditToolbar(props: GridSlotProps['toolbar']) {
-  const { setRows, setRowModesModel } = props
-
-  const handleClick = () => {
-    const id = randomId()
-    setRows((oldRows) => [
-      ...oldRows,
-      { id, name: '', age: '', role: '', isNew: true },
-    ])
-    setRowModesModel((oldModel) => ({
-      ...oldModel,
-      [id]: { mode: GridRowModes.Edit, fieldToFocus: 'name' },
-    }))
-  }
-
-  return (
-    <GridToolbarContainer>
-      <Button
-        disabled
-        color="primary"
-        startIcon={<AddIcon />}
-        onClick={handleClick}>
-        Add record
-      </Button>
-    </GridToolbarContainer>
-  )
-}
-
 interface EditableRow extends Substation {
   isNew: boolean
 }
@@ -208,6 +180,7 @@ export default function SubstationTable() {
         isTemporary: newRow.isTemporary as boolean,
         isUnmanned: newRow.isUnmanned as boolean,
         isAddedBay: newRow.isAddedBay as boolean,
+        isRenovated: newRow.isRenovated as boolean,
         addressId: newRow.addressId as string,
         deedNumber: newRow.deedNumber as string,
         voltageLevel: newRow.voltageLevel as VoltageLevel,
@@ -345,10 +318,17 @@ export default function SubstationTable() {
       },
       {
         field: 'isAddedBay',
-        headerName: 'เพิ่ม Bay',
+        headerName: 'งานเพิ่มเบย์',
         type: 'boolean',
         editable: true,
         width: columnWidth?.['isAddedBay'] ?? 120,
+      },
+      {
+        field: 'isRenovated',
+        headerName: 'งานรีโนเวท',
+        type: 'boolean',
+        editable: true,
+        width: columnWidth?.['isRenovated'] ?? 120,
       },
       {
         field: 'addressId',
