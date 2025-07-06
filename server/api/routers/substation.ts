@@ -221,6 +221,7 @@ export const substationRouter = createTRPCRouter({
         isTemporary: z.boolean(),
         isUnmanned: z.boolean(),
         isAddedBay: z.boolean(),
+        isRenovated: z.boolean(),
         addressId: z.string(),
         deedNumber: z.string(),
         voltageLevel: z.nativeEnum(VoltageLevel),
