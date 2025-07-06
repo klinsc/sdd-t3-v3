@@ -33,7 +33,7 @@ export default function SubstationChat() {
 
     // Create a new EventSource connection
     const eventSource = new EventSource(
-      `${env.NEXT_PUBLIC_FASTAPI_URL}/qa/stream?input_message=${encodedInput}&token=jessica`,
+      `/api/proxy-sse?input_message=${encodedInput}&token=jessica`,
     )
 
     eventSource.addEventListener('message_chunk', function (event) {
