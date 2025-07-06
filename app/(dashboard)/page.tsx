@@ -1,15 +1,21 @@
-// import Typography from '@mui/material/Typography'
-import { redirect } from 'next/navigation'
+import Typography from '@mui/material/Typography'
+import SubstationChat from '../_components/SubstationChat'
 
 export default async function HomePage() {
-  // const session = await auth()
+  return (
+    <>
+      <Typography
+        variant="h4"
+        sx={{ mb: -0.5, fontWeight: 'bold', color: 'primary.main' }}>
+        น้องกอฟ (ทดลองใช้)
+      </Typography>
 
-  // redirect to substation page
-  redirect('/substation')
-
-  // return (
-  //   <Typography>
-  //     Welcome to Toolpad, {session?.user?.name || 'User'}!
-  //   </Typography>
-  // )
+      <SubstationChat />
+      <Typography variant="body2" color="text.secondary">
+        <strong>คำเตือน:</strong> น้องกอฟอาจจะตอบผิดพลาดได้
+        กรุณาตรวจสอบข้อมูลก่อนนำไปใช้
+        <br />
+      </Typography>
+    </>
+  )
 }
