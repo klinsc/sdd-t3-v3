@@ -25,6 +25,7 @@ export default async function HomePage() {
         </Typography>
       </Link>
 
+      <br />
       <SubstationChat />
 
       <Typography variant="body2" color="text.secondary">
@@ -32,6 +33,11 @@ export default async function HomePage() {
         <strong>คำเตือน:</strong> น้องกอฟอาจจะตอบผิดพลาดได้
         กรุณาตรวจสอบข้อมูลก่อนนำไปใช้
         <br />
+      </Typography>
+
+      <Typography variant="body2" color="text.secondary">
+        <strong>ชุดข้อมูลปัจจุบัน:</strong>{' '}
+        {`1)สำเนาอนุมัติงานออกแบบสถานีไฟฟ้า✅ 2)คู่มือการออกแบบสถานีไฟฟ้า❌ 3)มาตรการออกแบบสถานีไฟฟ้า❌`}
       </Typography>
     </>
   )
