@@ -1,7 +1,6 @@
 'use client'
 
-import { env } from '@/env'
-import Typography from '@mui/material/Typography'
+import { Box } from '@mui/material'
 import { useEffect, useRef, useState } from 'react'
 
 type ChatMessage = {
@@ -112,46 +111,57 @@ export default function SubstationChat() {
 
   return (
     <>
-      <div
-        id="chat-display"
-        style={{
-          whiteSpace: 'pre-wrap',
-          minHeight: 100,
-          marginBottom: 8,
-          border: '1px solid #ccc',
-          padding: 8,
-          overflowY: 'auto',
-          maxHeight: 400,
-          borderRadius: 4,
+      <Box
+        sx={{
+          width: '100%',
+          '& .actions': {
+            color: 'text.secondary',
+          },
+          '& .textPrimary': {
+            color: 'text.primary',
+          },
         }}>
-        {chatMessages.map((msg, idx) =>
-          msg.type === 'ai_chunk' ? (
-            <div key={idx}>
-              <b>AI:</b> {msg.content}
-            </div>
-          ) : (
-            <div key={idx} style={{ color: '#888' }}>
-              <i>
-                Tool Executed: {msg.content}{' '}
-                {msg.name && `(${msg.name})`}
-              </i>
-            </div>
-          ),
-        )}
-      </div>
-      <input
-        type="text"
-        id="message-input"
-        placeholder="Type your message here..."
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
-        onKeyDown={(e) => {
-          if (e.key === 'Enter') handleSend()
-        }}
-      />
-      <button id="send-button" onClick={handleSend}>
-        ส่งข้อความ
-      </button>
+        <div
+          id="chat-display"
+          style={{
+            whiteSpace: 'pre-wrap',
+            minHeight: 100,
+            marginBottom: 8,
+            // border: '1px solid #ccc',
+            padding: 8,
+            overflowY: 'auto',
+            maxHeight: 400,
+            borderRadius: 4,
+          }}>
+          {chatMessages.map((msg, idx) =>
+            msg.type === 'ai_chunk' ? (
+              <div key={idx}>
+                <b>AI:</b> {msg.content}
+              </div>
+            ) : (
+              <div key={idx} style={{ color: '#888' }}>
+                <i>
+                  Tool Executed: {msg.content}{' '}
+                  {msg.name && `(${msg.name})`}
+                </i>
+              </div>
+            ),
+          )}
+        </div>
+        <input
+          type="text"
+          id="message-input"
+          placeholder="Type your message here..."
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') handleSend()
+          }}
+        />
+        <button id="send-button" onClick={handleSend}>
+          ส่งข้อความ
+        </button>
+      </Box>
     </>
   )
 }
