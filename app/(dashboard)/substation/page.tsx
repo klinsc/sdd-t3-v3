@@ -15,6 +15,11 @@ export default function SubstationsPage() {
           (ทดลองใช้)
         </span>
       </Typography>
+      <Typography variant="body2" color="text.secondary" mb={2}>
+        <strong>หมายเหตุ:</strong>{' '}
+        ข้อมูลที่ถูกตรวจสอบแล้วจะมีเครื่องหมาย{' '}
+        <span style={{ color: 'green' }}>✅</span>
+      </Typography>
       <SubstationTable />
     </div>
   )

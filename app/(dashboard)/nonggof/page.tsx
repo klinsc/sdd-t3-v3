@@ -30,8 +30,8 @@ export default async function HomePage() {
 
       <Typography variant="body2" color="text.secondary">
         <br />
-        <strong>คำเตือน:</strong> น้องกอฟอาจจะตอบผิดพลาดได้
-        กรุณาตรวจสอบข้อมูลก่อนนำไปใช้
+        <strong>หมายเหตุ:</strong>{' '}
+        {`1)น้องกอฟอาจจะตอบผิดพลาดได้ กรุณาตรวจสอบข้อมูลก่อนนำไปใช้ 2)น้องกอฟสามารถตอบได้ทีละคำถามเท่านั้น ยังไม่มีระบบแชทแบบต่อเนื่อง`}
         <br />
       </Typography>
 
