@@ -1,6 +1,6 @@
 'use client'
 
-import { Box } from '@mui/material'
+import { Box, Button, FilledInput } from '@mui/material'
 import { useEffect, useRef, useState } from 'react'
 
 type ChatMessage = {
@@ -15,6 +15,7 @@ export default function SubstationChat() {
     useState<EventSource | null>(null)
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>([])
   const [input, setInput] = useState('')
+  const [question, setQuestion] = useState('')
   const aiResponseRef = useRef('')
 
   // Helper to append messages
@@ -99,6 +100,7 @@ export default function SubstationChat() {
     if (input.trim()) {
       startEventSource(input)
       setInput('')
+      setQuestion(input) // Store the question
     }
   }
 
@@ -133,23 +135,38 @@ export default function SubstationChat() {
             maxHeight: 400,
             borderRadius: 4,
           }}>
+          {/* Display welcome message */}
+          {!question && (
+            <div className="textPrimary">
+              <b>ถามอะไรตอบได้!</b>
+            </div>
+          )}
+
+          {/* Display Question */}
+          {question && (
+            <div>
+              <b>คำถาม:</b> {question}
+            </div>
+          )}
+
+          {/* Display AI Responses */}
           {chatMessages.map((msg, idx) =>
             msg.type === 'ai_chunk' ? (
               <div key={idx}>
-                <b>AI:</b> {msg.content}
+                <b>น้องกอฟ:</b> {msg.content}
               </div>
             ) : (
-              <div key={idx} style={{ color: '#888' }}>
-                <i>
-                  Tool Executed: {msg.content}{' '}
-                  {msg.name && `(${msg.name})`}
-                </i>
-              </div>
+              <></>
+              // <div key={idx} style={{ color: '#888' }}>
+              //   <i>
+              //     Tool Executed: {msg.content}{' '}
+              //     {msg.name && `(${msg.name})`}
+              //   </i>
+              // </div>
             ),
           )}
         </div>
-        <input
-          type="text"
+        <FilledInput
           id="message-input"
           placeholder="Type your message here..."
           value={input}
@@ -157,10 +174,18 @@ export default function SubstationChat() {
           onKeyDown={(e) => {
             if (e.key === 'Enter') handleSend()
           }}
+          fullWidth
+          sx={{ marginBottom: 2 }}
+          endAdornment={
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={handleSend}
+              sx={{ marginLeft: 1, width: 100 }}>
+              ส่งคำถาม
+            </Button>
+          }
         />
-        <button id="send-button" onClick={handleSend}>
-          ส่งข้อความ
-        </button>
       </Box>
     </>
   )
