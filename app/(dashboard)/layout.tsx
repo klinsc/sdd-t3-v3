@@ -8,7 +8,7 @@ export default function Layout(props: {
 }) {
   return (
     <DashboardLayout defaultSidebarCollapsed>
-      <PageContainer>
+      <PageContainer title="" breadcrumbs={[]}>
         <TRPCReactProvider>{props.children}</TRPCReactProvider>
       </PageContainer>
     </DashboardLayout>

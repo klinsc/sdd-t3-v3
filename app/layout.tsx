@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import CorporateFareIcon from '@mui/icons-material/CorporateFare'
-import DashboardIcon from '@mui/icons-material/Dashboard'
+// import DashboardIcon from '@mui/icons-material/Dashboard'
+import SmartToyIcon from '@mui/icons-material/SmartToy'
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
 import { NextAppProvider } from '@toolpad/core/nextjs'
 import * as React from 'react'
@@ -22,9 +23,9 @@ const NAVIGATION: Navigation = [
     title: 'Main items',
   },
   {
-    segment: 'dashboard',
-    title: 'Dashboard',
-    icon: <DashboardIcon />,
+    segment: 'nonggof',
+    title: 'Chat NongGof',
+    icon: <SmartToyIcon />,
   },
   {
     segment: 'substation',
