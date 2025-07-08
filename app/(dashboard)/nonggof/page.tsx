@@ -1,6 +1,6 @@
 import Typography from '@mui/material/Typography'
 import SubstationChat from '../../_components/SubstationChat'
-import { Link } from '@mui/material'
+import { Link, Stack } from '@mui/material'
 
 export default async function HomePage() {
   return (
@@ -20,25 +20,59 @@ export default async function HomePage() {
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: 'none', color: 'inherit' }}>
-        <Typography variant="body2" color="text.secondary">
-          เรียนรู้เพิ่มเติมเกี่ยวกับน้องกอฟ
+        <Typography variant="body2" color="text.secondary" ml={1}>
+          น้องกอฟเป็นใคร?
         </Typography>
       </Link>
 
       <br />
       <SubstationChat />
 
-      <Typography variant="body2" color="text.secondary">
+      {/* <Typography variant="body2" color="text.secondary">
         <br />
         <strong>หมายเหตุ:</strong>{' '}
         {`1)น้องกอฟอาจจะตอบผิดพลาดได้ กรุณาตรวจสอบข้อมูลก่อนนำไปใช้ 2)น้องกอฟสามารถตอบได้ทีละคำถามเท่านั้น ยังไม่มีระบบแชทแบบต่อเนื่อง`}
         <br />
-      </Typography>
+      </Typography> */}
+      <Stack
+        direction="column"
+        sx={{ marginTop: 2, marginBottom: 2 }}>
+        <Typography variant="body2" color="text.secondary">
+          <strong>หมายเหตุ:</strong>
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          1) น้องกอฟอาจจะตอบผิดพลาดได้ กรุณาตรวจสอบข้อมูลก่อนนำไปใช้
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          2) น้องกอฟสามารถตอบได้ทีละคำถามเท่านั้น
+          ยังไม่มีระบบแชทแบบต่อเนื่อง
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          3) กอฟ. มีการจัดเก็บข้อมูลที่ผู้ใช้ถามและคำตอบที่น้องกอฟตอบ
+          เพื่อใช้ในการพัฒนาปรับปรุงน้องกอฟในอนาคต
+        </Typography>
+      </Stack>
 
-      <Typography variant="body2" color="text.secondary">
+      {/* <Typography variant="body2" color="text.secondary">
         <strong>ชุดข้อมูลปัจจุบัน:</strong>{' '}
         {`1)สำเนาอนุมัติงานออกแบบสถานีไฟฟ้า✅ 2)คู่มือการออกแบบสถานีไฟฟ้า❌ 3)มาตรการออกแบบสถานีไฟฟ้า❌`}
-      </Typography>
+      </Typography> */}
+      <Stack
+        direction="column"
+        sx={{ marginTop: 2, marginBottom: 2 }}>
+        <Typography variant="body2" color="text.secondary">
+          <strong>ชุดข้อมูลปัจจุบัน:</strong>
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          1) สำเนาอนุมัติงานออกแบบสถานีไฟฟ้า ✅
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          2) คู่มือการออกแบบสถานีไฟฟ้า ❌
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          3) มาตรการออกแบบสถานีไฟฟ้า ❌
+        </Typography>
+      </Stack>
     </>
   )
 }
