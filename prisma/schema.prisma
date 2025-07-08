@@ -1,47 +1,38 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
     provider = "prisma-client-js"
 }
 
 datasource db {
     provider = "postgresql"
-    // NOTE: When using mysql or sqlserver, uncomment the @db.Text annotations in model Account below
-    // Further reading:
-    // https://next-auth.js.org/adapters/prisma#create-the-prisma-schema
-    // https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#string
     url      = env("DATABASE_URL")
 }
 
 model Post {
-    id        Int      @id @default(autoincrement())
-    name      String
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
-
-    createdBy   User   @relation(fields: [createdById], references: [id])
+    id          Int      @id @default(autoincrement())
+    name        String
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
     createdById String
+    createdBy   User     @relation(fields: [createdById], references: [id])
 
     @@index([name])
 }
 
-// Necessary for Next auth
 model Account {
     id                       String  @id @default(cuid())
     userId                   String
     type                     String
     provider                 String
     providerAccountId        String
-    refresh_token            String? // @db.Text
-    access_token             String? // @db.Text
+    refresh_token            String?
+    access_token             String?
     expires_at               Int?
     token_type               String?
     scope                    String?
-    id_token                 String? // @db.Text
+    id_token                 String?
     session_state            String?
-    user                     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
     refresh_token_expires_in Int?
+    user                     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
     @@unique([provider, providerAccountId])
 }
@@ -61,8 +52,8 @@ model User {
     emailVerified DateTime?
     image         String?
     accounts      Account[]
-    sessions      Session[]
     posts         Post[]
+    sessions      Session[]
 }
 
 model VerificationToken {
@@ -74,48 +65,46 @@ model VerificationToken {
 }
 
 model Substation {
-    id String @id @default(cuid())
-
-    name         String @unique
-    abbreviation String @unique
-
-    area Area
-
-    stationType StationType
-
-    busArrangement BusArrangement
-
-    isTemporary Boolean
-    isUnmanned  Boolean
-    isAddedBay  Boolean @default(false)
-
-    addressId String
-
-    deedNumber String
-
-    voltageLevel VoltageLevel
-
-    newLineBayCount        Int @default(0)
-    newTransformerBayCount Int @default(0)
+    id                     String                @id @default(cuid())
+    name                   String                @unique
+    abbreviation           String                @unique
+    area                   Area
+    stationType            StationType
+    busArrangement         BusArrangement
+    isTemporary            Boolean
+    isUnmanned             Boolean
+    addressId              String
+    deedNumber             String
+    voltageLevel           VoltageLevel
     lineBayCount           Int
     transformerBayCount    Int
     feederCount            Int
+    communicationTopology  CommunicationTopology
+    demolitionCost         Float
+    electricalCost         Float
+    civilCost              Float
+    securityCost           Float
+    totalCost              Float
+    latitude               Float                 @default(0)
+    longitude              Float                 @default(0)
+    approvalDate           DateTime
+    isVerified             Boolean               @default(false)
+    createdAt              DateTime              @default(now())
+    updatedAt              DateTime              @updatedAt
+    scannedDocumentUrl     String                @default("")
+    isAddedBay             Boolean               @default(false)
+    newLineBayCount        Int                   @default(0)
+    newTransformerBayCount Int                   @default(0)
+    isRenovated            Boolean               @default(false)
+}
 
-    communicationTopology CommunicationTopology
+model Chat {
+    id String @id @default(cuid())
 
-    demolitionCost Float
-    electricalCost Float
-    civilCost      Float
-    securityCost   Float
-    totalCost      Float
+    incomingMessage String
+    outgoingMessage String
 
-    latitude  Float @default(0)
-    longitude Float @default(0)
-
-    approvalDate DateTime
-
-    scannedDocumentUrl String  @default("")
-    isVerified         Boolean @default(false)
+    score Float @default(0)
 
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt

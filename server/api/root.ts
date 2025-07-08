@@ -4,6 +4,7 @@ import {
   createTRPCRouter,
 } from '@/server/api/trpc'
 import { substationRouter } from './routers/substation'
+import { chatRouter } from './routers/chat'
 
 /**
  * This is the primary router for your server.
@@ -13,6 +14,7 @@ import { substationRouter } from './routers/substation'
 export const appRouter = createTRPCRouter({
   post: postRouter,
   substation: substationRouter,
+  chat: chatRouter,
 })
 
 // export type definition of API

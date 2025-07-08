@@ -1,7 +1,8 @@
 'use client'
 
+import { api } from '@/trpc/react'
 import { Box, Button, FilledInput } from '@mui/material'
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
 type ChatMessage = {
   type: 'ai_chunk' | 'tool_message'
@@ -19,6 +20,11 @@ export default function SubstationChat() {
   const aiResponseRef = useRef('')
   // state: is server ready to receive messages
   const [isReady, setIsReady] = useState<boolean | undefined>()
+  // state: is connection established
+  const [isConnected, setIsConnected] = useState(false)
+
+  // trcp: chat create
+  const createChat = api.chat.create.useMutation()
 
   // Check if server is ready
   useEffect(() => {
@@ -74,6 +80,11 @@ export default function SubstationChat() {
       `/api/proxy-sse?input_message=${encodedInput}&token=jessica`,
     )
 
+    eventSource.onopen = function () {
+      console.log('EventSource connection opened')
+      setIsConnected(true)
+    }
+
     eventSource.addEventListener('message_chunk', function (event) {
       const data = JSON.parse(event.data)
       if (data.type === 'ai_chunk') {
@@ -123,15 +134,43 @@ export default function SubstationChat() {
 
     eventSource.addEventListener('stream_end', function () {
       eventSource.close()
+
+      setIsConnected(false)
     })
 
     eventSource.onerror = function (error) {
       console.error('EventSource failed:', error)
       eventSource.close()
+
+      setIsConnected(false)
     }
 
     setCurrentEventSource(eventSource)
   }
+
+  // callback: create chat message after end_of_ai_response
+  const handleCreateChat = useCallback(() => {
+    if (
+      question &&
+      aiResponseRef.current &&
+      aiResponseRef.current ==
+        chatMessages[chatMessages.length - 1]?.content
+    ) {
+      createChat.mutate({
+        incomingMessage: question,
+        outgoingMessage: aiResponseRef.current,
+      })
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [question, chatMessages])
+
+  // effect: on connection established, create chat message
+  useEffect(() => {
+    if (!isConnected && question) {
+      // Create a chat message when connection is established
+      handleCreateChat()
+    }
+  }, [isConnected, question, handleCreateChat])
 
   // Handle send button
   const handleSend = () => {
