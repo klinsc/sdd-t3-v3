@@ -2,18 +2,12 @@
 'use client'
 
 import { api } from '@/trpc/react'
-import AddIcon from '@mui/icons-material/Add'
-import CancelIcon from '@mui/icons-material/Close'
-import DeleteIcon from '@mui/icons-material/DeleteOutlined'
-import EditIcon from '@mui/icons-material/Edit'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
-import SaveIcon from '@mui/icons-material/Save'
 import { IconButton } from '@mui/material'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
 import {
   DataGrid,
-  GridActionsCellItem,
   type GridColDef,
   type GridEventListener,
   GridRowEditStopReasons,
@@ -22,12 +16,9 @@ import {
   GridRowModes,
   type GridRowModesModel,
   type GridRowsProp,
-  type GridSlotProps,
   GridToolbar,
-  GridToolbarContainer,
   type GridValidRowModel,
 } from '@mui/x-data-grid'
-import { randomId } from '@mui/x-data-grid-generator'
 import {
   Area,
   BusArrangement,
@@ -553,6 +544,7 @@ export default function SubstationTable() {
           },
         }}>
         <DataGrid
+          loading={substations.isLoading}
           onColumnWidthChange={(newWidth) => {
             setColumnWidth({
               ...columnWidth,
