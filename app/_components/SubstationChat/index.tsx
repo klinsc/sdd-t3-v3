@@ -17,6 +17,44 @@ export default function SubstationChat() {
   const [input, setInput] = useState('')
   const [question, setQuestion] = useState('')
   const aiResponseRef = useRef('')
+  // state: is server ready to receive messages
+  const [isReady, setIsReady] = useState<boolean | undefined>()
+
+  // Check if server is ready
+  useEffect(() => {
+    const checkServerReady = async () => {
+      try {
+        // const response = await fetch('/api/proxy-sse?token=jessica')
+        // timeout to avoid long waits
+        const controller = new AbortController()
+        const timeoutId = setTimeout(() => controller.abort(), 5000) // 5 seconds timeout
+
+        const response = await fetch(
+          '/api/proxy-sse?token=jessica',
+          {
+            method: 'HEAD', // Use HEAD to check server status without body
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            signal: controller.signal,
+          },
+        )
+        clearTimeout(timeoutId)
+
+        if (response.ok) {
+          setIsReady(true)
+        } else {
+          console.error('Server not ready:', response.statusText)
+          setIsReady(false)
+        }
+      } catch (error) {
+        console.error('Error checking server readiness:', error)
+        setIsReady(false)
+      }
+    }
+
+    checkServerReady()
+  }, [])
 
   // Helper to append messages
   const appendMessage = (msg: ChatMessage) => {
@@ -113,80 +151,97 @@ export default function SubstationChat() {
 
   return (
     <>
-      <Box
-        sx={{
-          width: '100%',
-          '& .actions': {
-            color: 'text.secondary',
-          },
-          '& .textPrimary': {
-            color: 'text.primary',
-          },
-        }}>
-        <div
-          id="chat-display"
-          style={{
-            whiteSpace: 'pre-wrap',
-            minHeight: 100,
-            marginBottom: 8,
-            // border: '1px solid #ccc',
-            padding: 8,
-            overflowY: 'auto',
-            maxHeight: 400,
-            borderRadius: 4,
+      {/* Display loading state while checking server readiness */}
+      {isReady === true && (
+        <Box
+          sx={{
+            width: '100%',
+            '& .actions': {
+              color: 'text.secondary',
+            },
+            '& .textPrimary': {
+              color: 'text.primary',
+            },
           }}>
-          {/* Display welcome message */}
-          {!question && (
-            <div className="textPrimary">
-              <b>ถามอะไรตอบได้!</b>
-            </div>
-          )}
-
-          {/* Display Question */}
-          {question && (
-            <div>
-              <b>คำถาม:</b> {question}
-            </div>
-          )}
-
-          {/* Display AI Responses */}
-          {chatMessages.map((msg, idx) =>
-            msg.type === 'ai_chunk' ? (
-              <div key={idx}>
-                <b>น้องกอฟ:</b> {msg.content}
+          <div
+            id="chat-display"
+            style={{
+              whiteSpace: 'pre-wrap',
+              minHeight: 100,
+              marginBottom: 8,
+              // border: '1px solid #ccc',
+              padding: 8,
+              overflowY: 'auto',
+              maxHeight: 400,
+              borderRadius: 4,
+            }}>
+            {/* Display welcome message */}
+            {!question && (
+              <div className="textPrimary">
+                <b>ถามอะไรตอบได้!</b>
               </div>
-            ) : (
-              <></>
-              // <div key={idx} style={{ color: '#888' }}>
-              //   <i>
-              //     Tool Executed: {msg.content}{' '}
-              //     {msg.name && `(${msg.name})`}
-              //   </i>
-              // </div>
-            ),
-          )}
+            )}
+
+            {/* Display Question */}
+            {question && (
+              <div>
+                <b>คำถาม:</b> {question}
+              </div>
+            )}
+
+            {/* Display AI Responses */}
+            {chatMessages.map((msg, idx) =>
+              msg.type === 'ai_chunk' ? (
+                <div key={idx}>
+                  <b>น้องกอฟ:</b> {msg.content}
+                </div>
+              ) : (
+                <></>
+                // <div key={idx} style={{ color: '#888' }}>
+                //   <i>
+                //     Tool Executed: {msg.content}{' '}
+                //     {msg.name && `(${msg.name})`}
+                //   </i>
+                // </div>
+              ),
+            )}
+          </div>
+          <FilledInput
+            id="message-input"
+            placeholder="Type your message here..."
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') handleSend()
+            }}
+            fullWidth
+            sx={{ marginBottom: 2 }}
+            endAdornment={
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={handleSend}
+                sx={{ marginLeft: 1, width: 100 }}>
+                ส่งคำถาม
+              </Button>
+            }
+          />
+        </Box>
+      )}
+
+      {/* Display error if server is not ready */}
+      {isReady === false && (
+        <div style={{ color: 'red' }}>
+          เซิร์ฟเวอร์ไม่พร้อมใช้งาน กรุณาลองใหม่ภายหลัง
         </div>
-        <FilledInput
-          id="message-input"
-          placeholder="Type your message here..."
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter') handleSend()
-          }}
-          fullWidth
-          sx={{ marginBottom: 2 }}
-          endAdornment={
-            <Button
-              variant="contained"
-              color="primary"
-              onClick={handleSend}
-              sx={{ marginLeft: 1, width: 100 }}>
-              ส่งคำถาม
-            </Button>
-          }
-        />
-      </Box>
+      )}
+
+      {/* Display loading state while checking server readiness */}
+      {isReady === undefined && (
+        <div style={{ color: 'blue' }}>
+          กำลังตรวจสอบสถานะเซิร์ฟเวอร์...
+        </div>
+      )}
     </>
   )
 }
