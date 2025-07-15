@@ -1,5 +1,6 @@
 'use client'
 
+import { env } from '@/env'
 import { api } from '@/trpc/react'
 import { Box, Button, FilledInput } from '@mui/material'
 import { useCallback, useEffect, useRef, useState } from 'react'
@@ -36,7 +37,7 @@ export default function SubstationChat() {
         const timeoutId = setTimeout(() => controller.abort(), 5000) // 5 seconds timeout
 
         const response = await fetch(
-          '/api/proxy-sse?token=jessica',
+          `${env.NEXT_PUBLIC_REVERSE_URL ?? ''}/api/proxy-sse?token=jessica`,
           {
             method: 'HEAD', // Use HEAD to check server status without body
             headers: {
@@ -77,7 +78,7 @@ export default function SubstationChat() {
 
     // Create a new EventSource connection
     const eventSource = new EventSource(
-      `/api/proxy-sse?input_message=${encodedInput}&token=jessica`,
+      `${env.NEXT_PUBLIC_REVERSE_URL ?? ''}/api/proxy-sse?input_message=${encodedInput}&token=jessica`,
     )
 
     eventSource.onopen = function () {
