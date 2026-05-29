@@ -5,8 +5,17 @@ import { api } from '@/trpc/react'
 import { Box, Button, FilledInput } from '@mui/material'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
+// Cap the question client-side. The chat uses EventSource, which can only GET,
+// so input_message rides in the URL query string. Thai characters expand to
+// ~9 bytes each once percent-encoded, so a long Thai question can exceed the
+// server/proxy request-URL limit (e.g. nginx's 8 KB default) and fail before
+// it reaches the API. MAX_ENCODED_LEN is the real guard; MAX_INPUT_CHARS is a
+// coarse character cap on the input field.
+const MAX_INPUT_CHARS = 1000
+const MAX_ENCODED_LEN = 6000
+
 type ChatMessage = {
-  type: 'ai_chunk' | 'tool_message'
+  type: 'ai_chunk' | 'tool_message' | 'error'
   content: string
   metadata?: any
   name?: string
@@ -19,6 +28,9 @@ export default function SubstationChat() {
   const [input, setInput] = useState('')
   const [question, setQuestion] = useState('')
   const aiResponseRef = useRef('')
+  // tracks whether the current turn ended cleanly (stream_end) vs. errored —
+  // gates persistence and distinguishes a dropped connection from a clean close
+  const streamOkRef = useRef(false)
   // state: is server ready to receive messages
   const [isReady, setIsReady] = useState<boolean | undefined>()
   // state: is connection established
@@ -73,6 +85,7 @@ export default function SubstationChat() {
     if (currentEventSource) currentEventSource.close()
     setChatMessages([]) // Optionally clear chat on new message
     aiResponseRef.current = ''
+    streamOkRef.current = false
 
     const encodedInput = encodeURIComponent(inputMessage)
 
@@ -134,17 +147,35 @@ export default function SubstationChat() {
     )
 
     eventSource.addEventListener('stream_end', function () {
+      streamOkRef.current = true
       eventSource.close()
-
       setIsConnected(false)
     })
 
-    eventSource.onerror = function (error) {
-      console.error('EventSource failed:', error)
+    // Both an in-band `event: error` (JSON {type,code,message} from the proxy
+    // or backend, e.g. llm_timeout) and a transport-level connection failure
+    // dispatch as the "error" event type. Distinguish them by whether a JSON
+    // data payload is present, and surface a Thai message either way.
+    eventSource.addEventListener('error', function (event) {
+      const data = (event as MessageEvent)?.data
+      if (typeof data === 'string' && data) {
+        let content = 'เกิดข้อผิดพลาดในการประมวลผล กรุณาลองใหม่อีกครั้ง'
+        try {
+          content = JSON.parse(data)?.message || content
+        } catch {
+          /* keep the generic message */
+        }
+        appendMessage({ type: 'error', content })
+      } else if (!streamOkRef.current) {
+        // Data-less error on an unfinished stream = connection dropped.
+        appendMessage({
+          type: 'error',
+          content: 'การเชื่อมต่อกับเซิร์ฟเวอร์ขัดข้อง กรุณาลองใหม่อีกครั้ง',
+        })
+      }
       eventSource.close()
-
       setIsConnected(false)
-    }
+    })
 
     setCurrentEventSource(eventSource)
   }
@@ -152,6 +183,7 @@ export default function SubstationChat() {
   // callback: create chat message after end_of_ai_response
   const handleCreateChat = useCallback(() => {
     if (
+      streamOkRef.current &&
       question &&
       aiResponseRef.current &&
       aiResponseRef.current ==
@@ -175,11 +207,26 @@ export default function SubstationChat() {
 
   // Handle send button
   const handleSend = () => {
-    if (input.trim()) {
-      startEventSource(input)
+    const trimmed = input.trim()
+    if (!trimmed) return
+    if (
+      trimmed.length > MAX_INPUT_CHARS ||
+      encodeURIComponent(trimmed).length > MAX_ENCODED_LEN
+    ) {
+      setQuestion(trimmed)
+      setChatMessages([
+        {
+          type: 'error',
+          content:
+            'คำถามยาวเกินไป กรุณาพิมพ์ให้สั้นลง (ข้อความภาษาไทยที่ยาวจะใช้พื้นที่มากเป็นพิเศษ)',
+        },
+      ])
       setInput('')
-      setQuestion(input) // Store the question
+      return
     }
+    startEventSource(trimmed)
+    setInput('')
+    setQuestion(trimmed) // Store the question
   }
 
   // Clean up on unmount
@@ -235,6 +282,10 @@ export default function SubstationChat() {
                 <div key={idx}>
                   <b>น้องกอฟ:</b> {msg.content}
                 </div>
+              ) : msg.type === 'error' ? (
+                <div key={idx} style={{ color: 'red', marginTop: 4 }}>
+                  <b>⚠️</b> {msg.content}
+                </div>
               ) : (
                 <></>
                 // <div key={idx} style={{ color: '#888' }}>
@@ -255,6 +306,7 @@ export default function SubstationChat() {
               if (e.key === 'Enter') handleSend()
             }}
             fullWidth
+            inputProps={{ maxLength: MAX_INPUT_CHARS }}
             sx={{ marginBottom: 2 }}
             endAdornment={
               <Button
