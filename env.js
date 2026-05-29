@@ -17,6 +17,9 @@ export const env = createEnv({
     NODE_ENV: z
       .enum(['development', 'test', 'production'])
       .default('development'),
+    // Shared secret sent as the X-API-Key header from the SSE proxy to the
+    // FastAPI backend. Server-side only — never exposed to the browser.
+    FASTAPI_API_KEY: z.string().min(16),
   },
 
   /**
@@ -40,6 +43,7 @@ export const env = createEnv({
     AUTH_DISCORD_SECRET: process.env.AUTH_DISCORD_SECRET,
     DATABASE_URL: process.env.DATABASE_URL,
     NODE_ENV: process.env.NODE_ENV,
+    FASTAPI_API_KEY: process.env.FASTAPI_API_KEY,
     NEXT_PUBLIC_FASTAPI_URL: process.env.NEXT_PUBLIC_FASTAPI_URL,
     NEXT_PUBLIC_REVERSE_URL: process.env.NEXT_PUBLIC_REVERSE_URL,
   },
