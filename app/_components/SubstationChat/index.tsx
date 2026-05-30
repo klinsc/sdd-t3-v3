@@ -2,7 +2,7 @@
 
 import { env } from '@/env'
 import { api } from '@/trpc/react'
-import { Box, Button, FilledInput } from '@mui/material'
+import { Box, Button, CircularProgress, FilledInput } from '@mui/material'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 // Cap the question client-side. The chat uses EventSource, which can only GET,
@@ -35,6 +35,15 @@ export default function SubstationChat() {
   const [isReady, setIsReady] = useState<boolean | undefined>()
   // state: is connection established
   const [isConnected, setIsConnected] = useState(false)
+  // status of the current turn — drives the activity animation
+  const [status, setStatus] = useState<
+    'idle' | 'connecting' | 'thinking' | 'streaming' | 'done' | 'error'
+  >('idle')
+  // elapsed seconds for the in-flight turn (cold model loads can take ~60s)
+  const [elapsedSec, setElapsedSec] = useState(0)
+  const startTimeRef = useRef(0)
+  const isBusy =
+    status === 'connecting' || status === 'thinking' || status === 'streaming'
 
   // trcp: chat create
   const createChat = api.chat.create.useMutation()
@@ -80,12 +89,23 @@ export default function SubstationChat() {
     setChatMessages((prev) => [...prev, msg])
   }
 
+  // Tick an elapsed-time counter while a turn is in flight, so the long wait
+  // before the first token (retrieval + cold model load) feels responsive.
+  useEffect(() => {
+    if (!isBusy) return
+    const id = setInterval(() => {
+      setElapsedSec(Math.floor((Date.now() - startTimeRef.current) / 1000))
+    }, 250)
+    return () => clearInterval(id)
+  }, [isBusy])
+
   // Start SSE connection
   const startEventSource = (inputMessage: string) => {
     if (currentEventSource) currentEventSource.close()
     setChatMessages([]) // Optionally clear chat on new message
     aiResponseRef.current = ''
     streamOkRef.current = false
+    setStatus('connecting')
 
     const encodedInput = encodeURIComponent(inputMessage)
 
@@ -97,11 +117,13 @@ export default function SubstationChat() {
     eventSource.onopen = function () {
       console.log('EventSource connection opened')
       setIsConnected(true)
+      setStatus('thinking')
     }
 
     eventSource.addEventListener('message_chunk', function (event) {
       const data = JSON.parse(event.data)
       if (data.type === 'ai_chunk') {
+        setStatus('streaming')
         aiResponseRef.current += data.content
         // Replace the last AI chunk or add new
         setChatMessages((prev) => {
@@ -148,6 +170,7 @@ export default function SubstationChat() {
 
     eventSource.addEventListener('stream_end', function () {
       streamOkRef.current = true
+      setStatus('done')
       eventSource.close()
       setIsConnected(false)
     })
@@ -173,6 +196,7 @@ export default function SubstationChat() {
           content: 'การเชื่อมต่อกับเซิร์ฟเวอร์ขัดข้อง กรุณาลองใหม่อีกครั้ง',
         })
       }
+      setStatus('error')
       eventSource.close()
       setIsConnected(false)
     })
@@ -207,6 +231,7 @@ export default function SubstationChat() {
 
   // Handle send button
   const handleSend = () => {
+    if (isBusy) return
     const trimmed = input.trim()
     if (!trimmed) return
     if (
@@ -222,8 +247,11 @@ export default function SubstationChat() {
         },
       ])
       setInput('')
+      setStatus('idle')
       return
     }
+    startTimeRef.current = Date.now()
+    setElapsedSec(0)
     startEventSource(trimmed)
     setInput('')
     setQuestion(trimmed) // Store the question
@@ -281,6 +309,22 @@ export default function SubstationChat() {
               msg.type === 'ai_chunk' ? (
                 <div key={idx}>
                   <b>น้องกอฟ:</b> {msg.content}
+                  {idx === chatMessages.length - 1 &&
+                    status === 'streaming' && (
+                      <Box
+                        component="span"
+                        sx={{
+                          display: 'inline-block',
+                          ml: '2px',
+                          '@keyframes blink': {
+                            '0%, 100%': { opacity: 1 },
+                            '50%': { opacity: 0 },
+                          },
+                          animation: 'blink 1s step-start infinite',
+                        }}>
+                        ▍
+                      </Box>
+                    )}
                 </div>
               ) : msg.type === 'error' ? (
                 <div key={idx} style={{ color: 'red', marginTop: 4 }}>
@@ -295,6 +339,50 @@ export default function SubstationChat() {
                 //   </i>
                 // </div>
               ),
+            )}
+
+            {/* Activity animation: shown after send, before the first token
+                (covers retrieval + cold model load). */}
+            {(status === 'connecting' || status === 'thinking') && (
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 1,
+                  mt: 1,
+                  color: 'text.secondary',
+                  fontStyle: 'italic',
+                }}>
+                <CircularProgress size={16} thickness={5} />
+                <span>
+                  <b>น้องกอฟ</b>{' '}
+                  {elapsedSec < 4
+                    ? 'กำลังค้นหาเอกสารมาตรฐาน'
+                    : 'กำลังเรียบเรียงคำตอบ'}
+                </span>
+                <Box
+                  component="span"
+                  sx={{
+                    display: 'inline-flex',
+                    gap: '2px',
+                    '@keyframes dotPulse': {
+                      '0%, 80%, 100%': { opacity: 0.2 },
+                      '40%': { opacity: 1 },
+                    },
+                    '& > span': { animation: 'dotPulse 1.2s infinite' },
+                    '& > span:nth-of-type(2)': { animationDelay: '0.2s' },
+                    '& > span:nth-of-type(3)': { animationDelay: '0.4s' },
+                  }}>
+                  <span>.</span>
+                  <span>.</span>
+                  <span>.</span>
+                </Box>
+                <Box
+                  component="span"
+                  sx={{ ml: 'auto', fontSize: 12, opacity: 0.7 }}>
+                  {elapsedSec}s
+                </Box>
+              </Box>
             )}
           </div>
           <FilledInput
@@ -313,8 +401,13 @@ export default function SubstationChat() {
                 variant="contained"
                 color="primary"
                 onClick={handleSend}
+                disabled={isBusy}
                 sx={{ marginLeft: 1, width: 100 }}>
-                ส่งคำถาม
+                {isBusy ? (
+                  <CircularProgress size={20} color="inherit" />
+                ) : (
+                  'ส่งคำถาม'
+                )}
               </Button>
             }
           />
