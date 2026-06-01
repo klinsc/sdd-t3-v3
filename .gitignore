@@ -147,3 +147,4 @@ dist-ssr
 
 .next
 .vercel
+.env*.local
