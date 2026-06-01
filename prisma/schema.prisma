@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-    provider = "postgresql"
+    provider = "mysql"
     url      = env("DATABASE_URL")
 }
 
@@ -24,12 +24,12 @@ model Account {
     type                     String
     provider                 String
     providerAccountId        String
-    refresh_token            String?
-    access_token             String?
+    refresh_token            String? @db.Text
+    access_token             String? @db.Text
     expires_at               Int?
     token_type               String?
     scope                    String?
-    id_token                 String?
+    id_token                 String? @db.Text
     session_state            String?
     refresh_token_expires_in Int?
     user                     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
@@ -91,7 +91,7 @@ model Substation {
     isVerified             Boolean               @default(false)
     createdAt              DateTime              @default(now())
     updatedAt              DateTime              @updatedAt
-    scannedDocumentUrl     String                @default("")
+    scannedDocumentUrl     String                @default("") @db.VarChar(2048)
     isAddedBay             Boolean               @default(false)
     newLineBayCount        Int                   @default(0)
     newTransformerBayCount Int                   @default(0)
@@ -101,8 +101,8 @@ model Substation {
 model Chat {
     id String @id @default(cuid())
 
-    incomingMessage String
-    outgoingMessage String
+    incomingMessage String @db.Text
+    outgoingMessage String @db.Text
 
     score Float @default(0)
 
