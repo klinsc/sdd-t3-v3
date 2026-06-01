@@ -48,41 +48,35 @@ export default function SubstationChat() {
   // trcp: chat create
   const createChat = api.chat.create.useMutation()
 
-  // Check if server is ready
-  useEffect(() => {
-    const checkServerReady = async () => {
-      try {
-        // const response = await fetch('/api/proxy-sse?token=jessica')
-        // timeout to avoid long waits
-        const controller = new AbortController()
-        const timeoutId = setTimeout(() => controller.abort(), 5000) // 5 seconds timeout
-
-        const response = await fetch(
-          `${env.NEXT_PUBLIC_REVERSE_URL ?? ''}/api/proxy-sse?token=jessica`,
-          {
-            method: 'HEAD', // Use HEAD to check server status without body
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            signal: controller.signal,
-          },
-        )
-        clearTimeout(timeoutId)
-
-        if (response.ok) {
-          setIsReady(true)
-        } else {
-          console.error('Server not ready:', response.statusText)
-          setIsReady(false)
-        }
-      } catch (error) {
-        console.error('Error checking server readiness:', error)
-        setIsReady(false)
-      }
+  // Verify the backend is up: HEAD /api/proxy-sse, which the proxy maps to the
+  // backend's /healthz (200 only when ready:true). Updates isReady and returns
+  // the result. Reused on page open and by the Retry button.
+  const verifyBackend = useCallback(async (): Promise<boolean> => {
+    setIsReady(undefined) // show the "checking…" state while probing
+    const controller = new AbortController()
+    const timeoutId = setTimeout(() => controller.abort(), 5000) // avoid long hangs
+    try {
+      const response = await fetch(
+        `${env.NEXT_PUBLIC_REVERSE_URL ?? ''}/api/proxy-sse?token=jessica`,
+        { method: 'HEAD', signal: controller.signal },
+      )
+      const ok = response.ok
+      if (!ok) console.error('Server not ready:', response.statusText)
+      setIsReady(ok)
+      return ok
+    } catch (error) {
+      console.error('Error checking server readiness:', error)
+      setIsReady(false)
+      return false
+    } finally {
+      clearTimeout(timeoutId)
     }
-
-    checkServerReady()
   }, [])
+
+  // Verify backend readiness on page open.
+  useEffect(() => {
+    void verifyBackend()
+  }, [verifyBackend])
 
   // Helper to append messages
   const appendMessage = (msg: ChatMessage) => {
@@ -414,18 +408,39 @@ export default function SubstationChat() {
         </Box>
       )}
 
-      {/* Display error if server is not ready */}
+      {/* Display error if server is not ready, with a way to re-check */}
       {isReady === false && (
-        <div style={{ color: 'red' }}>
-          เซิร์ฟเวอร์ไม่พร้อมใช้งาน กรุณาลองใหม่ภายหลัง
-        </div>
+        <Box
+          sx={{
+            color: 'error.main',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 1,
+            flexWrap: 'wrap',
+          }}>
+          <span>เซิร์ฟเวอร์ไม่พร้อมใช้งาน กรุณาลองใหม่อีกครั้ง</span>
+          <Button
+            variant="outlined"
+            color="error"
+            size="small"
+            onClick={() => void verifyBackend()}>
+            ลองเชื่อมต่อใหม่
+          </Button>
+        </Box>
       )}
 
       {/* Display loading state while checking server readiness */}
       {isReady === undefined && (
-        <div style={{ color: 'blue' }}>
-          กำลังตรวจสอบสถานะเซิร์ฟเวอร์...
-        </div>
+        <Box
+          sx={{
+            color: 'info.main',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 1,
+          }}>
+          <CircularProgress size={16} thickness={5} />
+          <span>กำลังตรวจสอบสถานะเซิร์ฟเวอร์...</span>
+        </Box>
       )}
     </>
   )
