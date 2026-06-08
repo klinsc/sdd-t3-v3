@@ -41,12 +41,6 @@ if (!process.env.DISCORD_CLIENT_SECRET) {
     'Missing environment variable "DISCORD_CLIENT_SECRET"',
   )
 }
-if (!process.env.LINE_CLIENT_ID) {
-  console.warn('Missing environment variable "LINE_CLIENT_ID"')
-}
-if (!process.env.LINE_CLIENT_SECRET) {
-  console.warn('Missing environment variable "LINE_CLIENT_SECRET"')
-}
 
 export const providerMap = providers.map((provider) => {
   if (typeof provider === 'function') {
