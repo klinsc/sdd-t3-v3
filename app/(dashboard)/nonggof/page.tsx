@@ -1,5 +1,6 @@
 import Typography from '@mui/material/Typography'
 import SubstationChat from '../../_components/SubstationChat'
+import SystemStats from '../../_components/SystemStats'
 import { Link, Stack } from '@mui/material'
 
 export default async function HomePage() {
@@ -24,6 +25,8 @@ export default async function HomePage() {
           น้องกอฟเป็นใคร?
         </Typography>
       </Link>
+
+      <SystemStats />
 
       <br />
       <SubstationChat />
